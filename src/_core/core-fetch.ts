@@ -4,14 +4,15 @@ import * as cheerio from "cheerio";
 import dotenvFlow from "dotenv-flow";
 import fs from "fs";
 
-// Initialize environment variables
+// ----
+// Initialization
+// ----
 dotenvFlow.config();
 if (!process.env.TIMEOUT) {
     throw new Error("Please set the TIMEOUT variable in the .env file.")
 }
 const TIMEOUT = parseInt(process.env.TIMEOUT);
 
-// Initialize log4js
 const logger = log4js.getLogger("core-fetch");
 logger.level = log4js.levels.INFO;
 

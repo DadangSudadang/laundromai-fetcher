@@ -1,9 +1,11 @@
 import log4js from "log4js";
 import puppeteer from "puppeteer";
-
 import dotenvFlow from 'dotenv-flow';
-dotenvFlow.config();
 
+// ----
+// Initialization
+// ----
+dotenvFlow.config();
 const logger = log4js.getLogger("cookies");
 logger.level = log4js.levels.INFO;
 
