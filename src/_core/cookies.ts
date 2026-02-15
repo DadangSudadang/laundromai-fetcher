@@ -8,7 +8,7 @@ const logger = log4js.getLogger("cookies");
 logger.level = log4js.levels.INFO;
 
 const JP_SITE = "https://maimaidx.jp/maimai-mobile";
-const INTL_SITE = "https://maimaidx-eng.com/maimai-mobile"
+const INTL_SITE = "https://maimaidx-eng.com/maimai-mobile";
 
 // ----
 // Logs in to Japan maimaiNET by simulating clicks to get the login cookie.
@@ -97,4 +97,23 @@ export async function getIntlCookies() {
     
     logger.info("Successfully fetched cookies.")
     return Object.fromEntries(cookies.map((cookie) => [cookie.name, cookie.value]));
-} 
+}
+
+// ----
+// Get the userId from intl or jp cookies
+// ----
+export async function getUserId(region:string) {
+	let cookies;
+	switch(region) {
+		case "intl":
+			cookies = await getIntlCookies();
+			break;
+		case "jp":
+			cookies = await getJpCookies();
+			break;
+		default:
+			throw new Error("getUserId: invalid region string");
+	}
+
+	return cookies.userId;
+}
