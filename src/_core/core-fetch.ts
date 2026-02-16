@@ -16,13 +16,14 @@ const TIMEOUT = parseInt(process.env.TIMEOUT);
 const logger = log4js.getLogger("core-fetch");
 logger.level = log4js.levels.INFO;
 
+
 // ----
 // Fetches and saves html from the given URL.
 // Returns Cheerio's root object.
 // ----
 export async function cheerioFetchHtml(
-    userId: string,
     url: string,
+    userId?: string,
     options?: {
 		filename?: string | undefined,
 		searchParams?: Record<string, string> | undefined,
@@ -38,11 +39,17 @@ export async function cheerioFetchHtml(
 		fetchUrl = url;
 	}
 
-    // Fetch the html file from url
+    // Fetch the html file from url,
+	// Uses userId cookie if provided.
     await sleep(TIMEOUT);
-    const res = await fetch(fetchUrl, {
-		headers: { Cookie: `userId=${userId}` }
-	});
+	let res;
+	if (userId) {
+		res = await fetch(fetchUrl, {
+			headers: { Cookie: `userId=${userId}` }
+		});
+	} else {
+		res = await fetch(fetchUrl);
+	}
 
     // Check response and return html string
 	if (!res.ok) {
@@ -63,12 +70,13 @@ export async function cheerioFetchHtml(
     return $;
 }
 
+
 // ----
 // Fetch and save image from url
 // ----
 export async function fetchImage (
-	userId: string, 
 	url: string, 
+	userId?: string, 
 ) {
     // Get the filename from the url
 	const filename = url.split('/').pop()
@@ -77,20 +85,47 @@ export async function fetchImage (
 	}
 
     // Fetch the image
-	await sleep(TIMEOUT)	
-	const res = await fetch(url, {
-		headers: {
-			Cookie: `userId=${userId}`,
-		},
-	});
+	// Uses userId cookie if provided.
+	await sleep(TIMEOUT);
+	let res;
+	if (userId) {
+		res = await fetch(url, {
+			headers: { Cookie: `userId=${userId}` },
+		});
+	} else {
+		res = await fetch(url)
+	}
 
     // Check response then get blob
 	if (!res.ok) {
-		throw new Error(`An error occurred while fetching the page ${url}: Status (${res.status} ${res.statusText})`);
+		throw new Error(`An error occurred while fetching image ${url}: Status (${res.status} ${res.statusText})`);
 	}
 	const blob = await res.blob().then((t) => t);
 
     // Download image with buffer
 	const buffer = Buffer.from(await blob.arrayBuffer());
 	fs.writeFileSync(`./out/img/${filename}`, buffer);
+}
+
+
+// ----
+// Fetch json, used to fetch maiami_songs.json
+// ----
+export async function fetchJson (
+	url: string, 
+	userId?: string, 
+) {
+    // Fetch json, uses userId cookie if provided.
+	await sleep(TIMEOUT);
+	let res;
+	if (userId) {
+		res = await fetch(url, {
+			headers: { Cookie: `userId=${userId}` },
+		});
+	} else {
+		res = await fetch(url)
+	}
+
+	const jsonStr = await res.json().then((t) => t);
+	return JSON.parse(jsonStr)
 }
