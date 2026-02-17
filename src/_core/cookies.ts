@@ -16,7 +16,7 @@ const INTL_SITE = "https://maimaidx-eng.com/maimai-mobile";
 // Logs in to Japan maimaiNET by simulating clicks to get the login cookie.
 // Returns cookie key-value pairs
 // ----
-export async function getJpCookies() {
+async function getJpCookies() {
 	if (!process.env.MAIMAI_JP_SEGA_ID || !process.env.MAIMAI_JP_SEGA_PASSWORD) {
 		throw new Error(
 			"Please set your MAIMAI_JP_SEGA_ID and MAIMAI_JP_SEGA_PASSWORD in the .env file",
@@ -63,7 +63,7 @@ export async function getJpCookies() {
 // Logs in to International maimaiNET by simulating clicks to get the login cookie.
 // Returns cookie key-value pairs
 // ----
-export async function getIntlCookies() {
+async function getIntlCookies() {
     if (!process.env.MAIMAI_INTL_SEGA_ID || !process.env.MAIMAI_INTL_SEGA_PASSWORD) {
         throw new Error('Please set your MAIMAI_INTL_SEGA_ID and MAIMAI_INTL_SEGA_PASSWORD in the .env file');
     }
@@ -114,7 +114,7 @@ export async function getUserId(region:string) {
 			cookies = await getJpCookies();
 			break;
 		default:
-			throw new Error("getUserId: invalid region string");
+			throw new Error("getUserId: invalid region string. Use 'intl' or 'jp' for region parameter.");
 	}
 
 	return cookies.userId;
