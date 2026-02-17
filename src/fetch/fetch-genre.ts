@@ -62,6 +62,7 @@ const intlGenreMap = new TwoWayMap([
 
 // ----
 // Parses genre page, either Genre > Master or Genre > Re:Master.
+// Returns an object array. See chartGenreInterface.
 // ----
 function parseGenrePage(
 	region: string,
@@ -77,7 +78,7 @@ function parseGenrePage(
 		'div[class^="w_450"],div[class^="screw_block"]',
 	);
 
-	// Parse every song info block
+	// Parse each song info block
 	const parseSongInfo = (self : Element) => {
 		const typeIconURL = $(self)
 			.find('img[class^="music_kind_icon"]')
@@ -101,10 +102,12 @@ function parseGenrePage(
 
 	// Iterate over all song info blocks
 	div_list.each(function (this: Element) {
+		let self = this;
+
 		// If the current block contains the genre name text,
 		// set the current genre number.
-		if ($(this).hasClass("screw_block")) {
-			const genreText = $(this).text()
+		if ($(self).hasClass("screw_block")) {
+			const genreText = $(self).text()
 
 			switch(region) {
 				case "intl":
@@ -123,8 +126,8 @@ function parseGenrePage(
 			}
 
 		// otherwise it's a song block
-		} else if ($(this).hasClass("w_450 m_15")) {
-			genreList.push(parseSongInfo(this));
+		} else if ($(self).hasClass("w_450 m_15")) {
+			genreList.push(parseSongInfo(self));
 		}
 	});
 	
@@ -133,4 +136,53 @@ function parseGenrePage(
 	}
 
 	return genreList;
+}
+
+
+// ----
+// Parses utage page.
+// Returns an object array. See chartUtageInterface.
+// ----
+function parseUtagePage(
+	$: cheerio.CheerioAPI,
+	filename?: string | undefined
+) {
+	let utageSongs: chartUtageInterface[] = [];
+
+	// Get all the song info blocks in the utage page
+	const main_wrapper = $('div[class^="wrapper main_wrapper"]');
+	const div_list = main_wrapper.find(
+		'div[class^="w_450"]',
+	);
+
+	// Parse each song info block
+	const parseSongInfo = (self: Element) => {
+		const utageBadges = $(self).find('div[class^="music_kind_icon_utage"]')
+		const utageType = $(utageBadges[0]).text().trim();
+
+		let isBuddy = false;
+		if (utageBadges.length > 1) {
+			isBuddy = true;
+		}
+	
+		return {
+			id: $(self).find("input[name=idx]").attr("value"),
+			title: $(self).find('div[class^="music_name_block"]').text(),
+			utageType: utageType,
+			isBuddy: isBuddy,
+		};
+	}
+
+	// Iterate over all song info blocks
+	div_list.each(function (this: Element) {
+		let self = this;
+		if ($(self).hasClass("w_450 m_15")) {
+			utageSongs.push(parseSongInfo(self));
+		}
+	});
+	
+	if (filename) {
+		fs.writeFileSync(filename, JSON.stringify(utageSongs, null, '\t'))
+	}
+	return utageSongs;
 }
