@@ -1,42 +1,20 @@
+import log4js from "log4js";
+import sleep from "sleep-promise";
 import * as cheerio from "cheerio";
+import dotenvFlow from "dotenv-flow";
 import fs from "fs";
 
 // ----
 // Initialization
 // ----
-import dotenvFlow from "dotenv-flow";
 dotenvFlow.config();
-
-import log4js from "log4js";
-const logger = log4js.getLogger("core-fetch");
-logger.level = log4js.levels.INFO;
-
-import sleep from "sleep-promise";
 if (!process.env.TIMEOUT) {
     throw new Error("Please set the TIMEOUT variable in the .env file.")
 }
 const TIMEOUT = parseInt(process.env.TIMEOUT);
 
-
-// ----
-// Returns the desired region base URL
-// ----
-function getRegionUrl(region: string) {
-	if (!process.env.JP_SITE || !process.env.INTL_SITE) {
-		throw new Error(
-			"Please set JP_SITE and INTL_SITE in the .env file",
-		);
-	}
-
-	switch(region) {
-		case "intl":
-			return process.env.INTL_SITE;
-		case "jp":
-			return process.env.JP_SITE;
-		default:
-			throw new Error("getRegionUrl: invalid region string. Use 'intl' or 'jp' for region parameter.");
-	}
-}
+const logger = log4js.getLogger("core-fetch");
+logger.level = log4js.levels.INFO;
 
 
 // ----
@@ -44,21 +22,21 @@ function getRegionUrl(region: string) {
 // Returns Cheerio's root object.
 // ----
 export async function cheerioFetchHtml(
-	region: string,
-    path: string,
+    url: string,
     userId?: string,
     options?: {
 		filename?: string | undefined,
 		searchParams?: Record<string, string> | undefined,
 	}
 ) : Promise<cheerio.CheerioAPI> {
-    // Get the appropriate base URL for the region
-    let fetchUrl = new URL(path, getRegionUrl(region));
+    let fetchUrl = "";
 
     // Build the url string with search params if needed
     if (options?.searchParams) {
-		const params = new URLSearchParams(options.searchParams);
-		fetchUrl.search = params.toString();
+		const searchParams = new URLSearchParams(options.searchParams);
+		fetchUrl = `${url}?${searchParams}`;
+	} else {
+		fetchUrl = url;
 	}
 
     // Fetch the html file from url,
@@ -94,8 +72,7 @@ export async function cheerioFetchHtml(
 
 
 // ----
-// Fetch and save image from url.
-// Mostly used in fetching Jacket images.
+// Fetch and save image from url
 // ----
 export async function fetchImage (
 	url: string, 
