@@ -1,16 +1,15 @@
-import log4js from "log4js";
 import puppeteer from "puppeteer";
-import dotenvFlow from 'dotenv-flow';
 
 // ----
 // Initialization
 // ----
+import dotenvFlow from 'dotenv-flow';
 dotenvFlow.config();
+
+import log4js from "log4js";
 const logger = log4js.getLogger("cookies");
 logger.level = log4js.levels.INFO;
 
-const JP_SITE = "https://maimaidx.jp/maimai-mobile";
-const INTL_SITE = "https://maimaidx-eng.com/maimai-mobile";
 
 // ----
 // Logs in to Japan maimaiNET by simulating clicks to get the login cookie.
@@ -22,6 +21,13 @@ async function getJpCookies() {
 			"Please set your MAIMAI_JP_SEGA_ID and MAIMAI_JP_SEGA_PASSWORD in the .env file",
 		);
 	}
+	
+	if (!process.env.JP_SITE) {
+		throw new Error(
+			"Please set JP_SITE in the .env file",
+		);
+	}
+	const JP_SITE = process.env.JP_SITE;
 
     logger.info("Logging in JP maimaiNET...")
 
@@ -69,13 +75,21 @@ async function getIntlCookies() {
     }
 
     if (!process.env.USER_AGENT) {
-        throw new Error('Please set a valid USER_AGENT in the .env file');
+        throw new Error('Please set a valid USER_AGENT in the .env file.');
     }
+
+	if (!process.env.INTL_SITE || !process.env.INTL_LOGIN_SITE) {
+		throw new Error(
+			"Please set INTL_SITE and INTL_LOGIN_SITE in the .env file.",
+		);
+	}
+	const INTL_SITE = process.env.INTL_SITE;
+	const INTL_LOGIN_SITE = process.env.INTL_LOGIN_SITE;
 
     logger.info("Logging in INTL maimaiNET...")
 
     const browser = await puppeteer.launch();
-    const url = new URL('https://lng-tgk-aime-gw.am-all.net/common_auth/login');
+    const url = new URL(INTL_LOGIN_SITE);
     url.searchParams.set('site_id', 'maimaidxex');
     url.searchParams.set('redirect_url', INTL_SITE);
 

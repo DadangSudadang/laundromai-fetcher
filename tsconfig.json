@@ -40,6 +40,15 @@
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+
+    // Path aliases
+    "baseUrl": ".",
+    "paths": {
+      "@@/": ["."],
+      "@_core/": ["src/_core/*"],
+      "@fetch/": ["src/fetch/*"],
+      "@scripts/": ["src/scripts/*"]
+    }
   }
 }
