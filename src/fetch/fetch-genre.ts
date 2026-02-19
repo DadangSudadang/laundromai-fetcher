@@ -1,7 +1,10 @@
 import * as cheerio from "cheerio";
 import type { Element } from "domhandler";
 import fs from "fs";
-import { TwoWayMap } from "../_core/map";
+import path from "path";
+import { cheerioFetchHtml } from "@_core/core-fetch";
+import { TwoWayMap } from "@_core/map";
+
 
 // ----
 // Initialization
@@ -13,11 +16,16 @@ import log4js from "log4js";
 const logger = log4js.getLogger("fetch-genre");
 logger.level = log4js.levels.INFO;
 
+const outputDir = "./dist/html/genre/";
+if (!fs.existsSync(outputDir)) {
+	fs.mkdirSync(outputDir, { recursive: true });
+}
+
 
 // ----
 // Interfaces
 // ----
-interface chartGenreInterface {
+export interface chartGenreInterface {
     id: string | undefined;
     title: string;
     genre: number;
@@ -27,7 +35,7 @@ interface chartGenreInterface {
     levels?: Record<string, string>;
 }
 
-interface chartUtageInterface {
+export interface chartUtageInterface {
     id: string | undefined;
     title: string;
     utageType: string;
@@ -39,9 +47,9 @@ interface chartUtageInterface {
 
 
 // ----
-// Genre maps to order numbers
+// Define maps for genre and difficulty
 // ----
-const jpGenreMap = new TwoWayMap([
+export const jpGenreMap = new TwoWayMap([
 	["POPS＆アニメ", 0],
 	["niconico＆ボーカロイド", 1],
 	["東方Project", 2],
@@ -50,7 +58,7 @@ const jpGenreMap = new TwoWayMap([
 	["オンゲキ＆CHUNITHM", 5],
 ])
 
-const intlGenreMap = new TwoWayMap([
+export const intlGenreMap = new TwoWayMap([
 	["POPS＆ANIME", 0],
 	["niconico＆VOCALOID™", 1],
 	["東方Project", 2],
@@ -59,14 +67,23 @@ const intlGenreMap = new TwoWayMap([
 	["オンゲキ＆CHUNITHM", 5],
 ])
 
+export const diffMap = new TwoWayMap([
+	["basic", 0],
+	["advanced", 1],
+	["expert", 2],
+	["master", 3],
+	["remaster", 4],
+	["utage", 10],
+]);
+
 
 // ----
 // Parses genre page, either Genre > Master or Genre > Re:Master.
 // Returns an object array. See chartGenreInterface.
 // ----
 function parseGenrePage(
-	region: string,
 	$: cheerio.CheerioAPI,
+	region: string,
 	filename?: string | undefined
 ) {
 	let genreList: chartGenreInterface[] = [];
@@ -185,4 +202,50 @@ function parseUtagePage(
 		fs.writeFileSync(filename, JSON.stringify(utageSongs, null, '\t'))
 	}
 	return utageSongs;
+}
+
+
+// ----
+// Fetches genre page from a specified difficulty.
+// ----
+export async function fetchGenreList(
+	diff: string,
+	region: string,
+	userId: string,
+) {
+	let songGenreList: (chartGenreInterface[] | chartUtageInterface[])= [];
+	let cheerioRoot: cheerio.CheerioAPI;
+
+	const getCheerioRoot = async (diff: string) => {
+		const diffNum = String(diffMap.get(diff))
+		const cheerioRoot = await cheerioFetchHtml('record/musicGenre/search', region, {
+				userId: userId,
+				searchParams: {genre: "99", diff: diffNum},
+				filename: path.join(outputDir, `${diff}.html`)
+			}
+		)
+		return cheerioRoot
+	}
+
+	switch(diff) {
+		case "master":
+		case "remaster":
+			cheerioRoot = await getCheerioRoot(diff);
+			songGenreList = parseGenrePage(cheerioRoot, region,
+				path.join(outputDir, `${diff}.json`)
+			)
+			break;
+
+		case "utage":
+			cheerioRoot = await getCheerioRoot(diff);
+			songGenreList = parseUtagePage(cheerioRoot,
+				path.join(outputDir, `${diff}.json`)
+			)
+			break;
+
+		default:
+			throw new Error(`fetchGenreList - Invalid diff value: ${diff} (allowed values are "master", "remaster", and "utage".)`)
+	}
+
+	logger.info(`Found ${songGenreList.length} song(s) from the ${diff} page.`)
 }

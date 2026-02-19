@@ -44,10 +44,10 @@ function getRegionUrl(region: string) {
 // Returns Cheerio's root object.
 // ----
 export async function cheerioFetchHtml(
-	region: string,
     path: string,
-    userId?: string,
+	region: string,
     options?: {
+    	userId?: string,
 		filename?: string | undefined,
 		searchParams?: Record<string, string> | undefined,
 	}
@@ -65,9 +65,9 @@ export async function cheerioFetchHtml(
 	// Uses userId cookie if provided.
     await sleep(TIMEOUT);
 	let res;
-	if (userId) {
+	if (options?.userId != undefined) {
 		res = await fetch(fetchUrl, {
-			headers: { Cookie: `userId=${userId}` }
+			headers: { Cookie: `userId=${options.userId}` }
 		});
 	} else {
 		res = await fetch(fetchUrl);

@@ -131,5 +131,5 @@ export async function getUserId(region:string) {
 			throw new Error("getUserId: invalid region string. Use 'intl' or 'jp' for region parameter.");
 	}
 
-	return cookies.userId;
+	return cookies.userId as string;
 }
