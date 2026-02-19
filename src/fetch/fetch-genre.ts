@@ -16,7 +16,7 @@ import log4js from "log4js";
 const logger = log4js.getLogger("fetch-genre");
 logger.level = log4js.levels.INFO;
 
-const outputDir = "./dist/html/genre/";
+const outputDir = "./dist/genre/";
 if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir, { recursive: true });
 }
@@ -247,5 +247,6 @@ export async function fetchGenreList(
 			throw new Error(`fetchGenreList - Invalid diff value: ${diff} (allowed values are "master", "remaster", and "utage".)`)
 	}
 
-	logger.info(`Found ${songGenreList.length} song(s) from the ${diff} page.`)
+	logger.info(`Found ${songGenreList.length} song(s) from the ${diff} page.`);
+	return songGenreList;
 }
