@@ -22,3 +22,30 @@ export class TwoWayMap {
     revGet(key: (string | number)) { return this.reverseMap.get(key); }
 	getArr() {return this.arr}
 }
+
+export const jpGenreMap = new TwoWayMap([
+	["POPS＆アニメ", 0],
+	["niconico＆ボーカロイド", 1],
+	["東方Project", 2],
+	["ゲーム＆バラエティ", 3],
+	["maimai", 4],
+	["オンゲキ＆CHUNITHM", 5],
+])
+
+export const intlGenreMap = new TwoWayMap([
+	["POPS＆ANIME", 0],
+	["niconico＆VOCALOID™", 1],
+	["東方Project", 2],
+	["GAME＆VARIETY", 3],
+	["maimai", 4],
+	["オンゲキ＆CHUNITHM", 5],
+])
+
+export const diffMap = new TwoWayMap([
+	["basic", 0],
+	["advanced", 1],
+	["expert", 2],
+	["master", 3],
+	["remaster", 4],
+	["utage", 10],
+]);
