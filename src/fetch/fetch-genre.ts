@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import { cheerioFetchHtml } from "@_core/core-fetch";
 import { jpGenreMap, intlGenreMap, diffMap } from "@_core/maps";
+import { chartGenreInterface, chartUtageInterface } from "@_core/types";
 
 
 // ----
@@ -19,30 +20,6 @@ logger.level = log4js.levels.INFO;
 const outputDir = "./dist/genre/";
 if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir, { recursive: true });
-}
-
-
-// ----
-// Interfaces
-// ----
-export interface chartGenreInterface {
-    id: string | undefined;
-    title: string;
-    genre: number;
-    isDX: boolean;
-    artist?: string;
-    jacket?: string;
-    levels?: Record<string, string>;
-}
-
-export interface chartUtageInterface {
-    id: string | undefined;
-    title: string;
-    utageType: string;
-    isBuddy: boolean;
-    artist?: string;
-    jacket?: string;
-    level?: string;
 }
 
 
