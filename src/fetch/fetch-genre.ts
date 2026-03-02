@@ -159,7 +159,7 @@ export async function fetchGenreList(
 	region: string,
 	userId: string,
 ) {
-	let songGenreList: (chartGenreInterface[] | chartUtageInterface[])= [];
+	let songGenreList: (chartGenreInterface[] | chartUtageInterface[]) = [];
 	let cheerioRoot: cheerio.CheerioAPI;
 
 	const getCheerioRoot = async (diff: string) => {

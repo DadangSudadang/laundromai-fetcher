@@ -21,7 +21,7 @@ const TIMEOUT = parseInt(process.env.TIMEOUT);
 // ----
 // Returns the desired region base URL
 // ----
-function getRegionUrl(region: string) {
+export function getRegionUrl(region: string) {
 	if (!process.env.JP_SITE || !process.env.INTL_SITE) {
 		throw new Error(
 			"Please set JP_SITE and INTL_SITE in the .env file",

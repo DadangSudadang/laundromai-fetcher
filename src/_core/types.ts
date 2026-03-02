@@ -17,3 +17,12 @@ export interface chartUtageInterface {
     jacket?: string;
     level?: string;
 }
+
+export interface chartConstantInterface {
+    title: string;
+    genre: number;
+    isDX: boolean;
+    diff: number;
+    level: string;
+    constant: number;
+}
