@@ -23,6 +23,13 @@ if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir, { recursive: true });
 }
 
+import sleep from "sleep-promise";
+if (!process.env.TIMEOUT) {
+    throw new Error("Please set the TIMEOUT variable in the .env file.")
+}
+const TIMEOUT = parseInt(process.env.TIMEOUT);
+
+
 // Constant lists for level 5 and 6 due to missing entries.
 // Note: use the string name if you want to add a level (e.g "13+")
 const fixedConst = {
@@ -244,6 +251,7 @@ export async function fetchConstantsList(
 
 	// Fetch the level page
 	logger.info(`Fetching constants for level ${levelStr} (${levelValue})...`)
+	await sleep(TIMEOUT);
 	const $ = await cheerioFetchHtml('record/musicLevel/search', region, {
 			userId: userId,
 			searchParams: {level: levelValue as string},

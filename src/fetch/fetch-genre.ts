@@ -22,6 +22,12 @@ if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir, { recursive: true });
 }
 
+import sleep from "sleep-promise";
+if (!process.env.TIMEOUT) {
+    throw new Error("Please set the TIMEOUT variable in the .env file.")
+}
+const TIMEOUT = parseInt(process.env.TIMEOUT);
+
 
 // ----
 // Parses genre page, either Genre > Master or Genre > Re:Master.
@@ -63,33 +69,37 @@ function parseGenrePage(
 		};
 	}
 
+	// Updates the current genre value based on region.
+	const updateCurrGenre = (self: Element) => {
+		const genreText = $(self).text()
+
+		switch(region) {
+			case "intl":
+				currGenre = intlGenreMap.get(genreText) as number;
+				break;
+			case "jp":
+				currGenre = jpGenreMap.get(genreText) as number;
+				break;
+			default:
+				throw new Error("getRegionUrl: invalid region string. Use 'intl' or 'jp' for region parameter.");
+		}
+
+		if (currGenre == undefined) {
+			currGenre = -1;
+			logger.error(`parseGenrePage: cannot find valid category order for ${genreText}`)
+		}
+	}
+
 	// Iterate over all song info blocks
 	div_list.each(function (this: Element) {
 		let self = this;
 
-		// If the current block contains the genre name text,
-		// set the current genre number.
 		if ($(self).hasClass("screw_block")) {
-			const genreText = $(self).text()
-
-			switch(region) {
-				case "intl":
-					currGenre = intlGenreMap.get(genreText) as number;
-					break;
-				case "jp":
-					currGenre = jpGenreMap.get(genreText) as number;
-					break;
-				default:
-					throw new Error("getRegionUrl: invalid region string. Use 'intl' or 'jp' for region parameter.");
-			}
-
-			if (currGenre == undefined) {
-				currGenre = -1;
-				console.log(`parseGenrePage: cannot find valid category order for ${genreText}`)
-			}
-
-		// otherwise it's a song block
+			// If the current block contains the genre name text,
+			// set the current genre number.
+			updateCurrGenre(self);
 		} else if ($(self).hasClass("w_450 m_15")) {
+			// Otherwise it's a song block. Parse it.
 			genreList.push(parseSongInfo(self));
 		}
 	});
@@ -164,6 +174,7 @@ export async function fetchGenreList(
 
 	const getCheerioRoot = async (diff: string) => {
 		const diffNum = String(diffMap.get(diff))
+		await sleep(TIMEOUT)
 		const cheerioRoot = await cheerioFetchHtml('record/musicGenre/search', region, {
 				userId: userId,
 				searchParams: {genre: "99", diff: diffNum},
