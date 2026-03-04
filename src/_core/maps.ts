@@ -12,15 +12,16 @@ export class TwoWayMap {
        this.reverseMap = new Map();
 	   this.arr = Array.from(arr).concat() as [(string | number), (string | number)][];
 
-       for(const key in this.map) {
-          const value = this.map.get(key) as (string | number);
+       this.map.forEach( (value, key) => {
           this.reverseMap.set(value, key);   
-       }
+       })
     }
     
     get(key: (string | number)) { return this.map.get(key); }
     revGet(key: (string | number)) { return this.reverseMap.get(key); }
 	getArr() {return this.arr}
+    getMap() {return this.map}
+    getRevMap() {return this.reverseMap}
 }
 
 export const jpGenreMap = new TwoWayMap([
