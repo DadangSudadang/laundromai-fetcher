@@ -202,7 +202,7 @@ function parseChartBlock(
 
 	// Determine the level constant
 	let finalConst;
-	if (levelStr in Object.keys(fixedConst)) {
+	if (Object.keys(fixedConst).includes(levelStr)) {
 		// Some levels have incomplete entries for certain constants. Example: level 5 and 6.
 		// This will use a predetermined constant list instead.
 		finalConst = fixedConst[levelStr][passRef.currConst];
