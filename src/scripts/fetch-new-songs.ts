@@ -92,7 +92,7 @@ async function fetchSongDetails(
     const $ = await cheerioFetchHtml('record/musicDetail', region, {
             userId: userId,
             searchParams: {idx: currSong.id},
-            filename: path.join(outputDir, `${currSong.id}.html`)
+            filename: path.join(outputDir, `${currSong.title}.html`)
         }
     )
 
@@ -117,8 +117,6 @@ async function fetchSongDetails(
         } else if (isUtageList([currSong as chartUtageInterface])) {
             diffStr = diffMap.revGet(10);
         }
-
-        console.log(diffMap.revGet(`${i}`))
 
         // Skip if null
         if (!levelStr) {
@@ -146,6 +144,9 @@ async function fetchSongDetails(
         }
     }) 
 
+    logger.info(`Artist: ${artist}`)
+    logger.info(`Jacket: ${jacket}`)
+    logger.info(`Levels: ${JSON.stringify(levels)}`)
     return {jacket, artist, levels}
 }
 
@@ -189,8 +190,8 @@ async function parseEachSong(
 
     let isUtage = false;
     for (const diff of Object.keys(levels)){
-        const currLevel = levels[diff].levelStr;
-        const currLevelBase = levels[diff].levelBase;
+        const currLevel = levels[diff].level;
+        const currLevelBase = levels[diff].base;
 
         if (diff !== "utage") {
             isUtage = false;
