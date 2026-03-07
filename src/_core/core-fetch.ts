@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import fs from "fs";
+import path from "path";
 
 // ----
 // Initialization
@@ -34,7 +35,7 @@ export function getRegionUrl(region: string) {
 		case "jp":
 			return process.env.JP_SITE;
 		default:
-			throw new Error("getRegionUrl: invalid region string. Use 'intl' or 'jp' for region parameter.");
+			throw new Error(`getRegionUrl: invalid region string: "${region}". Use 'intl' or 'jp' for region parameter.`);
 	}
 }
 
@@ -99,6 +100,7 @@ export async function cheerioFetchHtml(
 // ----
 export async function fetchImage (
 	url: string, 
+	folder: string,
 	userId?: string, 
 ) {
     // Get the filename from the url
@@ -125,9 +127,14 @@ export async function fetchImage (
 	}
 	const blob = await res.blob().then((t) => t);
 
+	// Build the path
+	const filePath = path.join(folder, filename);
+
     // Download image with buffer
 	const buffer = Buffer.from(await blob.arrayBuffer());
-	fs.writeFileSync(`./out/img/${filename}`, buffer);
+	fs.writeFileSync(filePath, buffer);
+
+	return filePath;
 }
 
 
