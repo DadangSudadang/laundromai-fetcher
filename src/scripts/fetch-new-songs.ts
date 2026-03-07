@@ -1,19 +1,22 @@
 // check if file is there or not
-// - compare function
-// - fetching song page
 // - download jacket image
-// - get levels
-// - fetch each level constants > make it a function and combine both for loops
-// 
-// make two: fetchNewSongs (param: difficulty) and fetchNewUtageSongs?
+// - global list for downloaded constants
+// - change fetch user id to also contain region
 
-import { chartConstantInterface, chartGenreInterface, chartUtageInterface } from "@_core/types";
-import { cheerioFetchHtml } from "@_core/core-fetch";
-import { fetchGenreList } from "@fetch/fetch-genre";
-import { fetchConstantsList } from "@fetch/fetch-constants";
-import { diffMap } from "@_core/maps";
 import fs from "fs";
 import path from "path";
+
+import { outputDirs } from "@_core/environment";
+import { diffMap } from "@_core/maps";
+import { 
+    chartConstantInterface, 
+    chartGenreInterface, 
+    chartUtageInterface 
+} from "@_core/types";
+import { cheerioFetchHtml, fetchImage } from "@_core/core-fetch";
+import { fetchGenreList } from "@fetch/fetch-genre";
+import { fetchConstantsList } from "@fetch/fetch-constants";
+
 
 // ----
 // Initialization
@@ -25,32 +28,30 @@ import log4js from "log4js";
 const logger = log4js.getLogger("fetch-new-songs");
 logger.level = log4js.levels.INFO;
 
-const outputDir = "./dist/songs/";
-if (!fs.existsSync(outputDir)) {
-	fs.mkdirSync(outputDir, { recursive: true });
-}
 
-import sleep from "sleep-promise";
-if (!process.env.TIMEOUT) {
-    throw new Error("Please set the TIMEOUT variable in the .env file.")
-}
-const TIMEOUT = parseInt(process.env.TIMEOUT);
-
-
+// ----
 // Check if list is Genre list
+// ----
 function isGenreList (list: chartGenreInterface[] | chartUtageInterface[]) {
     const dxBool = (list[0] as chartGenreInterface).isDX;
     if (dxBool != undefined || dxBool != null) {return true}
     return false
 }
 
+
+// ----
 // Check if list is Utage list
+// ----
 function isUtageList (list: chartGenreInterface[] | chartUtageInterface[]) {
     const buddyBool = (list[0] as chartUtageInterface).isBuddy;
     if (buddyBool != undefined || buddyBool != null) {return true}
     return false
 }
 
+
+// ----
+// Check for new songs by comparing both lists
+// ----
 function compareDiffs(
     prevList: chartGenreInterface[] | chartUtageInterface[], 
     currList: chartGenreInterface[] | chartUtageInterface[]
@@ -77,28 +78,43 @@ function compareDiffs(
     return diff;
 }
 
+
+// ----
+// From fetched html, get the artist, jacket URL and level texts.
+// ----
 async function fetchSongDetails(
     currSong: chartGenreInterface | chartUtageInterface,
+    diff: string,
     region: string,
     userId: string,
 ) {
     if (!currSong.id) {
-        throw new Error(`ID not found in song ${currSong.title}!`);
+        throw new Error(`fetchSongDetails: ID not found in song ${currSong.title}!`);
     }
 
     // Fetch song details page
-    logger.info(`Fetching song ${currSong.title}...`)
-    await sleep(TIMEOUT);
+    logger.info(`fetchSongDetails: Fetching song ${currSong.title}...`)
     const $ = await cheerioFetchHtml('record/musicDetail', region, {
             userId: userId,
             searchParams: {idx: currSong.id},
-            filename: path.join(outputDir, `${currSong.title}.html`)
+            filename: path.join(outputDirs.songs, `${currSong.title}.html`)
         }
     )
 
-    // Get the jacket url and artist name
-    const jacket = $('img[class^="w_180"]').attr('src');
-    const artist = $('div[class^="m_5 f_12 break"]').text();
+    // Get the artist name
+    const artist = $('div[class^="m_5 f_12 break"]').text().trim();
+
+    // Get the jacketUrl and download it
+    const jacketUrl = $('img[class^="w_180"]').attr('src') as string;
+    let jacket; 
+    if (jacketUrl) {
+        logger.info(`fetchSongDetails: Fetching jacket for ${currSong.title}...`)
+        jacket = await fetchImage(
+            jacketUrl, outputDirs.jackets, userId
+        )
+    } else {
+        throw new Error(`fetchSongDetails: jacket URL cannot be found for song ${currSong.title}.`)
+    }
 
     // Get a list of level strings
     const table = $('table[class^="music_detail_table"]');
@@ -110,12 +126,12 @@ async function fetchSongDetails(
         // Level name
         const levelStr = $(this).text();
         
-        // Get difficulty, return utage utage list.
+        // Get difficulty
         let diffStr;
-        if (isGenreList([currSong as chartGenreInterface])) {
-            diffStr = diffMap.revGet(i);
-        } else if (isUtageList([currSong as chartUtageInterface])) {
+        if (diff === "utage") {
             diffStr = diffMap.revGet(10);
+        } else {
+            diffStr = diffMap.revGet(i);
         }
 
         // Skip if null
@@ -146,10 +162,14 @@ async function fetchSongDetails(
 
     logger.info(`Artist: ${artist}`)
     logger.info(`Jacket: ${jacket}`)
-    logger.info(`Levels: ${JSON.stringify(levels)}`)
+    logger.info(`Levels: ${JSON.stringify(levels, null, '\t')}`)
     return {jacket, artist, levels}
 }
 
+
+// ----
+// Finds the constant value of a song's level.
+// ----
 async function getConstantValue(
     currSong: chartGenreInterface,
     currLevel: string,
@@ -179,23 +199,36 @@ async function getConstantValue(
     return currConstEntry.constant;
 }
 
+
+// ----
+// Fetches the max DX score and calculate the note count of the chart
+// ----
+async function getNoteCount() {}
+
+
+// ----
+// From fetched html, get the artist, jacket URL and level texts.
+// ----
 async function parseEachSong(
     song: chartGenreInterface | chartUtageInterface,
     currGenreList: chartGenreInterface[] | chartUtageInterface[],
+    diff: string,
     region: string,
     userId: string
 ) {
-    let constants: Record<string, string> = {};
-    const {jacket, artist, levels} = await fetchSongDetails(song, region, userId);
+    const {jacket, artist, levels} = await fetchSongDetails(
+        song, diff, region, userId
+    );
 
-    let isUtage = false;
+    let constants: Record<string, string> = {};
     for (const diff of Object.keys(levels)){
         const currLevel = levels[diff].level;
         const currLevelBase = levels[diff].base;
 
-        if (diff !== "utage") {
-            isUtage = false;
-
+        if (diff === "utage") {
+            constants[diff] = currLevel;
+        } else {
+            logger.info(`parseEachSong: Fetching constants for ${currLevel}...`);
             const constantVal = await getConstantValue(
                 song as chartGenreInterface, 
                 currLevel, 
@@ -206,21 +239,10 @@ async function parseEachSong(
             
             const levelConstantStr = `${currLevelBase}.${constantVal}`
             constants[diff] = levelConstantStr;
-        } else {
-            isUtage = true;
-            constants[diff] = currLevel;
         }
     }
 
-    if (isUtage) {
-        return {
-            title: song.title,
-            artist: artist,
-            jacket: jacket,
-            isDX: (song as chartGenreInterface).isDX,
-            levels: constants
-        };
-    } else {{
+    if (diff == "utage") {
         return {
             title: song.title,
             artist: artist,
@@ -228,7 +250,14 @@ async function parseEachSong(
             isBuddy: (song as chartUtageInterface).isBuddy,
             levels: constants
         };
-    }
+    } else {
+        return {
+            title: song.title,
+            artist: artist,
+            jacket: jacket,
+            isDX: (song as chartGenreInterface).isDX,
+            levels: constants
+        };
     }
 }
 
@@ -242,7 +271,6 @@ export async function fetchNewSongs(
     const newSongList = compareDiffs(prevGenreList, currGenreList);
     logger.info(`New songs: ${newSongList.length} song(s).`)
 
-
     interface newSong {
         title: string,
         artist: string,
@@ -254,8 +282,9 @@ export async function fetchNewSongs(
     let songs: newSong[] = [];
 
     for (const song of newSongList) {
-        await sleep(TIMEOUT);
-        const songDetail = await parseEachSong(song, currGenreList, region, userId);
+        const songDetail = await parseEachSong(
+            song, currGenreList, diff, region, userId
+        );
         songs.push(songDetail);
     }
 
