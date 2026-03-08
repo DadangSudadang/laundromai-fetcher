@@ -28,6 +28,7 @@ import log4js from "log4js";
 const logger = log4js.getLogger("fetch-new-songs");
 logger.level = log4js.levels.INFO;
 
+let fetchedLevels: string[] = [];
 
 // ----
 // Check if list is Genre list
@@ -160,9 +161,6 @@ async function fetchSongDetails(
         }
     }) 
 
-    logger.info(`Artist: ${artist}`)
-    logger.info(`Jacket: ${jacket}`)
-    logger.info(`Levels: ${JSON.stringify(levels, null, '\t')}`)
     return {jacket, artist, levels}
 }
 
@@ -177,12 +175,24 @@ async function getConstantValue(
     region: string,
     userId: string
 ) {
-    const constList = await fetchConstantsList(
-        currLevel,
-        currGenreList as chartGenreInterface[],
-        region,
-        userId
-    )
+    // If already fetched, use the saved one instead of fetching new one.
+    const levelName = (currLevel.slice(-1) == "+")? currLevel.slice(0, -1) + "p": currLevel;
+    let filePath = path.join(outputDirs.constants, `${levelName}.json`)
+
+    let constList;
+    if (fs.existsSync(filePath)) {
+        logger.info(`getConstantValue: Using parsed constants file for ${currLevel}...`);
+        constList = JSON.parse(
+            fs.readFileSync(filePath, 'utf-8')
+        )
+    } else {
+        constList = await fetchConstantsList(
+            currLevel,
+            currGenreList as chartGenreInterface[],
+            region,
+            userId
+        )
+    }
 
     const currConstEntry = constList.find(
         (x: chartConstantInterface) =>
@@ -201,62 +211,125 @@ async function getConstantValue(
 
 
 // ----
-// Fetches the max DX score and calculate the note count of the chart
+// Fetches the max DX score and finds the total note count of the chart
 // ----
-async function getNoteCount() {}
+async function getNoteCount(
+    currSong: chartGenreInterface | chartUtageInterface,
+    diff: string,
+    region: string,
+    userId: string,
+) {
+    // Fetch song details page
+    logger.info(`getNoteCount: Fetching ${diff} note count of ${currSong.title}...`)
+
+    try {
+        if (!currSong.id) {
+            throw new Error(`ID not found in song ${currSong.title}!`);
+        }
+
+        const diffNum = diffMap.get(diff)
+        if (diffNum == undefined) {
+            throw new Error(`Cannot find difficulty ${diff} for ${currSong.title}!`);
+        }
+
+        // Fetch HTML
+        const $ = await cheerioFetchHtml('ranking/musicRankingDetail', region, {
+                userId: userId,
+                searchParams: {
+                    scoreType: "1",
+                    rankingType: "99",
+                    diff: diffNum.toString(),
+                    idx: currSong.id
+                },
+                filename: path.join(outputDirs.songs, `${currSong.title}-${diff}.html`)
+            }
+        )
+        if(!$) {
+            throw new Error(`Fetched HTML is empty for ${diff} - ${currSong.title}`)
+        }
+
+        // Find the block that contains the text
+        const scoreBlock = $('div[class^="basic_block m_5 p_5"]')
+        if(!scoreBlock) {
+            throw new Error(`Cannot findthe max DX score text for ${diff} - ${currSong.title}`)
+        }
+
+        // Example string: "\tあなたのスコア―／3,855"
+        // This will parse the text to retrieve "3855" string
+        const maxDxStr = scoreBlock.text()
+            .trim()
+            .split("／")[1]
+            .replace(",", "");
+
+        // Max dx score = max combo * 3
+        return (Number.parseInt(maxDxStr) / 3).toString();
+    } catch (e) {
+        logger.error(`getNoteCount: ${e}`)
+        return undefined;
+    }
+}
 
 
 // ----
 // From fetched html, get the artist, jacket URL and level texts.
 // ----
 async function parseEachSong(
-    song: chartGenreInterface | chartUtageInterface,
+    currSong: chartGenreInterface | chartUtageInterface,
     currGenreList: chartGenreInterface[] | chartUtageInterface[],
     diff: string,
     region: string,
     userId: string
 ) {
     const {jacket, artist, levels} = await fetchSongDetails(
-        song, diff, region, userId
+        currSong, diff, region, userId
     );
 
     let constants: Record<string, string> = {};
+    let noteCounts: Record<string, string | undefined> = {};
+
     for (const diff of Object.keys(levels)){
         const currLevel = levels[diff].level;
         const currLevelBase = levels[diff].base;
 
+        // Fetch the constant value
         if (diff === "utage") {
             constants[diff] = currLevel;
         } else {
-            logger.info(`parseEachSong: Fetching constants for ${currLevel}...`);
             const constantVal = await getConstantValue(
-                song as chartGenreInterface, 
+                currSong as chartGenreInterface, 
                 currLevel, 
                 currGenreList as chartGenreInterface[], 
                 region, 
                 userId
-            )
-            
+            )            
             const levelConstantStr = `${currLevelBase}.${constantVal}`
             constants[diff] = levelConstantStr;
         }
+
+        // Fetch the note count of the chart
+        const noteCount = await getNoteCount(
+            currSong, diff, region, userId 
+        );
+        noteCounts[diff] = noteCount
     }
 
     if (diff == "utage") {
         return {
-            title: song.title,
+            title: currSong.title,
             artist: artist,
             jacket: jacket,
-            isBuddy: (song as chartUtageInterface).isBuddy,
-            levels: constants
+            isBuddy: (currSong as chartUtageInterface).isBuddy,
+            levels: constants,
+            noteCounts: noteCounts
         };
     } else {
         return {
-            title: song.title,
+            title: currSong.title,
             artist: artist,
             jacket: jacket,
-            isDX: (song as chartGenreInterface).isDX,
-            levels: constants
+            isDX: (currSong as chartGenreInterface).isDX,
+            levels: constants,
+            noteCounts: noteCounts
         };
     }
 }
@@ -277,6 +350,7 @@ export async function fetchNewSongs(
         isDX? : boolean,
         isBuddy?: boolean,
         levels: Record<string, string>
+        noteCounts: Record<string, string | undefined>,
     }
 
     let songs: newSong[] = [];
