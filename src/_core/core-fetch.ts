@@ -108,6 +108,7 @@ export async function fetchImage (
 	if (!filename) {
 		throw new Error(`downloadImage: Cannot find filename from URL ${url}`)
 	}
+	const filePath = path.join(folder, filename);
 
     // Fetch the image
 	// Uses userId cookie if provided.
@@ -127,9 +128,6 @@ export async function fetchImage (
 	}
 	const blob = await res.blob().then((t) => t);
 
-	// Build the path
-	const filePath = path.join(folder, filename);
-
     // Download image with buffer
 	const buffer = Buffer.from(await blob.arrayBuffer());
 	fs.writeFileSync(filePath, buffer);
@@ -139,12 +137,20 @@ export async function fetchImage (
 
 
 // ----
-// Fetch json, used to fetch maiami_songs.json
+// Fetch json, used for fetching maiami_songs.json
 // ----
 export async function fetchJson (
-	url: string, 
+	url: string,
+	folder: string, 
 	userId?: string, 
 ) {
+    // Get the filename from the url
+	const filename = url.split('/').pop()
+	if (!filename) {
+		throw new Error(`downloadImage: Cannot find filename from URL ${url}`)
+	}
+	const filePath = path.join(folder, filename);
+
     // Fetch json, uses userId cookie if provided.
 	await sleep(TIMEOUT);
 	let res;
@@ -156,6 +162,7 @@ export async function fetchJson (
 		res = await fetch(url)
 	}
 
-	const jsonStr = await res.json().then((t) => t);
-	return JSON.parse(jsonStr)
+	const jsonContents = await res.json().then((t) => t);
+	fs.writeFileSync(filePath, JSON.stringify(jsonContents, null, '\t'));
+	return jsonContents;
 }
