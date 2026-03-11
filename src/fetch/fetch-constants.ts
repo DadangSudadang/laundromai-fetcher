@@ -292,3 +292,31 @@ export async function fetchConstantsList(
 
 	return constantsList;
 }
+
+
+// ----
+// Fetches all constants from every level
+// ----
+export async function fetchAllConstants(
+    songList: chartGenreInterface[],
+    region: string, 
+    userId: string
+) {
+    let allConst: chartConstantInterface[] = [];
+
+    for (const [levelStr, levelVal] of levelMap.getArr()){
+        const currList = await fetchConstantsList(
+            levelStr as string, songList, region, userId
+        )
+		
+		// appends both allConst and currList on a new array
+        allConst = [...allConst, ...currList] 
+    }
+
+    fs.writeFileSync(
+		path.join(outputDir, `all.json`),
+        JSON.stringify(allConst, null, '\t')
+    )
+
+    return allConst;
+}
