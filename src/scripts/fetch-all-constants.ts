@@ -1,13 +1,17 @@
 import fs from "fs";
 
 import { getUserId } from "@_core/cookies";
-import { diffMap, intlGenreMap, jpGenreMap, levelMap } from "@_core/maps";
+import { outputDirs } from "@_core/environment";
+import { diffMap, intlGenreMap, jpGenreMap } from "@_core/maps";
 import { chartConstantInterface, chartGenreInterface } from "@_core/types";
 
 import { fetchGenreList } from "@fetch/fetch-genre";
-import { fetchConstantsList, fetchAllConstants } from "@fetch/fetch-constants";
+import { fetchAllConstants } from "@fetch/fetch-constants";
 import { fetchJson } from "@_core/core-fetch";
 
+import log4js from "log4js";
+const logger = log4js.getLogger("fetch-combined-data");
+logger.level = log4js.levels.INFO;
 
 interface officialListInterface {
     title: string,
@@ -17,6 +21,8 @@ interface officialListInterface {
 }
 
 async function fetchCombinedData(region: string) {
+    logger.info("fetchCombinedData: Fetching all data...")
+
     // Get the genre strings for each region
     let genreMap;
 	switch(region) {
@@ -30,35 +36,40 @@ async function fetchCombinedData(region: string) {
 			throw new Error(`fetchCombinedData: invalid region string: "${region}". Use 'intl' or 'jp' for region parameter.`);
 	}
 
-    // const userId = await getUserId(region)
-
-    // const genreList = await fetchGenreList(
-    //     "master", region, userId
-    // ) as chartGenreInterface[]
-
-    // const allConstants = fetchAllConstants(
-    //     genreList, region, userId
-    // )
-
-    // const officialList = await fetchJson(
-    //     "https://maimai.sega.jp/data/maimai_songs.json"
-    // )
+    // Fetch the necessary lists
+    const userId = await getUserId(region)
+    const genreList = await fetchGenreList(
+        "master", region, userId
+    ) as chartGenreInterface[]
+    const allConstants = await fetchAllConstants(
+        genreList, region, userId
+    )
+    const officialList = await fetchJson(
+        "https://maimai.sega.jp/data/maimai_songs.json",
+        outputDirs.constants
+    ) as officialListInterface[]
 
     // Uncomment this if you wish to load an existing file instead.
+    /*
     const officialList: officialListInterface[] = JSON.parse(
         fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
     )
     const allConstants: chartConstantInterface[] = JSON.parse(
         fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
     )
+    */
 
+    logger.info("fetchCombinedData: Parsing fetched lists...")
+    // Parse every song, combine all the constant values into one object (separated by ST and DX)
     let completeList: Record<string, string | boolean | Record<string, number>>[] = [];
     for (const song of officialList) {
+        // Skip Utage
         if (song.catcode === "宴会場") {
             continue;
         }
 
-        const genre = jpGenreMap.get(song.catcode)
+        // Define base info
+        const genre = genreMap.get(song.catcode)
         let currSong = {
             title: song.title,
             artist: song.artist,
@@ -66,28 +77,39 @@ async function fetchCombinedData(region: string) {
             genre: song.catcode
         }
 
-
+        // Get all constants value (both ST and DX) of the song
         const constList = allConstants.filter((c) => 
             c.title === song.title &&
             c.genre === genre
         )
 
-        if (constList.length < 4) {
-            console.log(`${song.title} ${song.catcode}`)
+        // Separate by standard and dx chart
+        const stList = constList.filter((c) => !c.isDX)
+        const dxList = constList.filter((c) => c.isDX)
+
+        // Skip if empty
+        if (constList.length < 1) {
+            logger.error(`fetchCombinedData: No constants found for song ${song.title} (${song.catcode}).`)
             continue;
         }
 
         const combineConstants = (currList: chartConstantInterface[], isDX: boolean) => {
-            if (currList.length < 4) return;
+            // Skip if empty
+            if (currList.length < 1) return;
 
+            // Combine all the separate constants data into one "levels" object
             let levels: Record<string, number> = {};        
             for (const currEntry of currList) {
-                const diff = diffMap.revGet(currEntry.diff) as string;
-                const levelBase = currEntry.level.slice(-1) === "+"?
+                // Get difficulty name
+                const diff = diffMap.revGet(currEntry.diff) as string; 
+                
+                // Remove plus from level name string if any
+                const levelBase = currEntry.level.slice(-1) === "+"? 
                     Number.parseInt(currEntry.level.slice(0, -1)):
                     Number.parseInt(currEntry.level)
 
-                levels[diff] = (levelBase * 10) + currEntry.constant
+                // Multiply by 10 for easier comparison
+                levels[diff] = (levelBase * 10) + currEntry.constant 
             }
 
             completeList.push({
@@ -97,9 +119,6 @@ async function fetchCombinedData(region: string) {
             })
         }
 
-        const stList = constList.filter((c) => !c.isDX)
-        const dxList = constList.filter((c) => c.isDX)
-        
         combineConstants(stList, false);
         combineConstants(dxList, true);
     }
@@ -108,9 +127,11 @@ async function fetchCombinedData(region: string) {
     fs.writeFileSync('./dist/level-constants/complete.json',
         JSON.stringify(completeList, null, '\t')
     )
-    // const uniqueVer = [...new Set(officialList.map((o: any) => Number.parseInt(o.version.slice(0, 3))))];
-    // uniqueVer.sort()
-    // console.log(uniqueVer)
+
 }
 
 fetchCombinedData("jp")
+
+// const uniqueVer = [...new Set(officialList.map((o: any) => Number.parseInt(o.version.slice(0, 3))))];
+// uniqueVer.sort()
+// console.log(uniqueVer)
