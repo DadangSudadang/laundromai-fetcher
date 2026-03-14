@@ -36,18 +36,23 @@ async function fetchCombinedData(region: string) {
 			throw new Error(`fetchCombinedData: invalid region string: "${region}". Use 'intl' or 'jp' for region parameter.`);
 	}
 
+
     // Fetch the necessary lists
     const userId = await getUserId(region)
+
     const genreList = await fetchGenreList(
         "master", region, userId
     ) as chartGenreInterface[]
+
     const allConstants = await fetchAllConstants(
         genreList, region, userId
     )
+
     const officialList = await fetchJson(
         "https://maimai.sega.jp/data/maimai_songs.json",
         outputDirs.constants
     ) as officialListInterface[]
+
 
     // Uncomment this if you wish to load an existing file instead.
     /*
@@ -59,9 +64,41 @@ async function fetchCombinedData(region: string) {
     )
     */
 
-    logger.info("fetchCombinedData: Parsing fetched lists...")
+
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
+    logger.info("fetchCombinedData: Parsing fetched lists...")
     let completeList: Record<string, string | boolean | Record<string, number>>[] = [];
+
+    const combineConstants = (
+        currSong: Record<string, string>,
+        currList: chartConstantInterface[], 
+        isDX: boolean
+    ) => {
+        // Skip if empty
+        if (currList.length < 1) return;
+
+        // Combine all the separate constants data into one "levels" object
+        let levels: Record<string, number> = {};        
+        for (const currEntry of currList) {
+            // Get difficulty name
+            const diff = diffMap.revGet(currEntry.diff) as string; 
+            
+            // Remove plus from level name string if any
+            const levelBase = currEntry.level.slice(-1) === "+"? 
+                Number.parseInt(currEntry.level.slice(0, -1)):
+                Number.parseInt(currEntry.level)
+
+            // Multiply by 10 for easier comparison
+            levels[diff] = (levelBase * 10) + currEntry.constant 
+        }
+
+        completeList.push({
+            ...currSong,
+            isDX: isDX, 
+            levels: levels
+        })
+    }
+
     for (const song of officialList) {
         // Skip Utage
         if (song.catcode === "宴会場") {
@@ -83,44 +120,18 @@ async function fetchCombinedData(region: string) {
             c.genre === genre
         )
 
-        // Separate by standard and dx chart
-        const stList = constList.filter((c) => !c.isDX)
-        const dxList = constList.filter((c) => c.isDX)
-
         // Skip if empty
         if (constList.length < 1) {
             logger.error(`fetchCombinedData: No constants found for song ${song.title} (${song.catcode}).`)
             continue;
         }
 
-        const combineConstants = (currList: chartConstantInterface[], isDX: boolean) => {
-            // Skip if empty
-            if (currList.length < 1) return;
+        // Separate standard and dx charts
+        const stList = constList.filter((c) => !c.isDX)
+        const dxList = constList.filter((c) => c.isDX)
 
-            // Combine all the separate constants data into one "levels" object
-            let levels: Record<string, number> = {};        
-            for (const currEntry of currList) {
-                // Get difficulty name
-                const diff = diffMap.revGet(currEntry.diff) as string; 
-                
-                // Remove plus from level name string if any
-                const levelBase = currEntry.level.slice(-1) === "+"? 
-                    Number.parseInt(currEntry.level.slice(0, -1)):
-                    Number.parseInt(currEntry.level)
-
-                // Multiply by 10 for easier comparison
-                levels[diff] = (levelBase * 10) + currEntry.constant 
-            }
-
-            completeList.push({
-                ...currSong,
-                isDX: isDX, 
-                levels: levels
-            })
-        }
-
-        combineConstants(stList, false);
-        combineConstants(dxList, true);
+        combineConstants(currSong, stList, false);
+        combineConstants(currSong, dxList, true);
     }
 
 
@@ -131,7 +142,3 @@ async function fetchCombinedData(region: string) {
 }
 
 fetchCombinedData("jp")
-
-// const uniqueVer = [...new Set(officialList.map((o: any) => Number.parseInt(o.version.slice(0, 3))))];
-// uniqueVer.sort()
-// console.log(uniqueVer)
