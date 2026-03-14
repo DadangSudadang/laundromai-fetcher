@@ -5,6 +5,7 @@ import path from "path";
 import { getRegionUrl, cheerioFetchHtml } from "@_core/core-fetch";
 import { chartConstantInterface, chartGenreInterface } from "@_core/types";
 import { diffMap, levelMap } from "@_core/maps";
+import { getTimeout } from "@_core/environment";
 
 
 // ----
@@ -24,10 +25,7 @@ if (!fs.existsSync(outputDir)) {
 }
 
 import sleep from "sleep-promise";
-if (!process.env.TIMEOUT) {
-    throw new Error("Please set the TIMEOUT variable in the .env file.")
-}
-const TIMEOUT = parseInt(process.env.TIMEOUT);
+const TIMEOUT = getTimeout();
 
 
 // Constant lists for level 5 and 6 due to missing entries.

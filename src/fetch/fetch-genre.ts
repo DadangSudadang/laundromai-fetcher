@@ -5,6 +5,7 @@ import path from "path";
 import { cheerioFetchHtml } from "@_core/core-fetch";
 import { jpGenreMap, intlGenreMap, diffMap } from "@_core/maps";
 import { chartGenreInterface, chartUtageInterface } from "@_core/types";
+import { getTimeout } from "@_core/environment";
 
 
 // ----
@@ -23,10 +24,7 @@ if (!fs.existsSync(outputDir)) {
 }
 
 import sleep from "sleep-promise";
-if (!process.env.TIMEOUT) {
-    throw new Error("Please set the TIMEOUT variable in the .env file.")
-}
-const TIMEOUT = parseInt(process.env.TIMEOUT);
+const TIMEOUT = getTimeout();
 
 
 // ----

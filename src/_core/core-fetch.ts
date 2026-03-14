@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
+import { getTimeout } from "./environment";
 
 // ----
 // Initialization
@@ -13,10 +14,7 @@ const logger = log4js.getLogger("core-fetch");
 logger.level = log4js.levels.INFO;
 
 import sleep from "sleep-promise";
-if (!process.env.TIMEOUT) {
-    throw new Error("Please set the TIMEOUT variable in the .env file.")
-}
-const TIMEOUT = parseInt(process.env.TIMEOUT);
+const TIMEOUT = getTimeout();
 
 
 // ----
