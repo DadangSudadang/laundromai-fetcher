@@ -6,7 +6,7 @@
 import fs from "fs";
 import path from "path";
 
-import { outputDirs } from "@_core/environment";
+import { getOutputDir } from "@_core/environment";
 import { diffMap } from "@_core/maps";
 import { 
     chartConstantInterface, 
@@ -98,7 +98,7 @@ async function fetchSongDetails(
     const $ = await cheerioFetchHtml('record/musicDetail', region, {
             userId: userId,
             searchParams: {idx: currSong.id},
-            filename: path.join(outputDirs.songs, `${currSong.title}.html`)
+            filename: path.join(getOutputDir("songs"), `${currSong.title}.html`)
         }
     )
 
@@ -111,7 +111,7 @@ async function fetchSongDetails(
     if (jacketUrl) {
         logger.info(`fetchSongDetails: Fetching jacket for ${currSong.title}...`)
         jacket = await fetchImage(
-            jacketUrl, outputDirs.jackets, userId
+            jacketUrl, getOutputDir("jackets"), userId
         )
     } else {
         throw new Error(`fetchSongDetails: jacket URL cannot be found for song ${currSong.title}.`)
@@ -177,7 +177,7 @@ async function getConstantValue(
 ) {
     // If already fetched, use the saved one instead of fetching new one.
     const levelName = (currLevel.slice(-1) == "+")? currLevel.slice(0, -1) + "p": currLevel;
-    let filePath = path.join(outputDirs.constants, `${levelName}.json`)
+    let filePath = path.join(getOutputDir("constants"), `${levelName}.json`)
 
     let constList;
     if (fs.existsSync(filePath)) {
@@ -241,7 +241,7 @@ async function getNoteCount(
                     diff: diffNum.toString(),
                     idx: currSong.id
                 },
-                filename: path.join(outputDirs.songs, `${currSong.title}-${diff}.html`)
+                filename: path.join(getOutputDir("songs"), `${currSong.title}-${diff}.html`)
             }
         )
         if(!$) {
@@ -362,5 +362,8 @@ export async function fetchNewSongs(
         songs.push(songDetail);
     }
 
-    console.log(songs)
+    fs.writeFileSync(
+        path.join(getOutputDir("dist"), "newSongs.json"),
+        JSON.stringify(songs, null, '\t')
+    )
 }

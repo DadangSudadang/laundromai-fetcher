@@ -1,15 +1,22 @@
 import fs from 'fs';
 
-export const outputDirs: Record<string, string> = {
-    genre: "./dist/level-constants/",
-    songs: "./dist/songs/",
-    constants: "./dist/level-constants/",
-    jackets: "./dist/jackets/"
-}
-for (const idx of Object.keys(outputDirs)) {
-    const dir = outputDirs[idx];
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
+export function getOutputDir(dir: string) {
+    const outputDirs: Record<string, string> = {
+        dist: "./dist",
+        genre: "./dist/genre/",
+        songs: "./dist/songs/",
+        constants: "./dist/level-constants/",
+        jackets: "./dist/jackets/",
+    };
+
+    if (dir in Object.keys(outputDirs)) {
+        const path = outputDirs[dir];
+        if (!fs.existsSync(path)) {
+            fs.mkdirSync(path, { recursive: true });
+        };
+        return path;
+    } else {
+        throw new Error(`environment: "${dir}" is not a valid directory value. Valid values: ${Object.keys(outputDirs)}`)
     }
 }
 

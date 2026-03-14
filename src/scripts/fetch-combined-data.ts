@@ -1,7 +1,7 @@
 import fs from "fs";
 
 import { getUserId } from "@_core/cookies";
-import { outputDirs } from "@_core/environment";
+import { getOutputDir } from "@_core/environment";
 import { diffMap, intlGenreMap, jpGenreMap } from "@_core/maps";
 import { chartConstantInterface, chartGenreInterface } from "@_core/types";
 
@@ -50,7 +50,7 @@ async function fetchCombinedData(region: string) {
 
     const officialList = await fetchJson(
         "https://maimai.sega.jp/data/maimai_songs.json",
-        outputDirs.constants
+        getOutputDir("constants")
     ) as officialListInterface[]
 
 
