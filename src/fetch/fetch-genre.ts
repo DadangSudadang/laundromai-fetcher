@@ -169,6 +169,7 @@ export async function fetchGenreList(
 	region: string,
 	userId: string,
 ) {
+	logger.info(`fetchGenreList: Fetching ${diff} list...`)
 	let songGenreList: (chartGenreInterface[] | chartUtageInterface[]) = [];
 	let cheerioRoot: cheerio.CheerioAPI;
 
@@ -185,6 +186,9 @@ export async function fetchGenreList(
 	}
 
 	switch(diff) {
+		case "basic":
+		case "advanced":
+		case "expert":
 		case "master":
 		case "remaster":
 			cheerioRoot = await getCheerioRoot(diff);
