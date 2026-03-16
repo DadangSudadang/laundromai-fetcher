@@ -11,6 +11,7 @@ export interface chartGenreInterface {
 export interface chartUtageInterface {
     id: string | undefined;
     title: string;
+    genre: number;
     utageType: string;
     isBuddy: boolean;
     artist?: string;

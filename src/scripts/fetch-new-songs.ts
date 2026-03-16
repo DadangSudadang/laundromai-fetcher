@@ -317,6 +317,7 @@ async function parseEachSong(
         return {
             title: currSong.title,
             artist: artist,
+            genre: currSong.genre,
             jacket: jacket,
             isBuddy: (currSong as chartUtageInterface).isBuddy,
             levels: constants,
@@ -326,6 +327,7 @@ async function parseEachSong(
         return {
             title: currSong.title,
             artist: artist,
+            genre: currSong.genre,
             jacket: jacket,
             isDX: (currSong as chartGenreInterface).isDX,
             levels: constants,
@@ -347,6 +349,7 @@ export async function fetchNewSongs(
     interface newSong {
         title: string,
         artist: string,
+        genre: number,
         isDX? : boolean,
         isBuddy?: boolean,
         levels: Record<string, string>
@@ -363,7 +366,7 @@ export async function fetchNewSongs(
     }
 
     fs.writeFileSync(
-        path.join(getOutputDir("dist"), "newSongs.json"),
+        path.join(getOutputDir("dist"), `newSongs-${diff}-${region}.json`),
         JSON.stringify(songs, null, '\t')
     )
 }

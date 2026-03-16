@@ -139,6 +139,7 @@ function parseUtagePage(
 		return {
 			id: $(self).find("input[name=idx]").attr("value"),
 			title: $(self).find('div[class^="music_name_block"]').text(),
+			genre: 10,
 			utageType: utageType,
 			isBuddy: isBuddy,
 		};

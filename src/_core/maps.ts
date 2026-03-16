@@ -31,6 +31,7 @@ export const jpGenreMap = new TwoWayMap([
 	["ゲーム＆バラエティ", 3],
 	["maimai", 4],
 	["オンゲキ＆CHUNITHM", 5],
+    ["宴会場", 10]
 ])
 
 export const intlGenreMap = new TwoWayMap([
@@ -40,6 +41,7 @@ export const intlGenreMap = new TwoWayMap([
 	["GAME＆VARIETY", 3],
 	["maimai", 4],
 	["オンゲキ＆CHUNITHM", 5],
+    ["宴会場", 10]
 ])
 
 export const diffMap = new TwoWayMap([
