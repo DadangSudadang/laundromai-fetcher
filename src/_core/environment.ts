@@ -9,7 +9,7 @@ export function getOutputDir(dir: string) {
         jackets: "./dist/jackets/",
     };
 
-    if (dir in Object.keys(outputDirs)) {
+    if (Object.keys(outputDirs).includes(dir)) {
         const path = outputDirs[dir];
         if (!fs.existsSync(path)) {
             fs.mkdirSync(path, { recursive: true });
