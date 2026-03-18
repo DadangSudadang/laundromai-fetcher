@@ -232,6 +232,11 @@ async function getNoteCount(
             throw new Error(`Cannot find difficulty ${diff} for ${currSong.title}!`);
         }
 
+        // Skip if utage buddy chart, as mainet does not list the max DX score
+        if (diff == "utage" && (currSong as chartUtageInterface).isBuddy) {
+            throw new Error(`${currSong.title} is an utage buddy chart and maimaiNET does not list the note count. Skipping...`);
+        }
+
         // Fetch HTML
         const $ = await cheerioFetchHtml('ranking/musicRankingDetail', region, {
                 userId: userId,
@@ -251,7 +256,7 @@ async function getNoteCount(
         // Find the block that contains the text
         const scoreBlock = $('div[class^="basic_block m_5 p_5"]')
         if(!scoreBlock) {
-            throw new Error(`Cannot findthe max DX score text for ${diff} - ${currSong.title}`)
+            throw new Error(`Cannot find the max DX score text for ${diff} - ${currSong.title}`)
         }
 
         // Example string: "\tあなたのスコア―／3,855"
@@ -319,6 +324,7 @@ async function parseEachSong(
             artist: artist,
             genre: currSong.genre,
             jacket: jacket,
+            utageType: (currSong as chartUtageInterface).utageType,
             isBuddy: (currSong as chartUtageInterface).isBuddy,
             levels: constants,
             noteCounts: noteCounts
