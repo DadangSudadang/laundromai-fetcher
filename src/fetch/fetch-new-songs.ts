@@ -339,10 +339,11 @@ async function parseEachSong(
 export async function fetchNewSongs(
     diff: string,
     prevGenreList: chartGenreInterface[] | chartUtageInterface[],
+    currGenreList: chartGenreInterface[] | chartUtageInterface[],
     region: string,
     userId: string
 ) {
-    const currGenreList = await fetchGenreList(diff, region, userId);
+    // const currGenreList = await fetchGenreList(diff, region, userId);
     const newSongList = compareDiffs(prevGenreList, currGenreList);
     logger.info(`New songs: ${newSongList.length} song(s).`)
 

@@ -3,7 +3,7 @@ import fs from "fs";
 import { getUserId } from "@_core/cookies";
 import { getOutputDir } from "@_core/environment";
 import { diffMap, intlGenreMap, jpGenreMap } from "@_core/maps";
-import { chartConstantInterface, chartGenreInterface } from "@_core/types";
+import { chartConstantInterface, chartGenreInterface, combinedDataInterface } from "@_core/types";
 
 import { fetchGenreList } from "@fetch/fetch-genre";
 import { fetchAllConstants } from "@fetch/fetch-constants";
@@ -24,7 +24,7 @@ export async function fetchCombinedData(
     genreList: chartGenreInterface[],
     region: string,
     userId: string
-) {
+) : Promise<combinedDataInterface[]> {
     logger.info("fetchCombinedData: Fetching all data...")
 
     // Get the genre strings for each region
@@ -66,7 +66,7 @@ export async function fetchCombinedData(
 
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
     logger.info("fetchCombinedData: Parsing fetched lists...")
-    let completeList: Record<string, string | boolean | Record<string, number>>[] = [];
+    let completeList: combinedDataInterface[] = [];
 
     const combineConstants = (
         currSong: Record<string, string | number>,
@@ -91,11 +91,13 @@ export async function fetchCombinedData(
             levels[diff] = (levelBase * 10) + currEntry.constant 
         }
 
-        completeList.push({
+        const pushValue = {
             ...currSong,
             isDX: isDX, 
             levels: levels
-        })
+        }
+
+        completeList.push(pushValue as combinedDataInterface)
     }
 
     for (const song of genreList) {
@@ -116,11 +118,12 @@ export async function fetchCombinedData(
             c.genre === song.genre
         )
 
-        // Skip current song if results are empty
+        // maimai_songs.json are updated later, so do not skip for new songs.
         if (songInfo.length < 1) {
-            logger.error(`fetchCombinedData: No entry in genreList found for song ${song.title} (${genreStr}).`)
-            continue;
+            logger.error(`fetchCombinedData: No entry in maimai_songs.json found for song ${song.title} (${genreStr}).`)
         }
+
+        // Skip current song if there are no constant values
         if (constList.length < 1) {
             logger.error(`fetchCombinedData: No constants found for song ${song.title} (${genreStr}).`)
             continue;
@@ -149,4 +152,6 @@ export async function fetchCombinedData(
     fs.writeFileSync('./dist/level-constants/complete.json',
         JSON.stringify(sorted, null, '\t')
     )
+
+    return sorted
 }

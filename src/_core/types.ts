@@ -30,3 +30,14 @@ export interface chartConstantInterface {
     level: string;
     constant: number;
 }
+
+export interface combinedDataInterface {
+    orderId: number,
+    id: string,
+    title: string,
+    artist: string,
+    imageName: string,
+    genre: string,
+    isDX: boolean,
+    levels: Record<string, number>
+}

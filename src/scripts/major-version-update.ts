@@ -1,18 +1,11 @@
 import fs from 'fs';
+import { getUserId } from '@_core/cookies';
+import { chartGenreInterface, chartUtageInterface, combinedDataInterface } from '@_core/types';
+import { fetchGenreList } from '@fetch/fetch-genre';
+import { fetchCombinedData } from '@fetch/fetch-combined-data';
+import { fetchNewSongs } from '@fetch/fetch-new-songs';
 
-interface songInfoType {
-    title: string,
-    artist: string,
-    imageName: string,
-    imageURL: string,
-    genre: string,
-    version: string
-    isDX: boolean,
-    levels: Record<string, number>
-}
-
-function getChanges(oldData: songInfoType[], newData: songInfoType[]) {
-
+function getChanges(oldData: combinedDataInterface[], newData: combinedDataInterface[]) {
     let changes: {
         title: string,
         imageName: string,
@@ -68,19 +61,39 @@ function getChanges(oldData: songInfoType[], newData: songInfoType[]) {
     console.log(changes.length)
 
     fs.writeFileSync('./dist/changes.json', JSON.stringify(changes, null, '\t'))
+    console.log("Saved changes on ./dist/changes.json")
 }
 
-const oldData = JSON.parse(
-    // fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
-    fs.readFileSync('./src/tests/lomo_after.json', 'utf-8')
-)
-const newData = JSON.parse(
-    fs.readFileSync('./dist/level-constants/complete.json', 'utf-8')
-)
+async function run(region: string) {
+    // Get cookies
+    const userId = await getUserId(region)
 
-getChanges(oldData, newData)
+    // Fetch the genre lists and the complete data (constants and song info from maimai_songs.json)
+    const masterNewList = await fetchGenreList(
+        "master", region, userId
+    ) as chartGenreInterface[]
+    const utageNewList = await fetchGenreList(
+        "utage", region, userId
+    ) as chartUtageInterface[]
+    const combinedNewData = await fetchCombinedData(masterNewList, region, userId)
 
-// const oldTitles = lomoData.map(x => x.title);
-// let difference = completeData.filter((x: any) => !oldTitles.includes(x.title) );
-// const versions = new Set(difference.map((d: any) => d.version))
-// console.log(difference.length)
+    // Load the previous genre lists and complete data
+    const masterOldList = JSON.parse(
+        fs.readFileSync('./data/circle/master.json', 'utf-8')
+    )
+    const utageOldList = JSON.parse(
+        fs.readFileSync('./data/circle/utage.json', 'utf-8')
+    )
+    const combinedOldData = JSON.parse(
+        fs.readFileSync('./data/circle/complete_data.json', 'utf-8')
+    )
+
+    // Get new songs
+    await fetchNewSongs("master", masterOldList, masterNewList, region, userId);
+    await fetchNewSongs("utage", utageOldList, utageNewList, region, userId);
+
+    // Get changes
+    getChanges(combinedOldData, combinedNewData)
+}
+
+await run("jp")
