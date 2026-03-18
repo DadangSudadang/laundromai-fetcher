@@ -142,6 +142,38 @@ function getGenre(
 
 
 // ----
+// Finds the orderId of the song
+// ----
+function getOrderId(
+	title: string,
+	isDX: boolean,
+	genre: number,
+	songList: chartGenreInterface[]
+) {
+	const song = songList.find((s) => 
+		s.title === title 
+		&& s.isDX == isDX
+		&& s.genre == genre
+	);
+
+	if (!song) {
+		logger.error(
+			`getOrderId - Cannot find song in genre list: ${title} (${isDX ? "DX" : "ST"})`,
+		);
+		return undefined;
+
+	} else if (song.orderId < 0 || song.orderId == undefined) { // -1 genre means invalid
+		logger.error(
+			`getOrderId - Genre value is invalid for song ${title} (${isDX ? "DX" : "ST"})`,
+		);
+		return undefined;	
+	}
+
+	return song.orderId;
+}
+
+
+// ----
 // Extracts information from the block and
 // determines the constant of the current chart (block)
 // ----
@@ -152,6 +184,7 @@ function parseChartBlock(
 	levelStr: string,
 	passRef: { // Pass by reference, allowing modifying without returning
 		prevGenreValue: number, // The genre of the previous block
+		prevOrderId: number, // The orderId of the previous block
 		currConst: number,
 	}
 ) {	
@@ -173,7 +206,8 @@ function parseChartBlock(
 
 
 	// Find genre
-	let genre;
+	let genre: number | undefined; 
+	let orderId: number | undefined;
 
 	if (title === "Link") { 
 		// Two songs with identical name "Link", 
@@ -190,12 +224,21 @@ function parseChartBlock(
 		return undefined;
 	}
 
+	orderId = getOrderId(title, isDX, genre, songList);
+	if (orderId == undefined || orderId < 0) {
+		logger.error(
+			`parseChartBlock - Cannot find the orderId of current song: ${title}:${isDX? "DX":"ST"}:${diff}`
+		)
+		return undefined;	
+	}
+
 
 	// Increase constant value by one whenever the category switches back to pops & anime genre
-	if (passRef.prevGenreValue > genre) {
+	if (passRef.prevOrderId > orderId) {
 		passRef.currConst += 1;
 	}
 	passRef.prevGenreValue = genre;
+	passRef.prevOrderId = orderId as number;
 
 
 	// Determine the level constant
@@ -214,6 +257,7 @@ function parseChartBlock(
 
 
 	return {
+		orderId: orderId,
 		title: title,
 		genre: genre,
 		isDX: isDX,
@@ -270,6 +314,7 @@ export async function fetchConstantsList(
 	// Pass by reference, these values will be modified by parseChartBlock below.
 	let passRef = {
 		prevGenreValue: -1,
+		prevOrderId: -1,
 		currConst: 0
 	}
 
@@ -282,6 +327,12 @@ export async function fetchConstantsList(
 			constantsList.push(currConstantInfo)
 		}
 	})
+
+	// const lastElement = constantsList[constantsList.length - 1];
+	// if (levelStr.slice(-1) == "+") {
+	// 	if (lastElement
+	// } else {
+	// }
 
 	fs.writeFileSync(
 		path.join(outputDir, `${levelName}.json`),

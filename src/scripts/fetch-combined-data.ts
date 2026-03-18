@@ -38,31 +38,32 @@ async function fetchCombinedData(region: string) {
 
 
     // Fetch the necessary lists
-    const userId = await getUserId(region)
+    // const userId = await getUserId(region)
 
-    const genreList = await fetchGenreList(
-        "master", region, userId
-    ) as chartGenreInterface[]
+    // const genreList = await fetchGenreList(
+    //     "master", region, userId
+    // ) as chartGenreInterface[]
 
-    const allConstants = await fetchAllConstants(
-        genreList, region, userId
-    )
+    // const allConstants = await fetchAllConstants(
+    //     genreList, region, userId
+    // )
 
-    const officialList = await fetchJson(
-        "https://maimai.sega.jp/data/maimai_songs.json",
-        getOutputDir("constants")
-    ) as officialListInterface[]
+    // const officialList = await fetchJson(
+    //     "https://maimai.sega.jp/data/maimai_songs.json",
+    //     getOutputDir("constants")
+    // ) as officialListInterface[]
 
 
     // Uncomment this if you wish to load an existing file instead.
-    /*
+    const genreList: chartGenreInterface[] = JSON.parse(
+        fs.readFileSync('./dist/genre/master.json', 'utf-8')
+    )
     const officialList: officialListInterface[] = JSON.parse(
         fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
     )
     const allConstants: chartConstantInterface[] = JSON.parse(
         fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
     )
-    */
 
 
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
@@ -70,7 +71,7 @@ async function fetchCombinedData(region: string) {
     let completeList: Record<string, string | boolean | Record<string, number>>[] = [];
 
     const combineConstants = (
-        currSong: Record<string, string>,
+        currSong: Record<string, string | number>,
         currList: chartConstantInterface[], 
         isDX: boolean
     ) => {
@@ -105,9 +106,19 @@ async function fetchCombinedData(region: string) {
             continue;
         }
 
+        const genre = genreMap.get(song.catcode) 
+        const songInfo = genreList.filter((g) => 
+            g.title === song.title && 
+            g.genre === genre
+        )
+        if (songInfo.length < 1) {
+            logger.error(`fetchCombinedData: No entry in genreList found for song ${song.title} (${song.catcode}).`)
+        }
+
         // Define base info
-        const genre = genreMap.get(song.catcode)
         let currSong = {
+            orderId: songInfo.length > 0? songInfo[0].orderId as number : -1,
+            id: songInfo.length > 0? songInfo[0].id as string : "",
             title: song.title,
             artist: song.artist,
             imageName: song.image_url,
@@ -134,9 +145,10 @@ async function fetchCombinedData(region: string) {
         combineConstants(currSong, dxList, true);
     }
 
+    const sorted = completeList.sort((a: any, b: any) => a.orderId - b.orderId)
 
     fs.writeFileSync('./dist/level-constants/complete.json',
-        JSON.stringify(completeList, null, '\t')
+        JSON.stringify(sorted, null, '\t')
     )
 
 }

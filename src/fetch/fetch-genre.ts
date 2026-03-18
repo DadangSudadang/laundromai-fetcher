@@ -38,6 +38,8 @@ function parseGenrePage(
 ) {
 	let genreList: chartGenreInterface[] = [];
 	let currGenre : (number | undefined) = -1;
+	let currOrderId = -1;
+	let prevTitle = "";
 
 	// Get all the song info blocks in the genre page
 	const main_wrapper = $('div[class^="wrapper main_wrapper"]');
@@ -47,6 +49,7 @@ function parseGenrePage(
 
 	// Parse each song info block
 	const parseSongInfo = (self : Element) => {
+		// Determine chart type Standard or Deluxe
 		const typeIconURL = $(self)
 			.find('img[class^="music_kind_icon"]')
 			.attr("src");
@@ -59,9 +62,19 @@ function parseGenrePage(
 			}
 		}
 
+		// Get song title. 
+		// If the previous title is the same, then skip adding currOrderId. 
+		// (in cases where a chart has both DX and ST)
+		const title = $(self).find('div[class^="music_name_block"]').text()
+		if (title !== prevTitle) {
+			currOrderId += 1;
+			prevTitle = title;
+		}
+
 		return {
+			orderId: currOrderId,
 			id: $(self).find("input[name=idx]").attr("value"),
-			title: $(self).find('div[class^="music_name_block"]').text(),
+			title: title, 
 			genre: currGenre as number,
 			isDX: isDX,
 		};
@@ -89,8 +102,9 @@ function parseGenrePage(
 	}
 
 	// Iterate over all song info blocks
-	div_list.each(function (this: Element) {
+	div_list.each(function (this: Element, i: number) {
 		let self = this;
+		let currOrder = i;
 
 		if ($(self).hasClass("screw_block")) {
 			// If the current block contains the genre name text,
@@ -127,7 +141,7 @@ function parseUtagePage(
 	);
 
 	// Parse each song info block
-	const parseSongInfo = (self: Element) => {
+	const parseSongInfo = (self: Element, orderId: number) => {
 		const utageBadges = $(self).find('div[class^="music_kind_icon_utage"]')
 		const utageType = $(utageBadges[0]).text().trim();
 
@@ -137,6 +151,7 @@ function parseUtagePage(
 		}
 	
 		return {
+			orderId: orderId,
 			id: $(self).find("input[name=idx]").attr("value"),
 			title: $(self).find('div[class^="music_name_block"]').text(),
 			genre: 10,
@@ -146,10 +161,12 @@ function parseUtagePage(
 	}
 
 	// Iterate over all song info blocks
-	div_list.each(function (this: Element) {
+	div_list.each(function (this: Element, i: number) {
 		let self = this;
+		let currOrder = i;
+
 		if ($(self).hasClass("w_450 m_15")) {
-			utageSongs.push(parseSongInfo(self));
+			utageSongs.push(parseSongInfo(self, currOrder));
 		}
 	});
 	

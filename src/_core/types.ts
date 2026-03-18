@@ -1,5 +1,6 @@
 export interface chartGenreInterface {
     id: string | undefined;
+    orderId: number;
     title: string;
     genre: number;
     isDX: boolean;
@@ -10,6 +11,7 @@ export interface chartGenreInterface {
 
 export interface chartUtageInterface {
     id: string | undefined;
+    orderId: number;
     title: string;
     genre: number;
     utageType: string;
@@ -20,6 +22,7 @@ export interface chartUtageInterface {
 }
 
 export interface chartConstantInterface {
+    orderId: number;
     title: string;
     genre: number;
     isDX: boolean;
