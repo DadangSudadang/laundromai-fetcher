@@ -1,0 +1,542 @@
+[
+	{
+		"title": "アイドル",
+		"imageName": "c7c5029b33c09561.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 114,
+		"after": 115
+	},
+	{
+		"title": "LOSTPHANTASIA",
+		"imageName": "c825fb9620d74576.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 127,
+		"after": 126
+	},
+	{
+		"title": "にっこり^^調査隊のテーマ",
+		"imageName": "6034307d9291f014.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 127
+	},
+	{
+		"title": "ザムザ",
+		"imageName": "8032e0a4e5be70bf.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 127
+	},
+	{
+		"title": "虹と太陽",
+		"imageName": "4790ce1143cd00b8.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 129
+	},
+	{
+		"title": "からくりピエロ",
+		"imageName": "e466cd437e917e44.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "remaster",
+		"prev": 128,
+		"after": 129
+	},
+	{
+		"title": "クレイジー・ビート",
+		"imageName": "db2bcb56952703da.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 129
+	},
+	{
+		"title": "ぴぴぱぷぅ！",
+		"imageName": "ba436a1cf6e84d58.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "fake!fake!",
+		"imageName": "1f617d599ada17e4.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "ヘルシーエンド",
+		"imageName": "74d3b31d6375a517.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "Fist Bump",
+		"imageName": "0472103fd50f1f67.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "ネ！コ！",
+		"imageName": "a46fc4437ca9cdb8.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "御旗のもとに",
+		"imageName": "f364b690f9a0bff3.png",
+		"isDX": true,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "アルカンシエル",
+		"imageName": "5fbf0fbd4d18f6e2.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 129
+	},
+	{
+		"title": "さよならプリンセス",
+		"imageName": "a98a61705b5d5c24.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 129
+	},
+	{
+		"title": "Endless World",
+		"imageName": "387a91b8fee31725.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 130
+	},
+	{
+		"title": "Quartet Theme [Reborn]",
+		"imageName": "781f4b930961ea60.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 130
+	},
+	{
+		"title": "セガサターン起動音[H.][Remix]",
+		"imageName": "6cb5afa2c0d02884.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 130
+	},
+	{
+		"title": "おても☆Yan",
+		"imageName": "a3c48c499abf548a.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 130
+	},
+	{
+		"title": "ヒステリックナイトガール",
+		"imageName": "b48907e41b1a0e45.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 128,
+		"after": 130
+	},
+	{
+		"title": "ワールズエンド・ダンスホール",
+		"imageName": "7d63f55a93c01564.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "39",
+		"imageName": "db70c06c380e264e.png",
+		"isDX": false,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "ケロ⑨destiny",
+		"imageName": "770423fd2e706318.png",
+		"isDX": false,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "キミノヨゾラ哨戒班",
+		"imageName": "356f3d261ce84763.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "前前前世",
+		"imageName": "d5d50489dcbcfd1f.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "福宿音屋魂音泉",
+		"imageName": "d460c9541b932e05.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "銀のめぐり",
+		"imageName": "d393d329db514825.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "秋の未確認生物",
+		"imageName": "ba0af4d10b3c3d32.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "過去を喰らう",
+		"imageName": "0d661350576c1dbe.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 130
+	},
+	{
+		"title": "さよならヒストリー",
+		"imageName": "4f34157be56c8be3.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 130
+	},
+	{
+		"title": "イヤホンロマンス",
+		"imageName": "ecfd9fddb7a9f687.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 131
+	},
+	{
+		"title": "Boys O’Clock",
+		"imageName": "747c68a6bf27de45.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 131
+	},
+	{
+		"title": "Sweets Time",
+		"imageName": "1ca97ae8aa37eb6b.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 131
+	},
+	{
+		"title": "ライアーダンサー",
+		"imageName": "3ecd712a72f9b81a.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 132,
+		"after": 131
+	},
+	{
+		"title": "ゴーストルール",
+		"imageName": "1c389ba08db6c6f4.png",
+		"isDX": true,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 129,
+		"after": 132
+	},
+	{
+		"title": "popcorn",
+		"imageName": "ed998c68adada909.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 132
+	},
+	{
+		"title": "炎歌 -ほむらうた-",
+		"imageName": "40800dfb586539a2.png",
+		"isDX": true,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 130,
+		"after": 132
+	},
+	{
+		"title": "コスモポップファンクラブ",
+		"imageName": "4829035abbb63320.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 130,
+		"after": 132
+	},
+	{
+		"title": "ディカディズム",
+		"imageName": "1ef2747493f2d184.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 132
+	},
+	{
+		"title": "ぱくぱく☆がーる",
+		"imageName": "07f841698cba7fa8.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 132
+	},
+	{
+		"title": "ボッカデラベリタ",
+		"imageName": "be8b42fc0300e467.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 132
+	},
+	{
+		"title": "ド屑",
+		"imageName": "c94dcba3903fcde9.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 132
+	},
+	{
+		"title": "チルノのパーフェクトさんすう教室",
+		"imageName": "d44aee5f4b660d3d.png",
+		"isDX": false,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 129,
+		"after": 133
+	},
+	{
+		"title": "Secret Sleuth",
+		"imageName": "5ad3f5870e9aef1a.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 133
+	},
+	{
+		"title": "JUMPIN' JUMPIN'",
+		"imageName": "d3254db452d7bf2d.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 133
+	},
+	{
+		"title": "トリアージ",
+		"imageName": "9466cf52a10671cf.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 133
+	},
+	{
+		"title": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+		"imageName": "72e6a54b6da5262b.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 131,
+		"after": 133
+	},
+	{
+		"title": "物凄い勢いでけーねが物凄いうた",
+		"imageName": "36bfc5734d8df91b.png",
+		"isDX": false,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 129,
+		"after": 134
+	},
+	{
+		"title": "Starlight Disco",
+		"imageName": "055586e227c60d9c.png",
+		"isDX": true,
+		"hasBoth": true,
+		"diff": "master",
+		"prev": 131,
+		"after": 134
+	},
+	{
+		"title": "カーニバルハッピー",
+		"imageName": "3595660bf2057942.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 135,
+		"after": 134
+	},
+	{
+		"title": "Everybody Say HARDCORE TANO*C",
+		"imageName": "23b599302f289981.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 135,
+		"after": 136
+	},
+	{
+		"title": "新人類",
+		"imageName": "3d83103605f1e63c.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 137,
+		"after": 136
+	},
+	{
+		"title": "DUAL ROZES",
+		"imageName": "90374370dd705b70.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 137,
+		"after": 136
+	},
+	{
+		"title": "バカ通信",
+		"imageName": "5826cc96ab759012.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 137,
+		"after": 136
+	},
+	{
+		"title": "MUSIC PЯAYER",
+		"imageName": "3340e09175faaa70.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 135,
+		"after": 137
+	},
+	{
+		"title": "サイバーサンダーサイダー",
+		"imageName": "8489c52144bb8be5.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 136,
+		"after": 137
+	},
+	{
+		"title": "RE:INCARNATED DRAGNER",
+		"imageName": "08ecab27bca7f9f7.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 138,
+		"after": 139
+	},
+	{
+		"title": "ouroboros -twin stroke of the end-",
+		"imageName": "8b12a65d1c465e60.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 144,
+		"after": 145
+	},
+	{
+		"title": "IF:U",
+		"imageName": "0c04b513c0520392.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 147,
+		"after": 146
+	},
+	{
+		"title": "Re:Unknown X",
+		"imageName": "0847c38d2a623e99.png",
+		"isDX": true,
+		"hasBoth": false,
+		"diff": "master",
+		"prev": 146,
+		"after": 147
+	}
+]

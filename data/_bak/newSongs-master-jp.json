@@ -1,0 +1,97 @@
+[
+	{
+		"title": "7 Wonders",
+		"artist": "削除",
+		"genre": 4,
+		"jacket": "dist/jackets/3119002860e5eca8.png",
+		"isDX": true,
+		"levels": {
+			"basic": "6.0",
+			"advanced": "8.2",
+			"expert": "12.8",
+			"master": "14.9"
+		},
+		"noteCounts": {
+			"basic": "262",
+			"advanced": "356",
+			"expert": "703",
+			"master": "1285"
+		}
+	},
+	{
+		"title": "WakeUP MakeUP FEVER!",
+		"artist": "曲：アオワイファイ／歌：オンゲキシューターズ",
+		"genre": 5,
+		"jacket": "dist/jackets/49d875aca59e2dbc.png",
+		"isDX": true,
+		"levels": {
+			"basic": "2.0",
+			"advanced": "6.2",
+			"expert": "10.0",
+			"master": "13.3"
+		},
+		"noteCounts": {
+			"basic": "167",
+			"advanced": "294",
+			"expert": "501",
+			"master": "887"
+		}
+	},
+	{
+		"title": "give it up to you",
+		"artist": "曲：中土智博／歌：bitter flavor [桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)]",
+		"genre": 5,
+		"jacket": "dist/jackets/441cfe6d94175558.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.0",
+			"expert": "10.7",
+			"master": "13.2"
+		},
+		"noteCounts": {
+			"basic": "189",
+			"advanced": "294",
+			"expert": "433",
+			"master": "634"
+		}
+	},
+	{
+		"title": "ICEBURN",
+		"artist": "Srav3R",
+		"genre": 5,
+		"jacket": "dist/jackets/a1cf29dd6fd3c707.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "8.0",
+			"expert": "11.5",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "216",
+			"advanced": "402",
+			"expert": "547",
+			"master": "875"
+		}
+	},
+	{
+		"title": "Daredevil Glaive",
+		"artist": "Artifact",
+		"genre": 5,
+		"jacket": "dist/jackets/ecf6ef747128387c.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "7.8",
+			"expert": "11.8",
+			"master": "14.2"
+		},
+		"noteCounts": {
+			"basic": "249",
+			"advanced": "375",
+			"expert": "592",
+			"master": "1004"
+		}
+	}
+]

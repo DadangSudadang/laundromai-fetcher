@@ -1,0 +1,28 @@
+[
+	{
+		"title": "[鏡]MIRROR of MAGIC",
+		"artist": "Shoichiro Hirata feat.SUIMI",
+		"genre": 10,
+		"jacket": "dist/jackets/967e724b039ec9dc.png",
+		"utageType": "鏡",
+		"isBuddy": false,
+		"levels": {
+			"utage": "12?"
+		},
+		"noteCounts": {
+			"utage": "684"
+		}
+	},
+	{
+		"title": "[協]ラグトレイン",
+		"artist": "稲葉曇",
+		"genre": 10,
+		"jacket": "dist/jackets/3d04a3710463921e.png",
+		"utageType": "協",
+		"isBuddy": true,
+		"levels": {
+			"utage": "13?"
+		},
+		"noteCounts": {}
+	}
+]
