@@ -27,7 +27,7 @@ function getChanges(oldData: combinedDataInterface[], newData: combinedDataInter
 
         if (findRes.length == 1) {
             result = findRes[0]
-        } else if (findRes.length == 2) {
+        } else if (findRes.length > 2) {
             hasBoth = true;
             result = findRes.find( (x: any) => x.isDX == song.isDX )
         } else {
@@ -96,4 +96,18 @@ async function run(region: string) {
     getChanges(combinedOldData, combinedNewData)
 }
 
+
+function run_bak() {
+    const combinedOldData = JSON.parse(
+        fs.readFileSync('./data/circle/complete_data.json', 'utf-8')
+        // fs.readFileSync('./data/test/complete_data.json', 'utf-8')
+    )
+    const combinedNewData = JSON.parse(
+        fs.readFileSync('./dist/level-constants/complete.json', 'utf-8')
+        // fs.readFileSync('./data/test/complete.json', 'utf-8')
+    )
+    getChanges(combinedOldData, combinedNewData)
+}
+
 await run("jp")
+// await run_bak()

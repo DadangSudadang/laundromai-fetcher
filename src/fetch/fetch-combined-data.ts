@@ -69,9 +69,8 @@ export async function fetchCombinedData(
     let completeList: combinedDataInterface[] = [];
 
     const combineConstants = (
-        currSong: Record<string, string | number>,
+        currSong: Record<string, string | number | boolean>,
         currList: chartConstantInterface[], 
-        isDX: boolean
     ) => {
         // Skip if empty
         if (currList.length < 1) return;
@@ -93,7 +92,6 @@ export async function fetchCombinedData(
 
         const pushValue = {
             ...currSong,
-            isDX: isDX, 
             levels: levels
         }
 
@@ -115,7 +113,8 @@ export async function fetchCombinedData(
         )
         const constList = allConstants.filter((c) =>  // Find all thechart constants
             c.title === song.title &&
-            c.genre === song.genre
+            c.genre === song.genre &&
+            c.isDX == song.isDX
         )
 
         // maimai_songs.json are updated later, so do not skip for new songs.
@@ -136,15 +135,11 @@ export async function fetchCombinedData(
             title: song.title,
             artist: song.artist as string,
             imageName: songInfo[0].image_url,
-            genre: genreStr
+            genre: genreStr,
+            isDX: song.isDX
         }
 
-        // Separate standard and dx charts
-        const stList = constList.filter((c) => !c.isDX)
-        const dxList = constList.filter((c) => c.isDX)
-
-        combineConstants(currSong, stList, false);
-        combineConstants(currSong, dxList, true);
+        combineConstants(currSong, constList);
     }
 
     const sorted = completeList.sort((a: any, b: any) => a.orderId - b.orderId)
