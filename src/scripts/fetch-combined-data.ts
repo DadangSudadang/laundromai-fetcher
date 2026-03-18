@@ -20,7 +20,11 @@ interface officialListInterface {
     image_url: string,
 }
 
-async function fetchCombinedData(region: string) {
+export async function fetchCombinedData(
+    genreList: chartGenreInterface[],
+    region: string,
+    userId: string
+) {
     logger.info("fetchCombinedData: Fetching all data...")
 
     // Get the genre strings for each region
@@ -44,26 +48,26 @@ async function fetchCombinedData(region: string) {
     //     "master", region, userId
     // ) as chartGenreInterface[]
 
-    // const allConstants = await fetchAllConstants(
-    //     genreList, region, userId
-    // )
+    const allConstants = await fetchAllConstants(
+        genreList, region, userId
+    )
 
-    // const officialList = await fetchJson(
-    //     "https://maimai.sega.jp/data/maimai_songs.json",
-    //     getOutputDir("constants")
-    // ) as officialListInterface[]
+    const officialList = await fetchJson(
+        "https://maimai.sega.jp/data/maimai_songs.json",
+        getOutputDir("constants")
+    ) as officialListInterface[]
 
 
     // Uncomment this if you wish to load an existing file instead.
-    const genreList: chartGenreInterface[] = JSON.parse(
-        fs.readFileSync('./dist/genre/master.json', 'utf-8')
-    )
-    const officialList: officialListInterface[] = JSON.parse(
-        fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
-    )
-    const allConstants: chartConstantInterface[] = JSON.parse(
-        fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
-    )
+    // const genreList: chartGenreInterface[] = JSON.parse(
+    //     fs.readFileSync('./dist/genre/master.json', 'utf-8')
+    // )
+    // const officialList: officialListInterface[] = JSON.parse(
+    //     fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
+    // )
+    // const allConstants: chartConstantInterface[] = JSON.parse(
+    //     fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
+    // )
 
 
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
@@ -151,7 +155,4 @@ async function fetchCombinedData(region: string) {
     fs.writeFileSync('./dist/level-constants/complete.json',
         JSON.stringify(sorted, null, '\t')
     )
-
 }
-
-fetchCombinedData("jp")
