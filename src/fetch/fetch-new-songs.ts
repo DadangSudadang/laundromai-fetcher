@@ -1,8 +1,3 @@
-// check if file is there or not
-// - download jacket image
-// - global list for downloaded constants
-// - change fetch user id to also contain region
-
 import fs from "fs";
 import path from "path";
 
@@ -28,7 +23,6 @@ import log4js from "log4js";
 const logger = log4js.getLogger("fetch-new-songs");
 logger.level = log4js.levels.INFO;
 
-let fetchedLevels: string[] = [];
 
 // ----
 // Check if list is Genre list
