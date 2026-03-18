@@ -6,8 +6,7 @@ import { chartGenreInterface } from "@_core/types";
 const userId = await getUserId("jp");
 const genreList = await fetchGenreList("master", "jp", userId) as chartGenreInterface[];
 try {
-    fetchConstantsList("13+", genreList, "jp", userId);
-    fetchConstantsList("13", genreList, "jp", userId);
+    fetchConstantsList("5", genreList, "jp", userId);
 } catch (e) {
     console.log(e)
 }
