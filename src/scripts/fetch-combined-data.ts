@@ -100,41 +100,42 @@ async function fetchCombinedData(region: string) {
         })
     }
 
-    for (const song of officialList) {
-        // Skip Utage
-        if (song.catcode === "宴会場") {
+    for (const song of genreList) {
+        // Get genre name
+        const genreStr = genreMap.revGet(song.genre) 
+        if (!genreStr) {
+            logger.error(`fetchCombinedData: Cannot find genre name for song ${song.title} (Genre ${song.genre}).`)
             continue;
         }
 
-        const genre = genreMap.get(song.catcode) 
-        const songInfo = genreList.filter((g) => 
+        // Get necessary information
+        const songInfo = officialList.filter((g) =>  // Find Jacket filename
             g.title === song.title && 
-            g.genre === genre
+            g.catcode === genreStr
         )
+        const constList = allConstants.filter((c) =>  // Find all thechart constants
+            c.title === song.title &&
+            c.genre === song.genre
+        )
+
+        // Skip current song if results are empty
         if (songInfo.length < 1) {
-            logger.error(`fetchCombinedData: No entry in genreList found for song ${song.title} (${song.catcode}).`)
+            logger.error(`fetchCombinedData: No entry in genreList found for song ${song.title} (${genreStr}).`)
+            continue;
+        }
+        if (constList.length < 1) {
+            logger.error(`fetchCombinedData: No constants found for song ${song.title} (${genreStr}).`)
+            continue;
         }
 
         // Define base info
         let currSong = {
-            orderId: songInfo.length > 0? songInfo[0].orderId as number : -1,
-            id: songInfo.length > 0? songInfo[0].id as string : "",
+            orderId: song.orderId,
+            id: song.id as string,
             title: song.title,
-            artist: song.artist,
-            imageName: song.image_url,
-            genre: song.catcode
-        }
-
-        // Get all constants value (both ST and DX) of the song
-        const constList = allConstants.filter((c) => 
-            c.title === song.title &&
-            c.genre === genre
-        )
-
-        // Skip if empty
-        if (constList.length < 1) {
-            logger.error(`fetchCombinedData: No constants found for song ${song.title} (${song.catcode}).`)
-            continue;
+            artist: song.artist as string,
+            imageName: songInfo[0].image_url,
+            genre: genreStr
         }
 
         // Separate standard and dx charts
