@@ -42,12 +42,6 @@ export async function fetchCombinedData(
 
 
     // Fetch the necessary lists
-    // const userId = await getUserId(region)
-
-    // const genreList = await fetchGenreList(
-    //     "master", region, userId
-    // ) as chartGenreInterface[]
-
     const allConstants = await fetchAllConstants(
         genreList, region, userId
     )
