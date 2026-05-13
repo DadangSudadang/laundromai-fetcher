@@ -1,0 +1,21 @@
+[
+	{
+		"title": "キミは“見ていたね”？",
+		"artist": "曲：篠崎あやと、橘亮祐／歌：結城 莉玖(CV：朝日奈 丸佳)、東雲 つむぎ(CV：和泉 風花)",
+		"genre": 5,
+		"jacket": "dist/jackets/45003096bc3cb9f8.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.7",
+			"expert": "10.0",
+			"master": "13.1"
+		},
+		"noteCounts": {
+			"basic": "189",
+			"advanced": "344",
+			"expert": "471",
+			"master": "655"
+		}
+	}
+]

@@ -1,0 +1,70 @@
+[
+	{
+		"title": "[音]On your mark (104期 Ver.)",
+		"artist": "蓮ノ空女学院スクールアイドルクラブ",
+		"genre": 10,
+		"jacket": "dist/jackets/9257bd776ceabcfe.png",
+		"utageType": "音",
+		"isBuddy": false,
+		"levels": {
+			"utage": "13+?"
+		},
+		"noteCounts": {
+			"utage": "946"
+		}
+	},
+	{
+		"title": "[音]テトリス",
+		"artist": "柊マグネタイト",
+		"genre": 10,
+		"jacket": "dist/jackets/9bba8b74ff4eab24.png",
+		"utageType": "音",
+		"isBuddy": false,
+		"levels": {
+			"utage": "13?"
+		},
+		"noteCounts": {
+			"utage": "958"
+		}
+	},
+	{
+		"title": "[習]からくりピエロ",
+		"artist": "40mP",
+		"genre": 10,
+		"jacket": "dist/jackets/e466cd437e917e44.png",
+		"utageType": "習",
+		"isBuddy": false,
+		"levels": {
+			"utage": "11?"
+		},
+		"noteCounts": {
+			"utage": "193"
+		}
+	},
+	{
+		"title": "[破]テレパシ",
+		"artist": "DECO*27",
+		"genre": 10,
+		"jacket": "dist/jackets/b82fb6d79565c0bf.png",
+		"utageType": "破",
+		"isBuddy": false,
+		"levels": {
+			"utage": "14?"
+		},
+		"noteCounts": {
+			"utage": "1065"
+		}
+	},
+	{
+		"title": "[奏]クレイジークレイジーダンサーズ",
+		"artist": "ビートまりお＋あまね（COOL&CREATE）",
+		"genre": 10,
+		"jacket": "dist/jackets/f997429f623af964.png",
+		"utageType": "奏",
+		"isBuddy": true,
+		"levels": {
+			"utage": "13?"
+		},
+		"noteCounts": {}
+	}
+]

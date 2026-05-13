@@ -1,0 +1,369 @@
+[
+	{
+		"title": "BOW AND ARROW （アニメ・オープニングver.）",
+		"artist": "米津玄師",
+		"genre": 0,
+		"jacket": "dist/jackets/507087fbd047b4c8.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.0",
+			"expert": "10.0",
+			"master": "11.8",
+			"remaster": "13.2"
+		},
+		"noteCounts": {
+			"basic": "111",
+			"advanced": "216",
+			"expert": "328",
+			"master": "428",
+			"remaster": "464"
+		}
+	},
+	{
+		"title": "愛♡スクリ～ム！",
+		"artist": "AiScReam[黒澤ルビィ(CV.降幡 愛)、上原歩夢(CV.大西亜玖璃)、若菜四季(CV.大熊和奏)]",
+		"genre": 0,
+		"jacket": "dist/jackets/069d0198272b463e.png",
+		"isDX": true,
+		"levels": {
+			"basic": "2.0",
+			"advanced": "6.2",
+			"expert": "9.5",
+			"master": "11.5",
+			"remaster": "13.4"
+		},
+		"noteCounts": {
+			"basic": "168",
+			"advanced": "307",
+			"expert": "404",
+			"master": "540",
+			"remaster": "752"
+		}
+	},
+	{
+		"title": "無敵的ハピネス！(SOS団5人Ver.)",
+		"artist": "涼宮ハルヒ(CV.平野綾),長門有希(CV.茅原実里),朝比奈みくる(CV.後藤邑子)、キョン(CV.杉田智和)、古泉一樹(CV.小野大輔)",
+		"genre": 0,
+		"jacket": "dist/jackets/0f0673b653f293f3.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.5",
+			"expert": "10.5",
+			"master": "13.2"
+		},
+		"noteCounts": {
+			"basic": "179",
+			"advanced": "338",
+			"expert": "558",
+			"master": "787"
+		}
+	},
+	{
+		"title": "Chasing destiny",
+		"artist": "涼宮ハルヒ(CV.平野綾)",
+		"genre": 0,
+		"jacket": "dist/jackets/572049dd1d06ddfc.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.7",
+			"expert": "10.8",
+			"master": "13.7"
+		},
+		"noteCounts": {
+			"basic": "254",
+			"advanced": "417",
+			"expert": "645",
+			"master": "1002"
+		}
+	},
+	{
+		"title": "Colorful Starting Line",
+		"artist": "涼宮ハルヒ(CV.平野綾)",
+		"genre": 0,
+		"jacket": "dist/jackets/d3a53ca803e76a6a.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.5",
+			"expert": "10.0",
+			"master": "13.0"
+		},
+		"noteCounts": {
+			"basic": "215",
+			"advanced": "364",
+			"expert": "597",
+			"master": "888"
+		}
+	},
+	{
+		"title": "テレパシ",
+		"artist": "DECO*27",
+		"genre": 1,
+		"jacket": "dist/jackets/72342d9f8e5af7ba.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.8",
+			"expert": "10.7",
+			"master": "13.3"
+		},
+		"noteCounts": {
+			"basic": "229",
+			"advanced": "396",
+			"expert": "589",
+			"master": "893"
+		}
+	},
+	{
+		"title": "ダイダイダイダイダイキライ",
+		"artist": "雨良 Amala",
+		"genre": 1,
+		"jacket": "dist/jackets/1ee5fb152242e389.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "6.5",
+			"expert": "10.5",
+			"master": "11.8",
+			"remaster": "13.6"
+		},
+		"noteCounts": {
+			"basic": "205",
+			"advanced": "288",
+			"expert": "543",
+			"master": "634",
+			"remaster": "852"
+		}
+	},
+	{
+		"title": "T氏の話を信じるな",
+		"artist": "ピノキオピー",
+		"genre": 1,
+		"jacket": "dist/jackets/94f0dfb80480ea41.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "9.8",
+			"master": "13.2"
+		},
+		"noteCounts": {
+			"basic": "225",
+			"advanced": "332",
+			"expert": "531",
+			"master": "925"
+		}
+	},
+	{
+		"title": "オペラ！スペースオペラ！",
+		"artist": "ナユタン星人",
+		"genre": 1,
+		"jacket": "dist/jackets/46a79faa5ee272fb.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.0",
+			"expert": "10.6",
+			"master": "13.3"
+		},
+		"noteCounts": {
+			"basic": "284",
+			"advanced": "396",
+			"expert": "669",
+			"master": "983"
+		}
+	},
+	{
+		"title": "超ナイト・オブ・ナイツ",
+		"artist": "ビートまりお×まろん",
+		"genre": 2,
+		"jacket": "dist/jackets/d202dce377eae1bb.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.7",
+			"expert": "11.8",
+			"master": "14.0"
+		},
+		"noteCounts": {
+			"basic": "229",
+			"advanced": "325",
+			"expert": "591",
+			"master": "968"
+		}
+	},
+	{
+		"title": "魔理沙は大変なものを盗んでいきました",
+		"artist": "ARM＋夕野ヨシミ(IOSYS)feat. 藤咲かりん",
+		"genre": 2,
+		"jacket": "dist/jackets/d542e0accb085302.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "10.0",
+			"master": "13.6"
+		},
+		"noteCounts": {
+			"basic": "169",
+			"advanced": "291",
+			"expert": "441",
+			"master": "774"
+		}
+	},
+	{
+		"title": "AiAe",
+		"artist": "DJ'TEKINA//SOMETHING a.k.a ゆよゆっぺ",
+		"genre": 3,
+		"jacket": "dist/jackets/e59500f7da4b416e.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "8.0",
+			"expert": "12.4",
+			"master": "14.4"
+		},
+		"noteCounts": {
+			"basic": "277",
+			"advanced": "375",
+			"expert": "613",
+			"master": "1049"
+		}
+	},
+	{
+		"title": "浮世絵横丁",
+		"artist": "魔界都市ニイガタ（黄泉路テヂーモ×dawn-system×かゆき）",
+		"genre": 3,
+		"jacket": "dist/jackets/6e1d33b56c3e94e7.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.5",
+			"expert": "11.4",
+			"master": "13.9"
+		},
+		"noteCounts": {
+			"basic": "184",
+			"advanced": "315",
+			"expert": "533",
+			"master": "842"
+		}
+	},
+	{
+		"title": "KNØCK ØUT!!",
+		"artist": "DIVELA feat.ラングドシャ",
+		"genre": 4,
+		"jacket": "dist/jackets/42afcdb5ecd7611c.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.8",
+			"expert": "11.2",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "212",
+			"advanced": "329",
+			"expert": "554",
+			"master": "874"
+		}
+	},
+	{
+		"title": "Aides",
+		"artist": "tokiwa×むﾄ",
+		"genre": 4,
+		"jacket": "dist/jackets/6a90ee48269edf01.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.8",
+			"expert": "10.8",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "217",
+			"advanced": "355",
+			"expert": "572",
+			"master": "793"
+		}
+	},
+	{
+		"title": "Treasure Chest Expedition",
+		"artist": "7mai",
+		"genre": 4,
+		"jacket": "dist/jackets/520c1e02761b67e4.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "8.7",
+			"expert": "11.5",
+			"master": "13.7"
+		},
+		"noteCounts": {
+			"basic": "233",
+			"advanced": "381",
+			"expert": "616",
+			"master": "832"
+		}
+	},
+	{
+		"title": "ソテリア",
+		"artist": "Rafutsuri feat.桜あおい",
+		"genre": 4,
+		"jacket": "dist/jackets/731d4bd89f1cd431.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "8.2",
+			"expert": "12.0",
+			"master": "14.1"
+		},
+		"noteCounts": {
+			"basic": "219",
+			"advanced": "343",
+			"expert": "579",
+			"master": "890"
+		}
+	},
+	{
+		"title": "TECHNOPOLIS 2085",
+		"artist": "PRASTIK DANCEFLOOR",
+		"genre": 5,
+		"jacket": "dist/jackets/d6b14454a1b5d260.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "6.5",
+			"expert": "10.9",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "198",
+			"advanced": "253",
+			"expert": "460",
+			"master": "750"
+		}
+	},
+	{
+		"title": "Galaxy Blaster",
+		"artist": "ああああ",
+		"genre": 5,
+		"jacket": "dist/jackets/eb065aac3a8e4c07.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "7.8",
+			"expert": "11.5",
+			"master": "14.3"
+		},
+		"noteCounts": {
+			"basic": "268",
+			"advanced": "369",
+			"expert": "571",
+			"master": "938"
+		}
+	}
+]

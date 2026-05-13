@@ -1,0 +1,72 @@
+[
+	{
+		"title": "[宴]Wonderland Wars　オープニング",
+		"artist": "「童話」は、全て「戦記」だった",
+		"genre": 10,
+		"jacket": "dist/jackets/a0e8fb3a4c98fb99.png",
+		"utageType": "宴",
+		"isBuddy": false,
+		"levels": {
+			"utage": "10?"
+		},
+		"noteCounts": {
+			"utage": "48"
+		}
+	},
+	{
+		"title": "[宴]Wonderland Wars　オープニング",
+		"artist": "「童話」は、全て「戦記」だった",
+		"genre": 10,
+		"jacket": "dist/jackets/a0e8fb3a4c98fb99.png",
+		"utageType": "宴",
+		"isBuddy": false,
+		"levels": {
+			"utage": "11?"
+		},
+		"noteCounts": {
+			"utage": "114"
+		}
+	},
+	{
+		"title": "[宴]Wonderland Wars　オープニング",
+		"artist": "「童話」は、全て「戦記」だった",
+		"genre": 10,
+		"jacket": "dist/jackets/a0e8fb3a4c98fb99.png",
+		"utageType": "宴",
+		"isBuddy": false,
+		"levels": {
+			"utage": "12?"
+		},
+		"noteCounts": {
+			"utage": "112"
+		}
+	},
+	{
+		"title": "[宴]Wonderland Wars　オープニング",
+		"artist": "「童話」は、全て「戦記」だった",
+		"genre": 10,
+		"jacket": "dist/jackets/a0e8fb3a4c98fb99.png",
+		"utageType": "宴",
+		"isBuddy": false,
+		"levels": {
+			"utage": "13?"
+		},
+		"noteCounts": {
+			"utage": "160"
+		}
+	},
+	{
+		"title": "[宴]Wonderland Wars　オープニング",
+		"artist": "「童話」は、全て「戦記」だった",
+		"genre": 10,
+		"jacket": "dist/jackets/a0e8fb3a4c98fb99.png",
+		"utageType": "宴",
+		"isBuddy": false,
+		"levels": {
+			"utage": "14?"
+		},
+		"noteCounts": {
+			"utage": "346"
+		}
+	}
+]
