@@ -23,6 +23,6 @@
   },
   "scripts": {
     "version-update": "NODE_EXTRA_CA_CERTS='gsrsaovsslca2018.pem' npx tsx src/scripts/major-version-update.ts",
-    "new-songs": "NODE_EXTRA_CA_CERTS='gsrsaovsslca2018.pem' npx tsx src/tests/test-new-song-script.ts"
+    "new-songs": "NODE_EXTRA_CA_CERTS='gsrsaovsslca2018.pem' npx tsx src/scripts/fetch-new-songs.ts"
   }
 }
