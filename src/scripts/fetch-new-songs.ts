@@ -25,7 +25,7 @@ async function fetchNewUtage() {
 
 async function timerTest() {
     const now = new Date(); 
-    const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 7, 0, 3, 0);
+    const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 7, 0, 2, 0);
     const millisTilTarget =  target.getTime() - now.getTime();
     
     if (millisTilTarget > 0) {
