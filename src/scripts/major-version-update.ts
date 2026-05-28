@@ -69,14 +69,22 @@ async function run(region: string) {
     const userId = await getUserId(region)
 
     // Fetch the genre lists and the complete data (constants and song info from maimai_songs.json)
-    const masterNewList = await fetchGenreList(
-        "master", region, userId
-    ) as chartGenreInterface[]
-    const utageNewList = await fetchGenreList(
-        "utage", region, userId
-    ) as chartUtageInterface[]
-    const combinedNewData = await fetchCombinedData(masterNewList, region, userId)
-
+    // const masterNewList = await fetchGenreList(
+        // "master", region, userId
+    // ) as chartGenreInterface[]
+    const masterNewList = JSON.parse(
+        fs.readFileSync('./dist/genre/master.json', 'utf-8')
+    )
+    // const utageNewList = await fetchGenreList(
+    //     "utage", region, userId
+    // ) as chartUtageInterface[]
+    const utageNewList = JSON.parse(
+        fs.readFileSync('./dist/genre/utage.json', 'utf-8')
+    )
+    // const combinedNewData = await fetchCombinedData(masterNewList, region, userId)
+    const combinedNewData = JSON.parse(
+        fs.readFileSync('./dist/level-constants/complete.json', 'utf-8')
+    )
     // Load the previous genre lists and complete data
     const masterOldList = JSON.parse(
         fs.readFileSync('./data/circle/master.json', 'utf-8')
@@ -89,7 +97,7 @@ async function run(region: string) {
     )
 
     // Get new songs
-    await fetchNewSongs("master", masterOldList, masterNewList, region, userId);
+    // await fetchNewSongs("master", masterOldList, masterNewList, region, userId);
     await fetchNewSongs("utage", utageOldList, utageNewList, region, userId);
 
     // Get changes
