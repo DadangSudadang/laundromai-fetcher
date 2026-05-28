@@ -118,8 +118,11 @@ export async function fetchCombinedData(
         )
 
         // maimai_songs.json are updated later, so do not skip for new songs.
+        let imageurl = ""
         if (songInfo.length < 1) {
             logger.error(`fetchCombinedData: No entry in maimai_songs.json found for song ${song.title} (${genreStr}).`)
+        } else {
+            imageurl = songInfo[0].image_url
         }
 
         // Skip current song if there are no constant values
@@ -128,13 +131,14 @@ export async function fetchCombinedData(
             continue;
         }
 
+
         // Define base info
         let currSong = {
             orderId: song.orderId,
             id: song.id as string,
             title: song.title,
             artist: song.artist as string,
-            imageName: songInfo[0].image_url,
+            imageName:  imageurl,
             genre: genreStr,
             isDX: song.isDX
         }
