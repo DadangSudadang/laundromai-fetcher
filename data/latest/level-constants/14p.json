@@ -1,6 +1,6 @@
 [
 	{
-		"orderId": 669,
+		"orderId": 667,
 		"title": "零號車輛",
 		"genre": 3,
 		"isDX": true,
@@ -9,7 +9,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 689,
+		"orderId": 687,
 		"title": "神威",
 		"genre": 3,
 		"isDX": true,
@@ -18,7 +18,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 822,
+		"orderId": 820,
 		"title": "Credits",
 		"genre": 3,
 		"isDX": false,
@@ -27,7 +27,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 871,
+		"orderId": 869,
 		"title": "源平大戦絵巻テーマソング",
 		"genre": 3,
 		"isDX": false,
@@ -36,7 +36,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1108,
+		"orderId": 1110,
 		"title": "ジングルベル",
 		"genre": 4,
 		"isDX": true,
@@ -45,7 +45,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1126,
+		"orderId": 1128,
 		"title": "mystique as iris",
 		"genre": 4,
 		"isDX": true,
@@ -54,7 +54,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1129,
+		"orderId": 1131,
 		"title": "雨露霜雪",
 		"genre": 4,
 		"isDX": true,
@@ -63,7 +63,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1141,
+		"orderId": 1143,
 		"title": "IF:U",
 		"genre": 4,
 		"isDX": true,
@@ -72,7 +72,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1160,
+		"orderId": 1162,
 		"title": "ガラテアの螺旋",
 		"genre": 4,
 		"isDX": false,
@@ -81,7 +81,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1167,
+		"orderId": 1169,
 		"title": "渦状銀河のシンフォニエッタ",
 		"genre": 4,
 		"isDX": true,
@@ -90,7 +90,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1168,
+		"orderId": 1170,
 		"title": "超熊猫的周遊記（ワンダーパンダートラベラー）",
 		"genre": 4,
 		"isDX": true,
@@ -99,7 +99,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1196,
+		"orderId": 1198,
 		"title": "Cryptarithm",
 		"genre": 4,
 		"isDX": true,
@@ -108,7 +108,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1203,
+		"orderId": 1205,
 		"title": "Yorugao",
 		"genre": 4,
 		"isDX": true,
@@ -117,7 +117,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1206,
+		"orderId": 1208,
 		"title": "BREaK! BREaK! BREaK!",
 		"genre": 4,
 		"isDX": true,
@@ -126,7 +126,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1216,
+		"orderId": 1218,
 		"title": "BLACK SWAN",
 		"genre": 4,
 		"isDX": true,
@@ -135,7 +135,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1225,
+		"orderId": 1227,
 		"title": "AMABIE",
 		"genre": 4,
 		"isDX": true,
@@ -144,7 +144,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1268,
+		"orderId": 1270,
 		"title": "雷切-RAIKIRI-",
 		"genre": 4,
 		"isDX": false,
@@ -153,7 +153,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1288,
+		"orderId": 1290,
 		"title": "Fragrance",
 		"genre": 4,
 		"isDX": false,
@@ -162,7 +162,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1291,
+		"orderId": 1293,
 		"title": "Prophesy One",
 		"genre": 4,
 		"isDX": false,
@@ -171,7 +171,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1299,
+		"orderId": 1301,
 		"title": "Get U ♭ack",
 		"genre": 4,
 		"isDX": true,
@@ -180,7 +180,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1302,
+		"orderId": 1304,
 		"title": "ViRTUS",
 		"genre": 4,
 		"isDX": true,
@@ -189,7 +189,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1312,
+		"orderId": 1314,
 		"title": "VERTeX (rintaro soma deconstructed remix)",
 		"genre": 4,
 		"isDX": true,
@@ -198,7 +198,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1317,
+		"orderId": 1319,
 		"title": "Åntinomiε",
 		"genre": 4,
 		"isDX": true,
@@ -207,7 +207,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1366,
+		"orderId": 1368,
 		"title": "Titania",
 		"genre": 5,
 		"isDX": true,
@@ -216,7 +216,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1371,
+		"orderId": 1373,
 		"title": "脳天直撃",
 		"genre": 5,
 		"isDX": true,
@@ -225,7 +225,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1424,
+		"orderId": 1426,
 		"title": "Λzure Vixen",
 		"genre": 5,
 		"isDX": true,
@@ -234,7 +234,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1467,
+		"orderId": 1469,
 		"title": "TiamaT:F minor",
 		"genre": 5,
 		"isDX": false,
@@ -243,7 +243,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1473,
+		"orderId": 1475,
 		"title": "ラストピースに祝福と栄光を",
 		"genre": 5,
 		"isDX": true,
@@ -252,7 +252,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 552,
+		"orderId": 550,
 		"title": "Re:Unknown X",
 		"genre": 2,
 		"isDX": true,
@@ -261,7 +261,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 663,
+		"orderId": 661,
 		"title": "ANiMA",
 		"genre": 3,
 		"isDX": true,
@@ -270,7 +270,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 819,
+		"orderId": 817,
 		"title": "End Time",
 		"genre": 3,
 		"isDX": false,
@@ -279,7 +279,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 958,
+		"orderId": 960,
 		"title": "Break The Speakers",
 		"genre": 4,
 		"isDX": true,
@@ -288,7 +288,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 962,
+		"orderId": 964,
 		"title": "Sky Trails",
 		"genre": 4,
 		"isDX": true,
@@ -297,7 +297,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1114,
+		"orderId": 1116,
 		"title": "Valsqotch",
 		"genre": 4,
 		"isDX": true,
@@ -306,7 +306,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1127,
+		"orderId": 1129,
 		"title": "TEmPTaTiON",
 		"genre": 4,
 		"isDX": true,
@@ -315,7 +315,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1160,
+		"orderId": 1162,
 		"title": "ガラテアの螺旋",
 		"genre": 4,
 		"isDX": false,
@@ -324,7 +324,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1164,
+		"orderId": 1166,
 		"title": "KHYMΞXΛ",
 		"genre": 4,
 		"isDX": true,
@@ -333,7 +333,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1176,
+		"orderId": 1178,
 		"title": "VIIIbit Explorer",
 		"genre": 4,
 		"isDX": true,
@@ -342,7 +342,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1180,
+		"orderId": 1182,
 		"title": "康莊大道",
 		"genre": 4,
 		"isDX": true,
@@ -351,7 +351,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1197,
+		"orderId": 1199,
 		"title": "Metamorphosism",
 		"genre": 4,
 		"isDX": true,
@@ -360,7 +360,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1204,
+		"orderId": 1206,
 		"title": "GIGANTØMAKHIA",
 		"genre": 4,
 		"isDX": true,
@@ -369,7 +369,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1212,
+		"orderId": 1214,
 		"title": "Lia=Fail",
 		"genre": 4,
 		"isDX": true,
@@ -378,7 +378,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1236,
+		"orderId": 1238,
 		"title": "Regulus",
 		"genre": 4,
 		"isDX": true,
@@ -387,7 +387,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1267,
+		"orderId": 1269,
 		"title": "ATLAS RUSH",
 		"genre": 4,
 		"isDX": true,
@@ -396,7 +396,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1292,
+		"orderId": 1294,
 		"title": "AMAZING MIGHTYYYY!!!!",
 		"genre": 4,
 		"isDX": false,
@@ -405,7 +405,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1301,
+		"orderId": 1303,
 		"title": "VERTeX",
 		"genre": 4,
 		"isDX": false,
@@ -414,7 +414,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1310,
+		"orderId": 1312,
 		"title": "系ぎて",
 		"genre": 4,
 		"isDX": true,
@@ -423,7 +423,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1361,
+		"orderId": 1363,
 		"title": "Apollo",
 		"genre": 5,
 		"isDX": true,
@@ -432,7 +432,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1362,
+		"orderId": 1364,
 		"title": "LAMIA",
 		"genre": 5,
 		"isDX": true,
@@ -441,7 +441,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 898,
+		"orderId": 896,
 		"title": "In Chaos",
 		"genre": 3,
 		"isDX": false,
@@ -450,7 +450,16 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1123,
+		"orderId": 950,
+		"title": "Aegisfortia",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1125,
 		"title": "Divide et impera!",
 		"genre": 4,
 		"isDX": true,
@@ -459,7 +468,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1128,
+		"orderId": 1130,
 		"title": "SILENT BLUE",
 		"genre": 4,
 		"isDX": false,
@@ -468,7 +477,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1130,
+		"orderId": 1132,
 		"title": "WiPE OUT MEMORIES",
 		"genre": 4,
 		"isDX": true,
@@ -477,7 +486,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1132,
+		"orderId": 1134,
 		"title": "QZKago Requiem",
 		"genre": 4,
 		"isDX": false,
@@ -486,7 +495,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1133,
+		"orderId": 1135,
 		"title": "Our Wrenally",
 		"genre": 4,
 		"isDX": false,
@@ -495,7 +504,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1136,
+		"orderId": 1138,
 		"title": "Garakuta Doll Play",
 		"genre": 4,
 		"isDX": false,
@@ -504,7 +513,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1150,
+		"orderId": 1152,
 		"title": "Straight into the lights",
 		"genre": 4,
 		"isDX": true,
@@ -513,7 +522,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1159,
+		"orderId": 1161,
 		"title": "the EmpErroR",
 		"genre": 4,
 		"isDX": false,
@@ -522,7 +531,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1171,
+		"orderId": 1173,
 		"title": "VeRForTe αRtE:VEiN",
 		"genre": 4,
 		"isDX": true,
@@ -531,7 +540,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1187,
+		"orderId": 1189,
 		"title": "チューリングの跡",
 		"genre": 4,
 		"isDX": true,
@@ -540,7 +549,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1193,
+		"orderId": 1195,
 		"title": "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",
 		"genre": 4,
 		"isDX": true,
@@ -549,7 +558,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1208,
+		"orderId": 1210,
 		"title": "Customized Justice",
 		"genre": 4,
 		"isDX": true,
@@ -558,7 +567,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1221,
+		"orderId": 1223,
 		"title": "Alea jacta est!",
 		"genre": 4,
 		"isDX": false,
@@ -567,7 +576,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1227,
+		"orderId": 1229,
 		"title": "Heavenly Blast",
 		"genre": 4,
 		"isDX": true,
@@ -576,7 +585,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1228,
+		"orderId": 1230,
 		"title": "Glorious Crown",
 		"genre": 4,
 		"isDX": false,
@@ -585,7 +594,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1268,
+		"orderId": 1270,
 		"title": "雷切-RAIKIRI-",
 		"genre": 4,
 		"isDX": false,
@@ -594,7 +603,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1272,
+		"orderId": 1274,
 		"title": "Excalibur ～Revived resolution～",
 		"genre": 4,
 		"isDX": false,
@@ -603,7 +612,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1294,
+		"orderId": 1296,
 		"title": "larva",
 		"genre": 4,
 		"isDX": false,
@@ -612,7 +621,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1304,
+		"orderId": 1306,
 		"title": "ℝ∈Χ LUNATiCA",
 		"genre": 4,
 		"isDX": true,
@@ -621,7 +630,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1307,
+		"orderId": 1309,
 		"title": "封焔の135秒",
 		"genre": 4,
 		"isDX": true,
@@ -630,7 +639,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1314,
+		"orderId": 1316,
 		"title": "氷滅の135小節",
 		"genre": 4,
 		"isDX": true,
@@ -639,7 +648,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1318,
+		"orderId": 1320,
 		"title": "FLΛME/FRΦST",
 		"genre": 4,
 		"isDX": true,
@@ -648,7 +657,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1466,
+		"orderId": 1468,
 		"title": "怒槌",
 		"genre": 5,
 		"isDX": false,
@@ -657,7 +666,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1132,
+		"orderId": 1134,
 		"title": "QZKago Requiem",
 		"genre": 4,
 		"isDX": false,
@@ -666,7 +675,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1153,
+		"orderId": 1155,
 		"title": "Latent Kingdom",
 		"genre": 4,
 		"isDX": true,
@@ -675,7 +684,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1157,
+		"orderId": 1159,
 		"title": "raputa",
 		"genre": 4,
 		"isDX": true,
@@ -684,7 +693,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1159,
+		"orderId": 1161,
 		"title": "the EmpErroR",
 		"genre": 4,
 		"isDX": false,
@@ -693,7 +702,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1195,
+		"orderId": 1197,
 		"title": "7 Wonders",
 		"genre": 4,
 		"isDX": true,
@@ -702,7 +711,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1198,
+		"orderId": 1200,
 		"title": "PANDORA PARADOXXX",
 		"genre": 4,
 		"isDX": false,
@@ -711,7 +720,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1201,
+		"orderId": 1203,
 		"title": "World's end loneliness",
 		"genre": 4,
 		"isDX": true,
@@ -720,7 +729,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1218,
+		"orderId": 1220,
 		"title": "躯樹の墓守",
 		"genre": 4,
 		"isDX": true,
@@ -729,7 +738,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1286,
+		"orderId": 1288,
 		"title": "Schwarzschild",
 		"genre": 4,
 		"isDX": false,
@@ -738,7 +747,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1311,
+		"orderId": 1313,
 		"title": "sølips",
 		"genre": 4,
 		"isDX": true,
@@ -747,7 +756,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1316,
+		"orderId": 1318,
 		"title": "宙天",
 		"genre": 4,
 		"isDX": true,
@@ -756,7 +765,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1319,
+		"orderId": 1321,
 		"title": "World's end BLACKBOX",
 		"genre": 4,
 		"isDX": true,
@@ -765,7 +774,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1321,
+		"orderId": 1323,
 		"title": "Xaleid◆scopiX",
 		"genre": 4,
 		"isDX": true,
