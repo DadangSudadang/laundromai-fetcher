@@ -1,0 +1,4637 @@
+[
+	{
+		"orderId": 19,
+		"title": "唱",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 24,
+		"title": "もういいよ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 25,
+		"title": "だから僕は音楽を辞めた",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 27,
+		"title": "春を告げる",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 34,
+		"title": "お願いマッスル",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 41,
+		"title": "はんぶんこ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 44,
+		"title": "バラバラ〜仮初レインボーローズ〜",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 46,
+		"title": "Virtual to LIVE",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 62,
+		"title": "Blank Paper (Prod. TEMPLIME)",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 65,
+		"title": "マヌルネコのうた",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 66,
+		"title": "スナネコのうた",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 79,
+		"title": "HOT LIMIT",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 93,
+		"title": "セハガガガンバッちゃう！！",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 95,
+		"title": "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 100,
+		"title": "美しく燃える森",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 101,
+		"title": "Love You",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 110,
+		"title": "ガチャガチャきゅ～と・ふぃぎゅ@メイト",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 111,
+		"title": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 117,
+		"title": "きらっせ☆ウッド村ファーム",
+		"genre": 0,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 152,
+		"title": "セカイ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 159,
+		"title": "セカイはまだ始まってすらいない",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 164,
+		"title": "アイアイ傘",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 173,
+		"title": "拝啓、最高の思い出たち",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 203,
+		"title": "MIRA",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 204,
+		"title": "酔いどれ知らず",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 212,
+		"title": "ヤミナベ!!!!",
+		"genre": 1,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 216,
+		"title": "初音ミクの消失",
+		"genre": 1,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 216,
+		"title": "初音ミクの消失",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 217,
+		"title": "初音ミクの暴走",
+		"genre": 1,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 227,
+		"title": "アルカリレットウセイ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 237,
+		"title": "腐れ外道とチョコレゐト",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 247,
+		"title": "帝国少女",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 256,
+		"title": "ゼロトーキング",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 258,
+		"title": "約束",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 265,
+		"title": "パンダヒーロー",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 266,
+		"title": "マトリョシカ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 267,
+		"title": "千本桜",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 267,
+		"title": "千本桜",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 271,
+		"title": "シャルル",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 288,
+		"title": "ヴィラン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 294,
+		"title": "演劇",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 300,
+		"title": "One Step Ahead",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 306,
+		"title": "ロウワー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 314,
+		"title": "いーあるふぁんくらぶ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 316,
+		"title": "クノイチでも恋がしたい",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 321,
+		"title": "ダンスロボットダンス",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 323,
+		"title": "パーフェクト生命",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 333,
+		"title": "ハッピーシンセサイザ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 335,
+		"title": "ツギハギスタッカート",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 344,
+		"title": "ただ選択があった",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 347,
+		"title": "脳漿炸裂ガール",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 348,
+		"title": "厨病激発ボーイ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 361,
+		"title": "裏表ラバーズ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 368,
+		"title": "すーぱーぬこになりたい",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 371,
+		"title": "しんでしまうとはなさけない！",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 377,
+		"title": "アカツキアライヴァル",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 383,
+		"title": "はやくそれになりたい！",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 385,
+		"title": "おこちゃま戦争",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 388,
+		"title": "やめろ！聴くな！",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 390,
+		"title": "とりあえずアナタがいなくなるまえに",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 400,
+		"title": "阿吽のビーツ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 401,
+		"title": "ゆりかご",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 407,
+		"title": "KILLER B",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 411,
+		"title": "メルト",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 420,
+		"title": "インビジブル",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 422,
+		"title": "人生リセットボタン",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 426,
+		"title": "Tell Your World",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 436,
+		"title": "チュルリラ・チュルリラ・ダッダッダ！",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 439,
+		"title": "リリリリ★バーニングナイト",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 441,
+		"title": "ルカルカ★ナイトフィーバー",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 456,
+		"title": "金の聖夜霜雪に朽ちて",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 461,
+		"title": "幸せになれる隠しコマンドがあるらしい",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 463,
+		"title": "白い雪のプリンセスは",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 464,
+		"title": "キレキャリオン",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 491,
+		"title": "BAD∞END∞NIGHT",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 493,
+		"title": "ダンシング☆サムライ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 496,
+		"title": "Link",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 497,
+		"title": "木彫り鯰と右肩ゾンビ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 517,
+		"title": "疾走あんさんぶる",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 518,
+		"title": "サドマミホリック",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 520,
+		"title": "最終鬼畜妹・一部声",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 521,
+		"title": "Help me, ERINNNNNN!!（Band ver.）",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 539,
+		"title": "ゆけむり魂温泉 II",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 548,
+		"title": "No Routine",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 552,
+		"title": "Re:Unknown X",
+		"genre": 2,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 559,
+		"title": "WARNING×WARNING×WARNING",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 564,
+		"title": "魔理沙は大変なものを盗んでいきました",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 566,
+		"title": "究極焼肉レストラン！お燐の地獄亭！",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 568,
+		"title": "キャプテン・ムラサのケツアンカー",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 585,
+		"title": "蒼空に舞え、墨染の桜",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 598,
+		"title": "隠然",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 606,
+		"title": "永遠のメロディ",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 609,
+		"title": "taboo tears you up",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 626,
+		"title": "少女幻葬戦慄曲 ～ Necro Fantasia",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 629,
+		"title": "東方妖々夢 ～the maximum moving about～",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 631,
+		"title": "進捗どうですか？",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 637,
+		"title": "Witches night",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 643,
+		"title": "Jimang Shot",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 646,
+		"title": "進め！イッスン軍団 -Rebellion of the Dwarfs-",
+		"genre": 2,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 663,
+		"title": "ANiMA",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 669,
+		"title": "零號車輛",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 672,
+		"title": "∀",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 679,
+		"title": "Chronomia",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 681,
+		"title": "HYP3RTRIBE",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 682,
+		"title": "MYTH Re：LEASE",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 683,
+		"title": "QUATTUORUX",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 688,
+		"title": "ニルヴの心臓",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 689,
+		"title": "神威",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 690,
+		"title": "ozma",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 702,
+		"title": "Retribution ～ Cycle of Redemption ～",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 706,
+		"title": "ouroboros -twin stroke of the end-",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 710,
+		"title": "Got more raves？",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 712,
+		"title": "Scarlet Lance",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 716,
+		"title": "天使光輪",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 723,
+		"title": "Cthugha",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 727,
+		"title": "Abstruse Dilemma",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 728,
+		"title": "最強STRONGER",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 735,
+		"title": "FLOWER",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 737,
+		"title": "極圏",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 741,
+		"title": "夜明けまであと３秒",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 743,
+		"title": "ENERGY SYNERGY MATRIX",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 744,
+		"title": "PUPA",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 748,
+		"title": "プナイプナイせんそう",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 765,
+		"title": "ミラクルポップ☆アドベンチャー!!!!!",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 768,
+		"title": "BATTLE NO.1",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 769,
+		"title": "Mjölnir",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 770,
+		"title": "Halcyon",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 793,
+		"title": "Love's Theme of BADASS ～バッド・アス 愛のテーマ～",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 810,
+		"title": "Re：End of a Dream",
+		"genre": 3,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 821,
+		"title": "B.M.S.",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 823,
+		"title": "ULTRA B+K",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 825,
+		"title": "B.B.K.K.B.K.K.",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 828,
+		"title": "Maxi",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 833,
+		"title": "GOODMEN",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 835,
+		"title": "METATRON",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 842,
+		"title": "若い力",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 850,
+		"title": "STAIRWAY TO GENERATION",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 854,
+		"title": "After Burner",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 855,
+		"title": "Space Harrier Main Theme [Reborn]",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 858,
+		"title": "Like the Wind [Reborn]",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 864,
+		"title": "The Great Journey",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 868,
+		"title": "超絶！Superlative",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 869,
+		"title": "采配の刻 Power of order",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 870,
+		"title": "DO RORO DERODERO ON DO RORO",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 871,
+		"title": "源平大戦絵巻テーマソング",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 881,
+		"title": "Urban Crusher [Remix]",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 882,
+		"title": "Catch The Future",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 898,
+		"title": "In Chaos",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 899,
+		"title": "Beat Of Mind",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 911,
+		"title": "Back 2 Back",
+		"genre": 3,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 940,
+		"title": "相思創愛",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 941,
+		"title": "空威張りビヘイビア",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 953,
+		"title": "RONDØ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 964,
+		"title": "殿ッ！？ご乱心！？",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 983,
+		"title": "RIFFRAIN",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1002,
+		"title": "地球",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1044,
+		"title": "KING is BACK!!",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1046,
+		"title": "いっしそう電☆舞舞神拳！",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1047,
+		"title": "FEEL ALIVE",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1048,
+		"title": "welcome to maimai!! with マイマイマー",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1052,
+		"title": "夢花火",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1059,
+		"title": "花と、雪と、ドラムンベース。",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1061,
+		"title": "Candy Tall Woman",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1063,
+		"title": "Magical Flavor",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1065,
+		"title": "Limit Break",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1069,
+		"title": "CYCLES",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1070,
+		"title": "Lionheart",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1075,
+		"title": "Spin me harder",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1091,
+		"title": "Sweets×Sweets",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1092,
+		"title": "虹と太陽",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1095,
+		"title": "ソーラン☆節",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1098,
+		"title": "ネコ日和。",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1102,
+		"title": "BaBan!! －甘い罠－",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1103,
+		"title": "オレンジの夏",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1108,
+		"title": "ジングルベル",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1110,
+		"title": "QuiQ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1114,
+		"title": "Valsqotch",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1123,
+		"title": "Divide et impera!",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1127,
+		"title": "TEmPTaTiON",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1128,
+		"title": "SILENT BLUE",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1129,
+		"title": "雨露霜雪",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1130,
+		"title": "WiPE OUT MEMORIES",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1133,
+		"title": "Our Wrenally",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1134,
+		"title": "Contrapasso -paradiso-",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1135,
+		"title": "Oshama Scramble!",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1136,
+		"title": "Garakuta Doll Play",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1141,
+		"title": "IF:U",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1145,
+		"title": "Bloody Trail",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1149,
+		"title": "Energizing Flame",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1153,
+		"title": "Latent Kingdom",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1158,
+		"title": "モ°ルモ°ル",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1160,
+		"title": "ガラテアの螺旋",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1164,
+		"title": "KHYMΞXΛ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1165,
+		"title": "oboro",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1171,
+		"title": "VeRForTe αRtE:VEiN",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1175,
+		"title": "#狂った民族２ PRAVARGYAZOOQA",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1176,
+		"title": "VIIIbit Explorer",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1176,
+		"title": "VIIIbit Explorer",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1179,
+		"title": "VSpook!",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1180,
+		"title": "康莊大道",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1190,
+		"title": "Strive against fate",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1193,
+		"title": "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1194,
+		"title": "Sage",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1195,
+		"title": "7 Wonders",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1196,
+		"title": "Cryptarithm",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1197,
+		"title": "Metamorphosism",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1199,
+		"title": "天火明命",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1200,
+		"title": "7thSense",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1204,
+		"title": "GIGANTØMAKHIA",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1207,
+		"title": "Hyper Active",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1208,
+		"title": "Customized Justice",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1216,
+		"title": "BLACK SWAN",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1217,
+		"title": "NAGAREBOSHI☆ROCKET",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1218,
+		"title": "躯樹の墓守",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1220,
+		"title": "STEEL TRANSONIC",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1223,
+		"title": "Xenovcipher",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1229,
+		"title": "Aiolos",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1237,
+		"title": "ARAIS",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1244,
+		"title": "Ultranova",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1245,
+		"title": "Axeria",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1246,
+		"title": "Streak",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1247,
+		"title": "Turn around",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1248,
+		"title": "Link",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1250,
+		"title": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1252,
+		"title": "We Gonna Party",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1258,
+		"title": "D✪N’T  ST✪P  R✪CKIN’",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1261,
+		"title": "Jumble Rumble",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1264,
+		"title": "System “Z”",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1265,
+		"title": "Nitrous Fury",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1266,
+		"title": "keep hopping",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1284,
+		"title": "Sprintrances",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1287,
+		"title": "Black Out",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1288,
+		"title": "Fragrance",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1290,
+		"title": "Revive The Rave",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1295,
+		"title": "HERA",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1296,
+		"title": "高気圧ねこロック",
+		"genre": 4,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1302,
+		"title": "ViRTUS",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1304,
+		"title": "ℝ∈Χ LUNATiCA",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1308,
+		"title": "モ°ルモ°ル (MZK Skippin' Remix)",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1311,
+		"title": "sølips",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1316,
+		"title": "宙天",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1317,
+		"title": "Åntinomiε",
+		"genre": 4,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1353,
+		"title": "Dazzle hop",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1358,
+		"title": "MarbleBlue.",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1362,
+		"title": "LAMIA",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1365,
+		"title": "FLUFFY FLASH",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1366,
+		"title": "Titania",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1375,
+		"title": "エータ・ベータ・イータ",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1378,
+		"title": "SUPER AMBULANCE",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1387,
+		"title": "Session High⤴",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1388,
+		"title": "なるとなぎのパーフェクトロックンロール教室",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1394,
+		"title": "ハート・ビート",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1400,
+		"title": "私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1401,
+		"title": "TRUST",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1423,
+		"title": "Elemental Ethnic",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1424,
+		"title": "Λzure Vixen",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1430,
+		"title": "Trrricksters!!",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1440,
+		"title": "otorii INNOVATED -[i]3-",
+		"genre": 5,
+		"isDX": true,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1447,
+		"title": "Infantoon Fantasy",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1460,
+		"title": "光線チューニング",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1462,
+		"title": "World Vanquisher",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1465,
+		"title": "My First Phone",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1472,
+		"title": "エンドマークに希望と涙を添えて",
+		"genre": 5,
+		"isDX": false,
+		"diff": 0,
+		"level": "6",
+		"constant": 0
+	},
+	{
+		"orderId": 1,
+		"title": "愛♡スクリ～ム！",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 47,
+		"title": "愛包ダンスホール",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 73,
+		"title": "ULTRA POWER",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 76,
+		"title": "おジャ魔女カーニバル!!",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 127,
+		"title": "ちっちゃな私",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 128,
+		"title": "2代目閻魔",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 137,
+		"title": "のだ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 139,
+		"title": "フォニイ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 151,
+		"title": "群青讃歌",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 153,
+		"title": "ワーワーワールド",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 162,
+		"title": "ラプラスショコラ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 163,
+		"title": "スノーマン (Rerec)",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 181,
+		"title": "人マニア",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 183,
+		"title": "モニタリング",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 184,
+		"title": "あいたい星人",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 191,
+		"title": "ネガティブ進化論",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 249,
+		"title": "お呪い",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 254,
+		"title": "強風オールバック",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 257,
+		"title": "再会",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 274,
+		"title": "あなたは世界の終わりにずんだを食べるのだ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 280,
+		"title": "回る空うさぎ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 285,
+		"title": "へべれけジャンキー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 303,
+		"title": "春嵐",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 313,
+		"title": "39みゅーじっく！",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 317,
+		"title": "猫猫的宇宙論",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 324,
+		"title": "花となれ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 337,
+		"title": "天使の翼。",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 364,
+		"title": "quiet room",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 373,
+		"title": "on the rocks",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 389,
+		"title": "少女A",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 403,
+		"title": "絶え間なく藍色",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 510,
+		"title": "人間が大好きなこわれた妖怪の唄",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 513,
+		"title": "イヤホンロマンス",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 540,
+		"title": "大輪の魂 (feat. AO, 司芭扶)",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 545,
+		"title": "Dive into The Sky ～initialized～",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 551,
+		"title": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 556,
+		"title": "Oath Act",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 636,
+		"title": "wheel",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 656,
+		"title": "Operation☆DOTABATA!",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 685,
+		"title": "DUAL ROZES",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 791,
+		"title": "アイム・マイヒーロー",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 847,
+		"title": "時空を超えて久しぶり！",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 893,
+		"title": "怪盗Rのテーマ",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 913,
+		"title": "City Escape: Act1",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 919,
+		"title": "STRAY",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 924,
+		"title": "Cry Cry Cry",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 977,
+		"title": "シックスプラン",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1066,
+		"title": "オトヒメモリー☆ウタゲーション",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1081,
+		"title": "Believe the Rainbow",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1120,
+		"title": "砂の函",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1329,
+		"title": "WakeUP MakeUP FEVER!",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1331,
+		"title": "STARTLINER",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 1438,
+		"title": "コスモポップファンクラブ",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 2
+	},
+	{
+		"orderId": 16,
+		"title": "ビビデバ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 4
+	},
+	{
+		"orderId": 1083,
+		"title": "Cosmic Train",
+		"genre": 4,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 4
+	},
+	{
+		"orderId": 2,
+		"title": "Overdose",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 3,
+		"title": "アイドル",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 4,
+		"title": "勇者",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 5,
+		"title": "はいよろこんで",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 7,
+		"title": "キスキツネ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 8,
+		"title": "WWW",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 13,
+		"title": "Bring it on",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 21,
+		"title": "踊",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 23,
+		"title": "どんぐりGAME",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 28,
+		"title": "マツケンサンバⅡ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 30,
+		"title": "君だったから",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 36,
+		"title": "おとせサンダー",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 37,
+		"title": "INTJINTPENTJENTPINFJENFJINFPENFPISTJISFJESTJESFJESTPISTPISFPESFP",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 40,
+		"title": "RED",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 51,
+		"title": "ヒトガタ",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 58,
+		"title": "メイトなやつら（FEAT. 天開司, 佐藤ホームズ, あっくん大魔王 & 歌衣メイカ）",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 63,
+		"title": "In my world (Prod. KOTONOHOUSE)",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 75,
+		"title": "魂のルフラン",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 80,
+		"title": "　",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 116,
+		"title": "ウマイネームイズうまみちゃん",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 124,
+		"title": "ダイダイダイダイダイキライ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 125,
+		"title": "T氏の話を信じるな",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 130,
+		"title": "Intergalactic Bound",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 143,
+		"title": "ももいろの鍵",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 144,
+		"title": "はじまりの未来",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 145,
+		"title": "Worlders",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 148,
+		"title": "ザムザ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 156,
+		"title": "RAD DOGS",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 157,
+		"title": "劣等上等",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 192,
+		"title": "乙女解剖",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 201,
+		"title": "モザイクロール",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 205,
+		"title": "QUEEN",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 206,
+		"title": "EYE",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 224,
+		"title": "ベノム",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 228,
+		"title": "転生林檎",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 231,
+		"title": "神っぽいな",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 240,
+		"title": "ジャンキーナイトタウンオーケストラ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 242,
+		"title": "表裏一体",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 243,
+		"title": "リアライズ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 245,
+		"title": "終焉逃避行",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 248,
+		"title": "空回りライブラリ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 251,
+		"title": "好きな惣菜発表ドラゴン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 255,
+		"title": "寝起きヤシの木",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 259,
+		"title": "メルティランドナイトメア",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 281,
+		"title": "Alice in 冷凍庫",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 287,
+		"title": "キャットラビング",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 289,
+		"title": "だれかの心臓になれたなら",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 293,
+		"title": "ワールドワイドワンダー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 295,
+		"title": "右に曲ガール",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 296,
+		"title": "新人類",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 297,
+		"title": "サイバーサンダーサイダー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 298,
+		"title": "おくすり飲んで寝よう",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 302,
+		"title": "独りんぼエンヴィー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 304,
+		"title": "ラグトレイン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 305,
+		"title": "幽霊東京",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 311,
+		"title": "少女レイ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 318,
+		"title": "明星ギャラクティカ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 336,
+		"title": "ジェヘナ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 339,
+		"title": "ド屑",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 365,
+		"title": "CocktaiL",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 381,
+		"title": "どぅーまいべすと！",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 393,
+		"title": "永遠にゲームで対戦したいキリタン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 398,
+		"title": "トラフィック・ジャム",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 409,
+		"title": "だからパンを焼いたんだ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 424,
+		"title": "Catch the Wave",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 427,
+		"title": "クレイジー・ビート",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 431,
+		"title": "アスヘノBRAVE",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 444,
+		"title": "深海少女",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 502,
+		"title": "電話革命ナイセン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 527,
+		"title": "LOSTPHANTASIA",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 563,
+		"title": "チルノのパーフェクトさんすう教室",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 564,
+		"title": "魔理沙は大変なものを盗んでいきました",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 575,
+		"title": "紅に染まる恋の花",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 576,
+		"title": "今、誰が為のかがり火へ",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 580,
+		"title": "色は匂へど散りぬるを",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 582,
+		"title": "ケロ⑨destiny",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 588,
+		"title": "銀のめぐり",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 590,
+		"title": "Spring of Dreams",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 593,
+		"title": "紅星ミゼラブル～廃憶編",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 594,
+		"title": "Sweets Time",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 605,
+		"title": "Melody！",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 610,
+		"title": "絡繰りドール",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 640,
+		"title": "Endless, Sleepless Night",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 651,
+		"title": "奇々解体",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 655,
+		"title": "Usagi Flap",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 658,
+		"title": "彩りキャンバス",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 659,
+		"title": "Cryogenic",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 721,
+		"title": "The 90's Decision",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 777,
+		"title": "DROPS feat. Such",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 780,
+		"title": "Sunday Night feat Kanata.N",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 785,
+		"title": "MAGENTA POTION",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 789,
+		"title": "BANG!",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 797,
+		"title": "Caterpillar Song",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 841,
+		"title": "Shooting Shower～DANCE TIME(シンディ)～",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 887,
+		"title": "Ignite Infinity",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 901,
+		"title": "ばかみたい【Taxi Driver Edition】",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 922,
+		"title": "シスターシスター",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 925,
+		"title": "ヱデン",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 934,
+		"title": "ワードワードワード",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 937,
+		"title": "BLACK ROSE",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 950,
+		"title": "TAKE CONTROL",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 974,
+		"title": "NOIZY BOUNCE",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 987,
+		"title": "プリズム△▽リズム",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 987,
+		"title": "プリズム△▽リズム",
+		"genre": 4,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 996,
+		"title": "サンバディ！",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1067,
+		"title": "Selector",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1098,
+		"title": "ネコ日和。",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1327,
+		"title": "TECHNOPOLIS 2085",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1340,
+		"title": "Kiss Me Kiss",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1343,
+		"title": "ポケットからぬりつぶせ！",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1355,
+		"title": "Radiance",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1359,
+		"title": "Baqeela",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1374,
+		"title": "See The Light",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1381,
+		"title": "Snow Colored Score",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1412,
+		"title": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1418,
+		"title": "Limits",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1425,
+		"title": "MUSIC PЯAYER",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 1428,
+		"title": "Ring",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 5
+	},
+	{
+		"orderId": 358,
+		"title": "からくりピエロ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 487,
+		"title": "ダブルラリアット",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 494,
+		"title": "ハロ／ハワユ",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 578,
+		"title": "華鳥風月",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 611,
+		"title": "不思議の国のクリスマス",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 619,
+		"title": "フラグメンツ -T.V. maimai edit-",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 895,
+		"title": "SHOW TIME",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 6
+	},
+	{
+		"orderId": 17,
+		"title": "モエチャッカファイア",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 67,
+		"title": "On your mark (104期 Ver.)",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 82,
+		"title": "ドラゴンエネルギー",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 122,
+		"title": "雑魚",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 268,
+		"title": "抜錨",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 319,
+		"title": "太陽系デスコ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 346,
+		"title": "悪魔の踊り方",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 395,
+		"title": "アカリがやってきたぞっ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 498,
+		"title": "バッド・ダンス・ホール",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 546,
+		"title": "Drive Your Fire",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 725,
+		"title": "迷える音色は恋の唄",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 1326,
+		"title": "キミは“見ていたね”？",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 7
+	},
+	{
+		"orderId": 20,
+		"title": "阿修羅ちゃん",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 43,
+		"title": "さくゆいたいそう",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 69,
+		"title": "プラネタリウム・レヴュー",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 83,
+		"title": "なだめスかし Negotiation（TVsize）",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 84,
+		"title": "I'm with you",
+		"genre": 0,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 98,
+		"title": "Love or Lies",
+		"genre": 0,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 101,
+		"title": "Love You",
+		"genre": 0,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 134,
+		"title": "み　む　かｩ　わ　ナ　イ　ス　ト　ラ　イ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 158,
+		"title": "にっこり^^調査隊のテーマ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 186,
+		"title": "デビルじゃないもん",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 190,
+		"title": "ヴァンパイア",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 208,
+		"title": "KING",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 232,
+		"title": "魔法少女とチョコレゐト",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 233,
+		"title": "アルティメットセンパイ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 276,
+		"title": "＊ハロー、プラネット。",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 284,
+		"title": "キュートなカノジョ",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 292,
+		"title": "snooze",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 342,
+		"title": "ロータスイーター",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 349,
+		"title": "アディショナルメモリー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 370,
+		"title": "リモコン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 386,
+		"title": "『んっあっあっ。』",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 394,
+		"title": "絶対にチョコミントを食べるアオイチャン",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 406,
+		"title": "深海シティアンダーグラウンド",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 425,
+		"title": "Hand in Hand",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 435,
+		"title": "サヨナラチェーンソー",
+		"genre": 1,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 468,
+		"title": "ロストワンの号哭",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 481,
+		"title": "みくみくにしてあげる♪【してやんよ】",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 501,
+		"title": "ないせんのうた",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 512,
+		"title": "リスペク風神",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 535,
+		"title": "三妖精SAY YA!!!",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 544,
+		"title": "Idoratrize World",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 579,
+		"title": "月に叢雲華に風",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 596,
+		"title": "下克上々",
+		"genre": 2,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 602,
+		"title": "響縁",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 618,
+		"title": "Bad Apple!! feat.nomico",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 639,
+		"title": "幽闇に目醒めしは",
+		"genre": 2,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 660,
+		"title": "3rd Avenue",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 701,
+		"title": "Leave All Behind",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 719,
+		"title": "tape/stop/night",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 843,
+		"title": "デコボコ体操第二",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 848,
+		"title": "Her Dream Is To Be A Fantastic Sorceress",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 864,
+		"title": "The Great Journey",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 889,
+		"title": "円舞曲、君に",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 890,
+		"title": "御旗のもとに",
+		"genre": 3,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 906,
+		"title": "KONNANじゃないっ！",
+		"genre": 3,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 916,
+		"title": "オールマスター",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 951,
+		"title": "HyperdrivE",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 978,
+		"title": "フタタビ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1032,
+		"title": "STEREOSCAPE",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1034,
+		"title": "Crazy Circle",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1090,
+		"title": "Pixel Voyage",
+		"genre": 4,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1096,
+		"title": "おても☆Yan",
+		"genre": 4,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1146,
+		"title": "The Cursed Doll",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1177,
+		"title": "Neon Kingdom",
+		"genre": 4,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1339,
+		"title": "撩乱乙女†無双劇",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1417,
+		"title": "We Are Us",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 1442,
+		"title": "PinqPiq (xovevox Remix)",
+		"genre": 5,
+		"isDX": true,
+		"diff": 1,
+		"level": "6",
+		"constant": 8
+	},
+	{
+		"orderId": 105,
+		"title": "YATTA!",
+		"genre": 0,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 9
+	},
+	{
+		"orderId": 448,
+		"title": "Sweetiex2",
+		"genre": 1,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 9
+	},
+	{
+		"orderId": 1398,
+		"title": "フォルテシモBELL",
+		"genre": 5,
+		"isDX": false,
+		"diff": 1,
+		"level": "6",
+		"constant": 9
+	}
+]
