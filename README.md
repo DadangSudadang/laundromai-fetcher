@@ -3,7 +3,7 @@
 Data fetching scripts for the [Laundromai](https://x.com/laundromai) Twitter account.  
 This repository only contains the data fetching scripts and not the graphic generating tool.
 
-This project is borrows a lot of elements from [arcade-songs-fetch](https://github.com/zetaraku/arcade-songs-fetch), particularly the environment setup and user ID fetching logic. Special thanks to Zetaraku for open-sourcing their code and allowing me to learn more about data fetching.
+This project is borrows a lot of elements from [arcade-songs-fetch](https://github.com/zetaraku/arcade-songs-fetch), particularly the environment setup and user ID fetching logic. Special thanks to Zetaraku for open-sourcing his code and allowing me to learn more about data fetching.
 
 I am currently still inexperienced in Node.js and open source development. If you have feedback, please let me know by [creating an issue](https://github.com/DadangSudadang/laundromai-fetcher/issues) or contact me directly through social media.
 
