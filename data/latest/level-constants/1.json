@@ -18,7 +18,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 41,
+		"orderId": 39,
 		"title": "はんぶんこ",
 		"genre": 0,
 		"isDX": true,
@@ -27,7 +27,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 77,
+		"orderId": 75,
 		"title": "ハム太郎とっとこうた",
 		"genre": 0,
 		"isDX": true,
@@ -36,7 +36,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 148,
+		"orderId": 146,
 		"title": "ザムザ",
 		"genre": 1,
 		"isDX": true,
@@ -45,7 +45,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 151,
+		"orderId": 149,
 		"title": "群青讃歌",
 		"genre": 1,
 		"isDX": true,
@@ -54,7 +54,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 257,
+		"orderId": 255,
 		"title": "再会",
 		"genre": 1,
 		"isDX": true,
@@ -63,7 +63,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 258,
+		"orderId": 256,
 		"title": "約束",
 		"genre": 1,
 		"isDX": true,
@@ -72,7 +72,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 302,
+		"orderId": 300,
 		"title": "独りんぼエンヴィー",
 		"genre": 1,
 		"isDX": true,
@@ -81,7 +81,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 305,
+		"orderId": 303,
 		"title": "幽霊東京",
 		"genre": 1,
 		"isDX": true,
@@ -90,7 +90,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 335,
+		"orderId": 333,
 		"title": "ツギハギスタッカート",
 		"genre": 1,
 		"isDX": true,
@@ -99,7 +99,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 373,
+		"orderId": 371,
 		"title": "on the rocks",
 		"genre": 1,
 		"isDX": true,
@@ -108,7 +108,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 400,
+		"orderId": 398,
 		"title": "阿吽のビーツ",
 		"genre": 1,
 		"isDX": true,
@@ -117,7 +117,7 @@
 		"constant": 0
 	},
 	{
-		"orderId": 561,
+		"orderId": 559,
 		"title": "イタ電はやめて！ ぼくらのスカーレット・コール",
 		"genre": 2,
 		"isDX": true,

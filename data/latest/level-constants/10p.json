@@ -108,7 +108,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 883,
+		"orderId": 887,
 		"title": "Save This World νMIX",
 		"genre": 3,
 		"isDX": false,
@@ -117,7 +117,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 891,
+		"orderId": 895,
 		"title": "怪盗Rのテーマ",
 		"genre": 3,
 		"isDX": false,
@@ -126,7 +126,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1007,
+		"orderId": 1011,
 		"title": "ミクマリ",
 		"genre": 4,
 		"isDX": true,
@@ -135,7 +135,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1031,
+		"orderId": 1035,
 		"title": "ブレインジャックシンドローム",
 		"genre": 4,
 		"isDX": true,
@@ -144,7 +144,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1062,
+		"orderId": 1066,
 		"title": "FestivaLight",
 		"genre": 4,
 		"isDX": false,
@@ -153,7 +153,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1065,
+		"orderId": 1069,
 		"title": "Magical Flavor",
 		"genre": 4,
 		"isDX": false,
@@ -162,7 +162,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1161,
+		"orderId": 1165,
 		"title": "the EmpErroR",
 		"genre": 4,
 		"isDX": false,
@@ -171,7 +171,7 @@
 		"constant": 6
 	},
 	{
-		"orderId": 1389,
+		"orderId": 1393,
 		"title": "Session High⤴",
 		"genre": 5,
 		"isDX": false,
@@ -711,7 +711,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 707,
+		"orderId": 711,
 		"title": "アルカンシエル",
 		"genre": 3,
 		"isDX": true,
@@ -720,7 +720,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 712,
+		"orderId": 716,
 		"title": "Love Kills U",
 		"genre": 3,
 		"isDX": true,
@@ -729,7 +729,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 728,
+		"orderId": 732,
 		"title": "Alice's Suitcase",
 		"genre": 3,
 		"isDX": true,
@@ -738,7 +738,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 749,
+		"orderId": 753,
 		"title": "Strange Bar",
 		"genre": 3,
 		"isDX": true,
@@ -747,7 +747,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 762,
+		"orderId": 766,
 		"title": "Everybody Say HARDCORE TANO*C",
 		"genre": 3,
 		"isDX": true,
@@ -756,7 +756,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 775,
+		"orderId": 779,
 		"title": "DROPS feat. Such",
 		"genre": 3,
 		"isDX": true,
@@ -765,7 +765,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 777,
+		"orderId": 781,
 		"title": "コンティニュー！ feat. 藍月なくる",
 		"genre": 3,
 		"isDX": true,
@@ -774,7 +774,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 782,
+		"orderId": 786,
 		"title": "Rush-More",
 		"genre": 3,
 		"isDX": true,
@@ -783,7 +783,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 796,
+		"orderId": 800,
 		"title": "Southern Cross",
 		"genre": 3,
 		"isDX": true,
@@ -792,7 +792,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 810,
+		"orderId": 814,
 		"title": "felys -final remix-",
 		"genre": 3,
 		"isDX": true,
@@ -801,7 +801,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 813,
+		"orderId": 817,
 		"title": "emomomo",
 		"genre": 3,
 		"isDX": true,
@@ -810,7 +810,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 841,
+		"orderId": 845,
 		"title": "デコボコ体操第二",
 		"genre": 3,
 		"isDX": false,
@@ -819,7 +819,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 855,
+		"orderId": 859,
 		"title": "Sky High [Reborn]",
 		"genre": 3,
 		"isDX": false,
@@ -828,7 +828,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 869,
+		"orderId": 873,
 		"title": "源平大戦絵巻テーマソング",
 		"genre": 3,
 		"isDX": false,
@@ -837,7 +837,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 888,
+		"orderId": 892,
 		"title": "御旗のもとに",
 		"genre": 3,
 		"isDX": true,
@@ -846,7 +846,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 890,
+		"orderId": 894,
 		"title": "檄！帝国華撃団(改)",
 		"genre": 3,
 		"isDX": false,
@@ -855,7 +855,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 900,
+		"orderId": 904,
 		"title": "Outlaw's Lullaby",
 		"genre": 3,
 		"isDX": false,
@@ -864,7 +864,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 901,
+		"orderId": 905,
 		"title": "Brand-new Japanesque",
 		"genre": 3,
 		"isDX": false,
@@ -873,7 +873,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 917,
+		"orderId": 921,
 		"title": "STRAY",
 		"genre": 4,
 		"isDX": true,
@@ -882,7 +882,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 919,
+		"orderId": 923,
 		"title": "地獄",
 		"genre": 4,
 		"isDX": true,
@@ -891,7 +891,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 928,
+		"orderId": 932,
 		"title": "アンビバレンス",
 		"genre": 4,
 		"isDX": true,
@@ -900,7 +900,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 941,
+		"orderId": 945,
 		"title": "洗脳",
 		"genre": 4,
 		"isDX": false,
@@ -909,7 +909,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 945,
+		"orderId": 949,
 		"title": "言ノ葉カルマ",
 		"genre": 4,
 		"isDX": false,
@@ -918,7 +918,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 978,
+		"orderId": 982,
 		"title": "ミルキースター・シューティングスター",
 		"genre": 4,
 		"isDX": true,
@@ -927,7 +927,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 982,
+		"orderId": 986,
 		"title": "隠密あんみつDX",
 		"genre": 4,
 		"isDX": true,
@@ -936,7 +936,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 984,
+		"orderId": 988,
 		"title": "ピリオドサイン",
 		"genre": 4,
 		"isDX": true,
@@ -945,7 +945,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 995,
+		"orderId": 999,
 		"title": "Beginning together!",
 		"genre": 4,
 		"isDX": true,
@@ -954,7 +954,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1000,
+		"orderId": 1004,
 		"title": "宵の鳥",
 		"genre": 4,
 		"isDX": true,
@@ -963,7 +963,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1019,
+		"orderId": 1023,
 		"title": "星めぐり、果ての君へ。",
 		"genre": 4,
 		"isDX": true,
@@ -972,7 +972,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1020,
+		"orderId": 1024,
 		"title": "Paradisoda",
 		"genre": 4,
 		"isDX": true,
@@ -981,7 +981,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1038,
+		"orderId": 1042,
 		"title": "OTOGEMA",
 		"genre": 4,
 		"isDX": true,
@@ -990,7 +990,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1070,
+		"orderId": 1074,
 		"title": "スリップフリップ",
 		"genre": 4,
 		"isDX": false,
@@ -999,7 +999,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1080,
+		"orderId": 1084,
 		"title": "ENJOY POLIS",
 		"genre": 4,
 		"isDX": false,
@@ -1008,7 +1008,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1084,
+		"orderId": 1088,
 		"title": "MIRROR of MAGIC",
 		"genre": 4,
 		"isDX": false,
@@ -1017,7 +1017,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1099,
+		"orderId": 1103,
 		"title": "炭★坑★節",
 		"genre": 4,
 		"isDX": false,
@@ -1026,7 +1026,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1118,
+		"orderId": 1122,
 		"title": "ぱぱぱらビーチ",
 		"genre": 4,
 		"isDX": true,
@@ -1035,7 +1035,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1134,
+		"orderId": 1138,
 		"title": "QZKago Requiem",
 		"genre": 4,
 		"isDX": false,
@@ -1044,7 +1044,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1140,
+		"orderId": 1144,
 		"title": "Tricolor⁂circuS",
 		"genre": 4,
 		"isDX": true,
@@ -1053,7 +1053,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1237,
+		"orderId": 1241,
 		"title": "ワンダーシャッフェンの法則",
 		"genre": 4,
 		"isDX": true,
@@ -1062,7 +1062,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1245,
+		"orderId": 1249,
 		"title": "ここからはじまるプロローグ。",
 		"genre": 4,
 		"isDX": true,
@@ -1071,7 +1071,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1325,
+		"orderId": 1329,
 		"title": "私たちは、花になる",
 		"genre": 5,
 		"isDX": true,
@@ -1080,7 +1080,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1332,
+		"orderId": 1336,
 		"title": "いちげき！のテーマ",
 		"genre": 5,
 		"isDX": true,
@@ -1089,7 +1089,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1340,
+		"orderId": 1344,
 		"title": "give it up to you",
 		"genre": 5,
 		"isDX": true,
@@ -1098,7 +1098,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1344,
+		"orderId": 1348,
 		"title": "Y.Y.Y.計画!!!!",
 		"genre": 5,
 		"isDX": true,
@@ -1107,7 +1107,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1351,
+		"orderId": 1355,
 		"title": "まっすぐ→→→ストリーム！",
 		"genre": 5,
 		"isDX": true,
@@ -1116,7 +1116,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1352,
+		"orderId": 1356,
 		"title": "トリドリ⇒モリモリ！Lovely fruits☆",
 		"genre": 5,
 		"isDX": true,
@@ -1125,7 +1125,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1379,
+		"orderId": 1383,
 		"title": "MAGNETAR GIRL",
 		"genre": 5,
 		"isDX": true,
@@ -1134,7 +1134,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1391,
+		"orderId": 1395,
 		"title": "Help me, あーりん！",
 		"genre": 5,
 		"isDX": false,
@@ -1143,7 +1143,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1414,
+		"orderId": 1418,
 		"title": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
 		"genre": 5,
 		"isDX": true,
@@ -1152,7 +1152,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1435,
+		"orderId": 1439,
 		"title": "ピュグマリオンの咒文",
 		"genre": 5,
 		"isDX": true,
@@ -1161,7 +1161,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1440,
+		"orderId": 1444,
 		"title": "コスモポップファンクラブ",
 		"genre": 5,
 		"isDX": true,
@@ -1170,7 +1170,7 @@
 		"constant": 7
 	},
 	{
-		"orderId": 1457,
+		"orderId": 1461,
 		"title": "Counselor",
 		"genre": 5,
 		"isDX": false,
@@ -1584,7 +1584,16 @@
 		"constant": 8
 	},
 	{
-		"orderId": 694,
+		"orderId": 658,
+		"title": "無彩色のディストピア",
+		"genre": 3,
+		"isDX": true,
+		"diff": 2,
+		"level": "10+",
+		"constant": 8
+	},
+	{
+		"orderId": 698,
 		"title": "いっぱい食べる君が好きだよ",
 		"genre": 3,
 		"isDX": true,
@@ -1593,7 +1602,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 723,
+		"orderId": 727,
 		"title": "迷える音色は恋の唄",
 		"genre": 3,
 		"isDX": true,
@@ -1602,7 +1611,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 730,
+		"orderId": 734,
 		"title": "Ether Strike",
 		"genre": 3,
 		"isDX": true,
@@ -1611,7 +1620,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 752,
+		"orderId": 756,
 		"title": "Make Up Your World feat. キョンシーのCiちゃん & らっぷびと",
 		"genre": 3,
 		"isDX": true,
@@ -1620,7 +1629,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 778,
+		"orderId": 782,
 		"title": "Sunday Night feat Kanata.N",
 		"genre": 3,
 		"isDX": true,
@@ -1629,7 +1638,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 779,
+		"orderId": 783,
 		"title": "PERSONA feat. PANXI",
 		"genre": 3,
 		"isDX": true,
@@ -1638,7 +1647,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 787,
+		"orderId": 791,
 		"title": "BANG!",
 		"genre": 3,
 		"isDX": true,
@@ -1647,7 +1656,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 801,
+		"orderId": 805,
 		"title": "キラメキ居残り大戦争",
 		"genre": 3,
 		"isDX": true,
@@ -1656,7 +1665,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 814,
+		"orderId": 818,
 		"title": "アトロポスと最果の探究者",
 		"genre": 3,
 		"isDX": true,
@@ -1665,7 +1674,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 834,
+		"orderId": 838,
 		"title": "オモイヨシノ",
 		"genre": 3,
 		"isDX": false,
@@ -1674,7 +1683,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 872,
+		"orderId": 876,
 		"title": "オパ! オパ! RACER -GMT mashup-",
 		"genre": 3,
 		"isDX": false,
@@ -1683,7 +1692,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 877,
+		"orderId": 881,
 		"title": "ファンタジーゾーン OPA-OPA! -GMT remix-",
 		"genre": 3,
 		"isDX": false,
@@ -1692,7 +1701,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 880,
+		"orderId": 884,
 		"title": "Catch The Future",
 		"genre": 3,
 		"isDX": false,
@@ -1701,7 +1710,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 902,
+		"orderId": 906,
 		"title": "鼓動",
 		"genre": 3,
 		"isDX": false,
@@ -1710,7 +1719,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 909,
+		"orderId": 913,
 		"title": "Back 2 Back",
 		"genre": 3,
 		"isDX": false,
@@ -1719,7 +1728,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 926,
+		"orderId": 930,
 		"title": "パーフェクション",
 		"genre": 4,
 		"isDX": true,
@@ -1728,7 +1737,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 931,
+		"orderId": 935,
 		"title": "シアトリカル・ケース",
 		"genre": 4,
 		"isDX": true,
@@ -1737,7 +1746,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 934,
+		"orderId": 938,
 		"title": "Secret Sleuth",
 		"genre": 4,
 		"isDX": true,
@@ -1746,7 +1755,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 939,
+		"orderId": 943,
 		"title": "空威張りビヘイビア",
 		"genre": 4,
 		"isDX": false,
@@ -1755,7 +1764,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 942,
+		"orderId": 946,
 		"title": "Barbed Eye",
 		"genre": 4,
 		"isDX": false,
@@ -1764,7 +1773,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 947,
+		"orderId": 951,
 		"title": "Story Continued",
 		"genre": 4,
 		"isDX": true,
@@ -1773,7 +1782,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 951,
+		"orderId": 955,
 		"title": "歌え踊れや桃源郷！",
 		"genre": 4,
 		"isDX": true,
@@ -1782,7 +1791,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 957,
+		"orderId": 961,
 		"title": "Aides",
 		"genre": 4,
 		"isDX": true,
@@ -1791,7 +1800,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 961,
+		"orderId": 965,
 		"title": "スローグロー",
 		"genre": 4,
 		"isDX": true,
@@ -1800,7 +1809,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 965,
+		"orderId": 969,
 		"title": "廃墟にいますキャンペーン",
 		"genre": 4,
 		"isDX": true,
@@ -1809,7 +1818,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 967,
+		"orderId": 971,
 		"title": "概して過誤",
 		"genre": 4,
 		"isDX": true,
@@ -1818,7 +1827,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 986,
+		"orderId": 990,
 		"title": "真空都市",
 		"genre": 4,
 		"isDX": true,
@@ -1827,7 +1836,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 992,
+		"orderId": 996,
 		"title": "Ourania",
 		"genre": 4,
 		"isDX": true,
@@ -1836,7 +1845,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 993,
+		"orderId": 997,
 		"title": "Geranium",
 		"genre": 4,
 		"isDX": true,
@@ -1845,7 +1854,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1002,
+		"orderId": 1006,
 		"title": "リフヴェイン",
 		"genre": 4,
 		"isDX": true,
@@ -1854,7 +1863,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1011,
+		"orderId": 1015,
 		"title": "Jouez Avec Moi?",
 		"genre": 4,
 		"isDX": true,
@@ -1863,7 +1872,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1032,
+		"orderId": 1036,
 		"title": "絡めトリック利己ライザー",
 		"genre": 4,
 		"isDX": true,
@@ -1872,7 +1881,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1042,
+		"orderId": 1046,
 		"title": "福宿音屋魂音泉",
 		"genre": 4,
 		"isDX": true,
@@ -1881,7 +1890,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1047,
+		"orderId": 1051,
 		"title": "噛み係",
 		"genre": 4,
 		"isDX": true,
@@ -1890,7 +1899,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1071,
+		"orderId": 1075,
 		"title": "CYCLES",
 		"genre": 4,
 		"isDX": false,
@@ -1899,7 +1908,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1082,
+		"orderId": 1086,
 		"title": "connecting with you",
 		"genre": 4,
 		"isDX": false,
@@ -1908,7 +1917,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1086,
+		"orderId": 1090,
 		"title": "BETTER CHOICE",
 		"genre": 4,
 		"isDX": false,
@@ -1917,7 +1926,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1089,
+		"orderId": 1093,
 		"title": "ナミダと流星",
 		"genre": 4,
 		"isDX": false,
@@ -1926,7 +1935,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1110,
+		"orderId": 1114,
 		"title": "ジングルベル",
 		"genre": 4,
 		"isDX": true,
@@ -1935,7 +1944,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1175,
+		"orderId": 1179,
 		"title": "Beat Opera op.1",
 		"genre": 4,
 		"isDX": true,
@@ -1944,7 +1953,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1226,
+		"orderId": 1230,
 		"title": "Never Give Up!",
 		"genre": 4,
 		"isDX": true,
@@ -1953,7 +1962,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1235,
+		"orderId": 1239,
 		"title": "Beautiful Future",
 		"genre": 4,
 		"isDX": true,
@@ -1962,7 +1971,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1236,
+		"orderId": 1240,
 		"title": "Boys O’Clock",
 		"genre": 4,
 		"isDX": true,
@@ -1971,7 +1980,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1241,
+		"orderId": 1245,
 		"title": "Stardust Memories",
 		"genre": 4,
 		"isDX": true,
@@ -1980,7 +1989,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1278,
+		"orderId": 1282,
 		"title": "バーチャルダム　ネーション",
 		"genre": 4,
 		"isDX": true,
@@ -1989,7 +1998,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1300,
+		"orderId": 1304,
 		"title": "Danza zandA",
 		"genre": 4,
 		"isDX": false,
@@ -1998,7 +2007,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1315,
+		"orderId": 1319,
 		"title": "果ての空、僕らが見た光。",
 		"genre": 4,
 		"isDX": true,
@@ -2007,7 +2016,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1348,
+		"orderId": 1352,
 		"title": "Catch Me If You Can",
 		"genre": 5,
 		"isDX": true,
@@ -2016,7 +2025,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1361,
+		"orderId": 1365,
 		"title": "Baqeela",
 		"genre": 5,
 		"isDX": true,
@@ -2025,7 +2034,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1385,
+		"orderId": 1389,
 		"title": "Change Our MIRAI！",
 		"genre": 5,
 		"isDX": true,
@@ -2034,7 +2043,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1393,
+		"orderId": 1397,
 		"title": "crazy (about you)",
 		"genre": 5,
 		"isDX": true,
@@ -2043,7 +2052,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1396,
+		"orderId": 1400,
 		"title": "ハート・ビート",
 		"genre": 5,
 		"isDX": false,
@@ -2052,7 +2061,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1412,
+		"orderId": 1416,
 		"title": "あねぺったん",
 		"genre": 5,
 		"isDX": false,
@@ -2061,7 +2070,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1423,
+		"orderId": 1427,
 		"title": "Lover's Trick",
 		"genre": 5,
 		"isDX": true,
@@ -2070,7 +2079,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1439,
+		"orderId": 1443,
 		"title": "ツクヨミステップ",
 		"genre": 5,
 		"isDX": true,
@@ -2079,7 +2088,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1449,
+		"orderId": 1453,
 		"title": "Infantoon Fantasy",
 		"genre": 5,
 		"isDX": false,
@@ -2088,7 +2097,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1450,
+		"orderId": 1454,
 		"title": "ハジマリノピアノ",
 		"genre": 5,
 		"isDX": true,
@@ -2097,7 +2106,7 @@
 		"constant": 8
 	},
 	{
-		"orderId": 1458,
+		"orderId": 1462,
 		"title": "幾四音-Ixion-",
 		"genre": 5,
 		"isDX": false,
@@ -2286,7 +2295,16 @@
 		"constant": 9
 	},
 	{
-		"orderId": 702,
+		"orderId": 657,
+		"title": "Broomstick adventure!",
+		"genre": 3,
+		"isDX": true,
+		"diff": 2,
+		"level": "10+",
+		"constant": 9
+	},
+	{
+		"orderId": 706,
 		"title": "VOLT",
 		"genre": 3,
 		"isDX": true,
@@ -2295,7 +2313,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 722,
+		"orderId": 726,
 		"title": "Empire of Winter",
 		"genre": 3,
 		"isDX": true,
@@ -2304,7 +2322,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 842,
+		"orderId": 846,
 		"title": "Let's Go Away",
 		"genre": 3,
 		"isDX": false,
@@ -2313,7 +2331,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 846,
+		"orderId": 850,
 		"title": "Her Dream Is To Be A Fantastic Sorceress",
 		"genre": 3,
 		"isDX": false,
@@ -2322,7 +2340,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 863,
+		"orderId": 867,
 		"title": "Burning Hearts ～炎のANGEL～",
 		"genre": 3,
 		"isDX": false,
@@ -2331,7 +2349,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 886,
+		"orderId": 890,
 		"title": "終わりなき物語",
 		"genre": 3,
 		"isDX": false,
@@ -2340,7 +2358,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 906,
+		"orderId": 910,
 		"title": "Reach For The Stars",
 		"genre": 3,
 		"isDX": false,
@@ -2349,7 +2367,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 943,
+		"orderId": 947,
 		"title": "言ノ葉遊戯",
 		"genre": 4,
 		"isDX": false,
@@ -2358,7 +2376,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 972,
+		"orderId": 976,
 		"title": "エスオーエス",
 		"genre": 4,
 		"isDX": true,
@@ -2367,7 +2385,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1018,
+		"orderId": 1022,
 		"title": "スローアライズ",
 		"genre": 4,
 		"isDX": true,
@@ -2376,7 +2394,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1058,
+		"orderId": 1062,
 		"title": "アージェントシンメトリー",
 		"genre": 4,
 		"isDX": false,
@@ -2385,7 +2403,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1060,
+		"orderId": 1064,
 		"title": "Monochrome Rainbow",
 		"genre": 4,
 		"isDX": false,
@@ -2394,7 +2412,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1085,
+		"orderId": 1089,
 		"title": "Cosmic Train",
 		"genre": 4,
 		"isDX": false,
@@ -2403,7 +2421,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1108,
+		"orderId": 1112,
 		"title": "泣き虫O'clock",
 		"genre": 4,
 		"isDX": false,
@@ -2412,7 +2430,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1110,
+		"orderId": 1114,
 		"title": "ジングルベル",
 		"genre": 4,
 		"isDX": false,
@@ -2421,7 +2439,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1179,
+		"orderId": 1183,
 		"title": "Neon Kingdom",
 		"genre": 4,
 		"isDX": true,
@@ -2430,7 +2448,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1280,
+		"orderId": 1284,
 		"title": "Dragoon",
 		"genre": 4,
 		"isDX": false,
@@ -2439,7 +2457,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1310,
+		"orderId": 1314,
 		"title": "モ°ルモ°ル (MZK Skippin' Remix)",
 		"genre": 4,
 		"isDX": true,
@@ -2448,7 +2466,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1329,
+		"orderId": 1333,
 		"title": "TECHNOPOLIS 2085",
 		"genre": 5,
 		"isDX": true,
@@ -2457,7 +2475,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1357,
+		"orderId": 1361,
 		"title": "Radiance",
 		"genre": 5,
 		"isDX": true,
@@ -2466,7 +2484,7 @@
 		"constant": 9
 	},
 	{
-		"orderId": 1404,
+		"orderId": 1408,
 		"title": "イロトリドリのメロディ",
 		"genre": 5,
 		"isDX": false,
