@@ -23,7 +23,8 @@
   },
   "scripts": {
     "version-update": "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/major-version-update.ts",
-    "new-songs": "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/fetch-new-songs.ts"
+    "new-songs": "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/fetch-new-songs.ts",
+    "all-constants":  "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/fetch-all-const.ts"
   },
   "allowScripts": {
     "esbuild@0.28.1": true,
