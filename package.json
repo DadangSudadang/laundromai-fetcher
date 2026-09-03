@@ -22,11 +22,11 @@
     "prettier": "^3.8.1"
   },
   "scripts": {
-    "version-update": "NODE_EXTRA_CA_CERTS='gsrsaovsslca2018.pem' npx tsx src/scripts/major-version-update.ts",
-    "new-songs": "NODE_EXTRA_CA_CERTS='gsrsaovsslca2018.pem' npx tsx src/scripts/fetch-new-songs.ts"
+    "version-update": "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/major-version-update.ts",
+    "new-songs": "NODE_EXTRA_CA_CERTS='gsgccr46ovtlsca2025.pem' npx tsx src/scripts/fetch-new-songs.ts"
   },
   "allowScripts": {
-    "esbuild@0.27.3": true,
-    "puppeteer@24.39.1": true
+    "esbuild@0.28.1": true,
+    "puppeteer@25.4.0": true
   }
 }
