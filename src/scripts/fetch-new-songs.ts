@@ -23,7 +23,7 @@ async function fetchNewUtage() {
     fetchNewSongs("utage", putgList, utgList, "jp", userId)
 }
 
-async function timerTest() {
+async function waitUntil7am() {
     const now = new Date(); 
     const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 7, 0, 2, 0);
     const millisTilTarget =  target.getTime() - now.getTime();
@@ -34,7 +34,7 @@ async function timerTest() {
     }
 }
 
-await timerTest();
+await waitUntil7am();
 userId = await getUserId(region)
 await fetchNewMasters();
 await fetchNewUtage();

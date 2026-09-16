@@ -4,6 +4,7 @@ import { chartGenreInterface, chartUtageInterface, combinedDataInterface } from 
 import { fetchGenreList } from '@fetch/fetch-genre';
 import { fetchCombinedData } from '@fetch/fetch-combined-data';
 import { fetchNewSongs } from '@fetch/fetch-new-songs';
+import sleep from "sleep-promise";
 
 function getChanges(oldData: combinedDataInterface[], newData: combinedDataInterface[]) {
     let changes: {
@@ -120,5 +121,17 @@ function run_bak() {
     getChanges(combinedOldData, combinedNewData)
 }
 
+async function waitUntil7() {
+    const now = new Date(); 
+    const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 7, 0, 2, 0);
+    const millisTilTarget =  target.getTime() - now.getTime();
+    
+    if (millisTilTarget > 0) {
+        console.log(`Waiting until ${target.toLocaleTimeString()}...`);
+        await sleep(millisTilTarget);
+    }
+}
+
+await waitUntil7am();
 await run("jp")
 // await run_bak()
