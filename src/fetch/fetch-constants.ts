@@ -6,7 +6,7 @@ import { getRegionUrl, cheerioFetchHtml } from "@_core/core-fetch";
 import { chartConstantInterface, chartGenreInterface } from "@_core/types";
 import { diffMap, levelMap } from "@_core/maps";
 import { getTimeout } from "@_core/environment";
-
+import { getOutputDir } from "@_core/environment";
 
 // ----
 // Initialization
@@ -285,6 +285,8 @@ export async function fetchConstantsList(
 		levelName = levelStr;
 	}
 
+
+
 	// Get internal level value
 	const levelValue = levelMap.get(levelStr);
 	if (levelValue == null || levelValue == undefined) {
@@ -354,9 +356,22 @@ export async function fetchAllConstants(
     let allConst: chartConstantInterface[] = [];
 
     for (const [levelStr, levelVal] of levelMap.getArr()){
-        const currList = await fetchConstantsList(
-            levelStr as string, songList, region, userId
-        )
+
+		const currLevel = levelStr as string;
+    	const levelName = (currLevel.slice(-1) == "+")? currLevel.slice(0, -1) + "p": currLevel;
+		let filePath = path.join(getOutputDir("constants"), `${levelName}.json`)
+
+		var currList;
+		if (fs.existsSync(filePath)) {
+			logger.info(`fetchAllConstants: Parsed constants file found for ${currLevel}...`);
+			currList = JSON.parse(
+				fs.readFileSync(filePath, 'utf-8')
+			)
+		} else {
+			currList = await fetchConstantsList(
+				levelStr as string, songList, region, userId
+			)
+		}
 		
 		// appends both allConst and currList on a new array
         allConst = [...allConst, ...currList] 

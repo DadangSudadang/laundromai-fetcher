@@ -62,21 +62,30 @@ export async function cheerioFetchHtml(
 
     // Fetch the html file from url,
 	// Uses userId cookie if provided.
-    await sleep(TIMEOUT);
-	let res;
-	if (options?.userId != undefined) {
-		res = await fetch(fetchUrl, {
-			headers: { Cookie: `userId=${options.userId}` }
-		});
+    // Check response and return html string
+
+	let html;
+	if(options?.filename && fs.existsSync(options.filename)){
+		logger.info(`HTML path exists.`);
+		html = fs.readFileSync(options.filename, 'utf-8');
 	} else {
-		res = await fetch(fetchUrl);
+		await sleep(TIMEOUT);
+		let res;
+		if (options?.userId != undefined) {
+			res = await fetch(fetchUrl, {
+				headers: { Cookie: `userId=${options.userId}` }
+			});
+		} else {
+			res = await fetch(fetchUrl);
+		}
+
+		if (!res.ok) {
+			throw new Error(`An error occurred while fetching the page ${fetchUrl}: Status (${res.status} ${res.statusText})`);
+		}
+
+	    html = await res.text().then((t) => t);
 	}
 
-    // Check response and return html string
-	if (!res.ok) {
-		throw new Error(`An error occurred while fetching the page ${fetchUrl}: Status (${res.status} ${res.statusText})`);
-	}
-	const html = await res.text().then((t) => t);
 
     // If filename provided, save the html file
     if (options?.filename) {

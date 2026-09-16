@@ -91,7 +91,7 @@ async function run(region: string) {
 
     // Load the previous genre lists and complete data
     const masterOldList = JSON.parse(
-        fs.readFileSync('./data/cricle-plus/master.json', 'utf-8')
+        fs.readFileSync('./data/circle-plus/master.json', 'utf-8')
     )
     const utageOldList = JSON.parse(
         fs.readFileSync('./data/circle-plus/utage.json', 'utf-8')

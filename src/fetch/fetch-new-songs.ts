@@ -243,6 +243,7 @@ async function getNoteCount(
                 filename: path.join(getOutputDir("songs"), `${currSong.title}-${diff}.html`)
             }
         )
+
         if(!$) {
             throw new Error(`Fetched HTML is empty for ${diff} - ${currSong.title}`)
         }
