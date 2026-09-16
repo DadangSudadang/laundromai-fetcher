@@ -90,13 +90,13 @@ async function run(region: string) {
 
     // Load the previous genre lists and complete data
     const masterOldList = JSON.parse(
-        fs.readFileSync('./data/circle/master.json', 'utf-8')
+        fs.readFileSync('./data/cricle-plus/master.json', 'utf-8')
     )
     const utageOldList = JSON.parse(
-        fs.readFileSync('./data/circle/utage.json', 'utf-8')
+        fs.readFileSync('./data/circle-plus/utage.json', 'utf-8')
     )
     const combinedOldData = JSON.parse(
-        fs.readFileSync('./data/circle/complete_data.json', 'utf-8')
+        fs.readFileSync('./data/circle-plus/level-constants/complete.json', 'utf-8')
     )
 
     // Get new songs
