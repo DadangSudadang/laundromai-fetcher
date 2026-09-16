@@ -121,7 +121,7 @@ function run_bak() {
     getChanges(combinedOldData, combinedNewData)
 }
 
-async function waitUntil7() {
+async function waitUntil7am() {
     const now = new Date(); 
     const target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 7, 0, 2, 0);
     const millisTilTarget =  target.getTime() - now.getTime();
