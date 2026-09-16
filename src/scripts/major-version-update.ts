@@ -100,12 +100,12 @@ async function run(region: string) {
         fs.readFileSync('./data/circle-plus/level-constants/complete.json', 'utf-8')
     )
 
+    // Get changes
+    getChanges(combinedOldData, combinedNewData)
+
     // Get new songs
     await fetchNewSongs("master", masterOldList, masterNewList, region, userId);
     await fetchNewSongs("utage", utageOldList, utageNewList, region, userId);
-
-    // Get changes
-    getChanges(combinedOldData, combinedNewData)
 }
 
 
