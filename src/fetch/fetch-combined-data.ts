@@ -42,9 +42,9 @@ export async function fetchCombinedData(
 
 
     // Fetch the necessary lists
-    const allConstants = await fetchAllConstants(
-        genreList, region, userId
-    )
+    // const allConstants = await fetchAllConstants(
+    //     genreList, region, userId
+    // )
 
     const officialList = await fetchJson(
         "https://maimai.sega.jp/data/maimai_songs.json",
@@ -54,14 +54,14 @@ export async function fetchCombinedData(
 
     // Uncomment this if you wish to load an existing file instead.
     // const genreList: chartGenreInterface[] = JSON.parse(
-    //     fs.readFileSync('./dist/genre/master.json', 'utf-8')
+        // fs.readFileSync('./dist/genre/master.json', 'utf-8')
     // )
     // const officialList: officialListInterface[] = JSON.parse(
     //     fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
     // )
-    // const allConstants: chartConstantInterface[] = JSON.parse(
-    //     fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
-    // )
+    const allConstants: chartConstantInterface[] = JSON.parse(
+        fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
+    )
 
 
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
