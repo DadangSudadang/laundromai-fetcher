@@ -1,0 +1,350 @@
+[
+	{
+		"title": "ごはん食べヨ",
+		"artist": "Mega Shinnosuke",
+		"genre": 0,
+		"jacket": "dist/jackets/27c8d11b25cfdc88.png",
+		"isDX": true,
+		"levels": {
+			"basic": "2.0",
+			"advanced": "6.7",
+			"expert": "9.8",
+			"master": "13.2"
+		},
+		"noteCounts": {
+			"basic": "115",
+			"advanced": "228",
+			"expert": "327",
+			"master": "515"
+		}
+	},
+	{
+		"title": "Ex-Otogibanashi (Anime ver.)",
+		"artist": "ryo (supercell), 月見ヤチヨ (cv.早見沙織)",
+		"genre": 0,
+		"jacket": "dist/jackets/f1e4ac8e04e2ba0b.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.2",
+			"expert": "11.0",
+			"master": "12.0",
+			"remaster": "13.8"
+		},
+		"noteCounts": {
+			"basic": "146",
+			"advanced": "226",
+			"expert": "401",
+			"master": "416",
+			"remaster": "614"
+		}
+	},
+	{
+		"title": "私は、わたしの事が好き。(Short ver.)",
+		"artist": "HoneyWorks, かぐや(cv.夏吉ゆうこ)",
+		"genre": 0,
+		"jacket": "dist/jackets/b356e2034d2f2efc.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.2",
+			"expert": "10.8",
+			"master": "13.4"
+		},
+		"noteCounts": {
+			"basic": "125",
+			"advanced": "222",
+			"expert": "394",
+			"master": "626"
+		}
+	},
+	{
+		"title": "ワールドイズマイン CPK! Remix (Anime ver.)",
+		"artist": "ryo (supercell), かぐや (cv.夏吉ゆうこ), 月見ヤチヨ (cv.早見沙織)",
+		"genre": 0,
+		"jacket": "dist/jackets/cd766d28bdee536b.png",
+		"isDX": true,
+		"levels": {
+			"basic": "2.0",
+			"advanced": "6.2",
+			"expert": "9.8",
+			"master": "11.8",
+			"remaster": "13.3"
+		},
+		"noteCounts": {
+			"basic": "96",
+			"advanced": "196",
+			"expert": "276",
+			"master": "388",
+			"remaster": "497"
+		}
+	},
+	{
+		"title": "推活天使ビビアンちゃん (feat.マスタード＆ビートまりお)",
+		"artist": "ファル公＆DJ Myosuke「ゲーム『ゼンレスゾーンゼロ』ビビアン 同人イメージソング」",
+		"genre": 0,
+		"jacket": "dist/jackets/7948ec61b957205c.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.7",
+			"expert": "12.4",
+			"master": "13.9"
+		},
+		"noteCounts": {
+			"basic": "208",
+			"advanced": "381",
+			"expert": "696",
+			"master": "1105"
+		}
+	},
+	{
+		"title": "群青声明",
+		"artist": "佐藤塩 & 西園チグサ",
+		"genre": 0,
+		"jacket": "dist/jackets/041b0583388c6a96.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "7.4",
+			"expert": "11.5",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "242",
+			"advanced": "355",
+			"expert": "527",
+			"master": "974"
+		}
+	},
+	{
+		"title": "愛言葉V",
+		"artist": "DECO*27",
+		"genre": 1,
+		"jacket": "dist/jackets/8120ba1aa6c97f6d.png",
+		"isDX": true,
+		"levels": {
+			"basic": "2.0",
+			"advanced": "6.2",
+			"expert": "10.0",
+			"master": "12.8"
+		},
+		"noteCounts": {
+			"basic": "135",
+			"advanced": "215",
+			"expert": "424",
+			"master": "556"
+		}
+	},
+	{
+		"title": "PPPP (feat. Hatsune Miku, Kasane Teto)",
+		"artist": "TAK",
+		"genre": 1,
+		"jacket": "dist/jackets/384c297e66d8a739.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "10.0",
+			"master": "11.8",
+			"remaster": "13.6"
+		},
+		"noteCounts": {
+			"basic": "253",
+			"advanced": "327",
+			"expert": "500",
+			"master": "650",
+			"remaster": "830"
+		}
+	},
+	{
+		"title": "さっきゅんライト（2025）",
+		"artist": "石鹸屋",
+		"genre": 2,
+		"jacket": "dist/jackets/55ecc6beaeba024a.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.2",
+			"expert": "10.6",
+			"master": "13.5"
+		},
+		"noteCounts": {
+			"basic": "215",
+			"advanced": "262",
+			"expert": "454",
+			"master": "914"
+		}
+	},
+	{
+		"title": "物凄い勢いでけーねが物凄いうた",
+		"artist": "Halozy",
+		"genre": 2,
+		"jacket": "dist/jackets/36bfc5734d8df91b.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "7.0",
+			"expert": "10.8",
+			"master": "13.7"
+		},
+		"noteCounts": {
+			"basic": "158",
+			"advanced": "258",
+			"expert": "447",
+			"master": "789"
+		}
+	},
+	{
+		"title": "Halzion",
+		"artist": "H△G",
+		"genre": 3,
+		"jacket": "dist/jackets/7b998509fd03c046.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "10.0",
+			"master": "12.8"
+		},
+		"noteCounts": {
+			"basic": "136",
+			"advanced": "257",
+			"expert": "365",
+			"master": "563"
+		}
+	},
+	{
+		"title": "Antikythera [Vocal Version]",
+		"artist": "technoplanet feat. 木下珠子",
+		"genre": 3,
+		"jacket": "dist/jackets/776e3be01d1477f3.png",
+		"isDX": true,
+		"levels": {
+			"basic": "6.0",
+			"advanced": "8.7",
+			"expert": "12.5",
+			"master": "14.5"
+		},
+		"noteCounts": {
+			"basic": "284",
+			"advanced": "423",
+			"expert": "579",
+			"master": "1014"
+		}
+	},
+	{
+		"title": "物語はここから",
+		"artist": "OSTER project feat. Kanata.N",
+		"genre": 4,
+		"jacket": "dist/jackets/7562b43964819ada.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.5",
+			"expert": "10.9",
+			"master": "13.5"
+		},
+		"noteCounts": {
+			"basic": "216",
+			"advanced": "327",
+			"expert": "497",
+			"master": "809"
+		}
+	},
+	{
+		"title": "ミルクミルクミルク",
+		"artist": "藤原ハガネ feat. マスタード",
+		"genre": 4,
+		"jacket": "dist/jackets/fbe3c198530944d2.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "8.0",
+			"expert": "11.8",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "242",
+			"advanced": "361",
+			"expert": "613",
+			"master": "836"
+		}
+	},
+	{
+		"title": "MissionDistortion",
+		"artist": "Nor",
+		"genre": 4,
+		"jacket": "dist/jackets/fd0509c165138377.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.6",
+			"expert": "12.9",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "143",
+			"advanced": "219",
+			"expert": "488",
+			"master": "602"
+		}
+	},
+	{
+		"title": "Dear Player 2",
+		"artist": "tn-shi",
+		"genre": 4,
+		"jacket": "dist/jackets/5efb37e4c42fe246.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "8.5",
+			"expert": "12.8",
+			"master": "14.4"
+		},
+		"noteCounts": {
+			"basic": "254",
+			"advanced": "394",
+			"expert": "603",
+			"master": "979"
+		}
+	},
+	{
+		"title": "IMPACT",
+		"artist": "USAO feat.光吉猛修",
+		"genre": 5,
+		"jacket": "dist/jackets/079296a8f6a5da43.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "7.9",
+			"expert": "12.7",
+			"master": "14.1"
+		},
+		"noteCounts": {
+			"basic": "299",
+			"advanced": "401",
+			"expert": "699",
+			"master": "1072"
+		}
+	},
+	{
+		"title": "[HALO]",
+		"artist": "Blacklolita",
+		"genre": 5,
+		"jacket": "dist/jackets/4636062079b2e422.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "6.8",
+			"expert": "12.0",
+			"master": "14.4"
+		},
+		"noteCounts": {
+			"basic": "169",
+			"advanced": "280",
+			"expert": "487",
+			"master": "823"
+		}
+	}
+]

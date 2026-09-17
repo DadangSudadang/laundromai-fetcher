@@ -1,0 +1,794 @@
+[
+	{
+		"orderId": 680,
+		"title": "Hurtling Boys",
+		"genre": 3,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 703,
+		"title": "神威",
+		"genre": 3,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 836,
+		"title": "Credits",
+		"genre": 3,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 885,
+		"title": "源平大戦絵巻テーマソング",
+		"genre": 3,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1123,
+		"title": "ジングルベル",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1148,
+		"title": "mystique as iris",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1151,
+		"title": "雨露霜雪",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1163,
+		"title": "IF:U",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1182,
+		"title": "ガラテアの螺旋",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1189,
+		"title": "渦状銀河のシンフォニエッタ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1190,
+		"title": "超熊猫的周遊記（ワンダーパンダートラベラー）",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1218,
+		"title": "Cryptarithm",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1225,
+		"title": "Yorugao",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1228,
+		"title": "BREaK! BREaK! BREaK!",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1238,
+		"title": "BLACK SWAN",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1247,
+		"title": "AMABIE",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1290,
+		"title": "雷切-RAIKIRI-",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1310,
+		"title": "Fragrance",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1313,
+		"title": "Prophesy One",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1321,
+		"title": "Get U ♭ack",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1324,
+		"title": "ViRTUS",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1334,
+		"title": "VERTeX (rintaro soma deconstructed remix)",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1339,
+		"title": "Åntinomiε",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1386,
+		"title": "Titania",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1391,
+		"title": "脳天直撃",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1448,
+		"title": "Λzure Vixen",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1491,
+		"title": "TiamaT:F minor",
+		"genre": 5,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 1497,
+		"title": "ラストピースに祝福と栄光を",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 6
+	},
+	{
+		"orderId": 560,
+		"title": "Re:Unknown X",
+		"genre": 2,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 669,
+		"title": "ANiMA",
+		"genre": 3,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 683,
+		"title": "零號車輛",
+		"genre": 3,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 833,
+		"title": "End Time",
+		"genre": 3,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 974,
+		"title": "Sky Trails",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1129,
+		"title": "Valsqotch",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1137,
+		"title": "Break The Speakers",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1149,
+		"title": "TEmPTaTiON",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1182,
+		"title": "ガラテアの螺旋",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1186,
+		"title": "KHYMΞXΛ",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1198,
+		"title": "VIIIbit Explorer",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1202,
+		"title": "康莊大道",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1219,
+		"title": "Metamorphosism",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1226,
+		"title": "GIGANTØMAKHIA",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1234,
+		"title": "Lia=Fail",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1258,
+		"title": "Regulus",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1289,
+		"title": "ATLAS RUSH",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1314,
+		"title": "AMAZING MIGHTYYYY!!!!",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1323,
+		"title": "VERTeX",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1332,
+		"title": "系ぎて",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1381,
+		"title": "Apollo",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 1382,
+		"title": "LAMIA",
+		"genre": 5,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 7
+	},
+	{
+		"orderId": 912,
+		"title": "In Chaos",
+		"genre": 3,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 996,
+		"title": "Aegisfortia",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1145,
+		"title": "Divide et impera!",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1150,
+		"title": "SILENT BLUE",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1152,
+		"title": "WiPE OUT MEMORIES",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1154,
+		"title": "QZKago Requiem",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1155,
+		"title": "Our Wrenally",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1158,
+		"title": "Garakuta Doll Play",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1172,
+		"title": "Straight into the lights",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1181,
+		"title": "the EmpErroR",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1193,
+		"title": "VeRForTe αRtE:VEiN",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1209,
+		"title": "チューリングの跡",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1215,
+		"title": "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1230,
+		"title": "Customized Justice",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1243,
+		"title": "Alea jacta est!",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1249,
+		"title": "Heavenly Blast",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1250,
+		"title": "Glorious Crown",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1290,
+		"title": "雷切-RAIKIRI-",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1294,
+		"title": "Excalibur ～Revived resolution～",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1316,
+		"title": "larva",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1326,
+		"title": "ℝ∈Χ LUNATiCA",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1329,
+		"title": "封焔の135秒",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1336,
+		"title": "氷滅の135小節",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1340,
+		"title": "FLΛME/FRΦST",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1490,
+		"title": "怒槌",
+		"genre": 5,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 8
+	},
+	{
+		"orderId": 1154,
+		"title": "QZKago Requiem",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1175,
+		"title": "Latent Kingdom",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1179,
+		"title": "raputa",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1181,
+		"title": "the EmpErroR",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1217,
+		"title": "7 Wonders",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1220,
+		"title": "PANDORA PARADOXXX",
+		"genre": 4,
+		"isDX": false,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1223,
+		"title": "World's end loneliness",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1240,
+		"title": "躯樹の墓守",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1308,
+		"title": "Schwarzschild",
+		"genre": 4,
+		"isDX": false,
+		"diff": 4,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1333,
+		"title": "sølips",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1338,
+		"title": "宙天",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1341,
+		"title": "World's end BLACKBOX",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	},
+	{
+		"orderId": 1343,
+		"title": "Xaleid◆scopiX",
+		"genre": 4,
+		"isDX": true,
+		"diff": 3,
+		"level": "14+",
+		"constant": 9
+	}
+]

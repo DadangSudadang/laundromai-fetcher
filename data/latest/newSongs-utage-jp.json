@@ -1,0 +1,70 @@
+[
+	{
+		"title": "[回]ENERGY SYNERGY MATRIX",
+		"artist": "Tanchiky",
+		"genre": 10,
+		"jacket": "dist/jackets/ad29b9d9b5fe0220.png",
+		"utageType": "回",
+		"isBuddy": false,
+		"levels": {
+			"utage": "13+?"
+		},
+		"noteCounts": {
+			"utage": "1338"
+		}
+	},
+	{
+		"title": "[音]裏表ラバーズ",
+		"artist": "wowaka",
+		"genre": 10,
+		"jacket": "dist/jackets/1c9f188e15b13d2b.png",
+		"utageType": "音",
+		"isBuddy": false,
+		"levels": {
+			"utage": "14?"
+		},
+		"noteCounts": {
+			"utage": "899"
+		}
+	},
+	{
+		"title": "[音]ビビデバ",
+		"artist": "星街すいせい（ホロライブ）",
+		"genre": 10,
+		"jacket": "dist/jackets/c518067f022fa72b.png",
+		"utageType": "音",
+		"isBuddy": false,
+		"levels": {
+			"utage": "13+?"
+		},
+		"noteCounts": {
+			"utage": "1054"
+		}
+	},
+	{
+		"title": "[覚]D✪N’T  ST✪P  R✪CKIN’",
+		"artist": "EB(aka EarBreaker)",
+		"genre": 10,
+		"jacket": "dist/jackets/fa4ab1b07c950368.png",
+		"utageType": "覚",
+		"isBuddy": false,
+		"levels": {
+			"utage": "12+?"
+		},
+		"noteCounts": {
+			"utage": "220"
+		}
+	},
+	{
+		"title": "[奏]give it up to you",
+		"artist": "曲：中土智博／歌：bitter flavor [桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)]",
+		"genre": 10,
+		"jacket": "dist/jackets/441cfe6d94175558.png",
+		"utageType": "奏",
+		"isBuddy": true,
+		"levels": {
+			"utage": "13?"
+		},
+		"noteCounts": {}
+	}
+]
