@@ -5,8 +5,7 @@ import path from "path";
 import { getRegionUrl, cheerioFetchHtml } from "@_core/core-fetch";
 import { chartConstantInterface, chartGenreInterface } from "@_core/types";
 import { diffMap, levelMap } from "@_core/maps";
-import { getTimeout } from "@_core/environment";
-import { getOutputDir } from "@_core/environment";
+import { getTimeout, getOutputDir } from "@_core/environment";
 
 // ----
 // Initialization
@@ -19,10 +18,7 @@ const logger = log4js.getLogger("fetch-constants");
 logger.level = log4js.levels.INFO;
 
 // Save folder
-const outputDir = "./dist/level-constants/";
-if (!fs.existsSync(outputDir)) {
-	fs.mkdirSync(outputDir, { recursive: true });
-}
+const outputDir = getOutputDir("constants");
 
 import sleep from "sleep-promise";
 const TIMEOUT = getTimeout();
