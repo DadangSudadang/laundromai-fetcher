@@ -281,8 +281,6 @@ export async function fetchConstantsList(
 		levelName = levelStr;
 	}
 
-
-
 	// Get internal level value
 	const levelValue = levelMap.get(levelStr);
 	if (levelValue == null || levelValue == undefined) {
@@ -351,13 +349,14 @@ export async function fetchAllConstants(
 ) {
     let allConst: chartConstantInterface[] = [];
 
-    for (const [levelStr, levelVal] of levelMap.getArr()){
-
+    for (const [levelStr, _] of levelMap.getArr()){
 		const currLevel = levelStr as string;
     	const levelName = (currLevel.slice(-1) == "+")? currLevel.slice(0, -1) + "p": currLevel;
-		let filePath = path.join(getOutputDir("constants"), `${levelName}.json`)
 
-		var currList;
+		let filePath = path.join(getOutputDir("constants"), `${levelName}.json`)
+		let currList;
+
+		// reuse fetched files if it exists
 		if (fs.existsSync(filePath)) {
 			logger.info(`fetchAllConstants: Parsed constants file found for ${currLevel}...`);
 			currList = JSON.parse(
