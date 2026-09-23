@@ -1,17 +1,18 @@
 import fs from "fs";
 
-import { getUserId } from "@_core/cookies";
-import { getOutputDir } from "@_core/environment";
+import { getTimeout, getOutputDir } from "@_core/environment";
 import { diffMap, intlGenreMap, jpGenreMap } from "@_core/maps";
 import { chartConstantInterface, chartGenreInterface, combinedDataInterface } from "@_core/types";
 
-import { fetchGenreList } from "@fetch/fetch-genre";
 import { fetchAllConstants } from "@fetch/fetch-constants";
 import { fetchJson } from "@_core/core-fetch";
 
 import log4js from "log4js";
 const logger = log4js.getLogger("fetch-combined-data");
 logger.level = log4js.levels.INFO;
+
+import sleep from "sleep-promise";
+const TIMEOUT = getTimeout();
 
 interface officialListInterface {
     title: string,
@@ -46,22 +47,12 @@ export async function fetchCombinedData(
         genreList, region, userId
     )
 
+    logger.info(`fetchCombinedData: Fetching maimai_songs.json...`)
+    await sleep(TIMEOUT);
     const officialList = await fetchJson(
         "https://maimai.sega.jp/data/maimai_songs.json",
         getOutputDir("constants")
     ) as officialListInterface[]
-
-
-    // Uncomment this if you wish to load an existing file instead.
-    // const genreList: chartGenreInterface[] = JSON.parse(
-        // fs.readFileSync('./dist/genre/master.json', 'utf-8')
-    // )
-    // const officialList: officialListInterface[] = JSON.parse(
-    //     fs.readFileSync('./dist/level-constants/maimai_songs.json', 'utf-8')
-    // )
-    // const allConstants: chartConstantInterface[] = JSON.parse(
-    //     fs.readFileSync('./dist/level-constants/all.json', 'utf-8')
-    // )
 
 
     // Parse every song, combine all the constant values into one object (separated by ST and DX)
@@ -148,9 +139,9 @@ export async function fetchCombinedData(
 
     const sorted = completeList.sort((a: any, b: any) => a.orderId - b.orderId)
 
-    fs.writeFileSync('./dist/level-constants/complete.json',
-        JSON.stringify(sorted, null, '\t')
-    )
+    const completeFileName = getOutputDir("constants") + "completeList.json";
+    fs.writeFileSync(completeFileName ,JSON.stringify(sorted, null, '\t'))
 
+    logger.info(`Finished creating combined data: ${completeFileName}`)
     return sorted
 }
