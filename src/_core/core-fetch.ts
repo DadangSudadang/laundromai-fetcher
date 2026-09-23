@@ -63,14 +63,15 @@ export async function cheerioFetchHtml(
     // Fetch the html file from url,
 	// Uses userId cookie if provided.
     // Check response and return html string
-
 	let html;
 	if(options?.filename && fs.existsSync(options.filename)){
-		logger.info(`HTML path exists.`);
+		logger.info(`cheerioFetchHtml: Reusing existing HTML file: ${options.filename}`);
 		html = fs.readFileSync(options.filename, 'utf-8');
 	} else {
 		await sleep(TIMEOUT);
 		let res;
+
+		// check if userId is provided
 		if (options?.userId != undefined) {
 			res = await fetch(fetchUrl, {
 				headers: { Cookie: `userId=${options.userId}` }
@@ -96,6 +97,8 @@ export async function cheerioFetchHtml(
     const $ = cheerio.load(html);
 	if ($(':contains("ERROR CODE")').length > 0) {
 		throw new Error(`An error occurred while fetching the page: ${fetchUrl}`);
+	} else if ($(':contains("エラーコード")').length > 0) {
+		throw new Error(`An error occurred while fetching the page: ${fetchUrl}`);
 	}
     return $;
 }
@@ -116,6 +119,12 @@ export async function fetchImage (
 		throw new Error(`downloadImage: Cannot find filename from URL ${url}`)
 	}
 	const filePath = path.join(folder, filename);
+
+	// Check if image exists, if yes cancel the fetch
+	if(fs.existsSync(filePath) && (fs.statSync(filePath).size > 0)){
+		logger.info(`fetchImage: File exists, skipping fetching image: ${filePath}`)
+		return filePath;
+	}
 
     // Fetch the image
 	// Uses userId cookie if provided.
@@ -144,7 +153,7 @@ export async function fetchImage (
 
 
 // ----
-// Fetch json, used for fetching maiami_songs.json
+// Fetch json, used for fetching maimai_songs.json
 // ----
 export async function fetchJson (
 	url: string,
