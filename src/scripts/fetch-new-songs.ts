@@ -9,7 +9,7 @@ let userId: string;
 
 async function fetchNewMasters() {
     const pmasList = JSON.parse(
-        fs.readFileSync("data/latest/master.json", "utf-8"),
+        fs.readFileSync("data/latest/genre/master.json", "utf-8"),
     )
     const masList = await fetchGenreList("master", region, userId)
     fetchNewSongs("master", pmasList, masList, region, userId)
@@ -17,7 +17,7 @@ async function fetchNewMasters() {
 
 async function fetchNewUtage() {
     const putgList = JSON.parse(
-        fs.readFileSync("data/latest/utage.json", "utf-8"),
+        fs.readFileSync("data/latest/genre/utage.json", "utf-8"),
     )
     const utgList = await fetchGenreList("utage", "jp", userId)
     fetchNewSongs("utage", putgList, utgList, "jp", userId)
