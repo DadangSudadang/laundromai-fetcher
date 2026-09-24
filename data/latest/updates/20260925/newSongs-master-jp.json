@@ -1,0 +1,59 @@
+[
+	{
+		"title": "天靈靈地靈靈",
+		"artist": "iKz feat.小可學妹",
+		"genre": 3,
+		"jacket": "dist/jackets/7e41b69af6c87bd7.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "10.5",
+			"master": "13.4"
+		},
+		"noteCounts": {
+			"basic": "192",
+			"advanced": "310",
+			"expert": "549",
+			"master": "916"
+		}
+	},
+	{
+		"title": "The Happycore Idol",
+		"artist": "3R2",
+		"genre": 3,
+		"jacket": "dist/jackets/922bd88061ebb54f.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.7",
+			"expert": "10.5",
+			"master": "13.7"
+		},
+		"noteCounts": {
+			"basic": "179",
+			"advanced": "331",
+			"expert": "462",
+			"master": "782"
+		}
+	},
+	{
+		"title": "XODUS",
+		"artist": "DJ Myosuke & Gram",
+		"genre": 3,
+		"jacket": "dist/jackets/38a8234dc1211bf6.png",
+		"isDX": true,
+		"levels": {
+			"basic": "6.0",
+			"advanced": "8.0",
+			"expert": "12.8",
+			"master": "14.4"
+		},
+		"noteCounts": {
+			"basic": "240",
+			"advanced": "361",
+			"expert": "697",
+			"master": "1032"
+		}
+	}
+]
