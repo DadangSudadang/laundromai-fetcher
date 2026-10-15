@@ -28,7 +28,7 @@ const TIMEOUT = getTimeout();
 // Note: use the string name if you want to add a level (e.g "13+")
 const fixedConst = {
 	"5": [0, 8],
-	"6": [0, 2, 4, 5, 6, 7, 8, 9]
+	"6": [0, 2, 3, 4, 5, 7, 8, 9]
 } as Record<string, number[]>
 
 // The current border for plus difficulties (e.g 13+ = 13.6)

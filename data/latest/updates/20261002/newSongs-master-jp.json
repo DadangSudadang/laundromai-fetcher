@@ -1,0 +1,97 @@
+[
+	{
+		"title": "All Over Again",
+		"artist": "Zekk",
+		"genre": 3,
+		"jacket": "dist/jackets/027382bb48f2741d.png",
+		"isDX": true,
+		"levels": {
+			"basic": "5.0",
+			"advanced": "7.8",
+			"expert": "11.8",
+			"master": "13.9"
+		},
+		"noteCounts": {
+			"basic": "241",
+			"advanced": "425",
+			"expert": "812",
+			"master": "1094"
+		}
+	},
+	{
+		"title": "Energy",
+		"artist": "Ryo Nakamura",
+		"genre": 3,
+		"jacket": "dist/jackets/1144ad6c486a4673.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.3",
+			"expert": "10.6",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "186",
+			"advanced": "291",
+			"expert": "469",
+			"master": "861"
+		}
+	},
+	{
+		"title": "Crossfire",
+		"artist": "Blacklolita",
+		"genre": 3,
+		"jacket": "dist/jackets/3d407fffa828cb4b.png",
+		"isDX": true,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.5",
+			"expert": "11.0",
+			"master": "13.9"
+		},
+		"noteCounts": {
+			"basic": "265",
+			"advanced": "383",
+			"expert": "583",
+			"master": "741"
+		}
+	},
+	{
+		"title": "RE!NCARN4T10N",
+		"artist": "xi",
+		"genre": 3,
+		"jacket": "dist/jackets/da7a8cbb420a1a22.png",
+		"isDX": true,
+		"levels": {
+			"basic": "6.0",
+			"advanced": "8.3",
+			"expert": "12.2",
+			"master": "14.3"
+		},
+		"noteCounts": {
+			"basic": "242",
+			"advanced": "438",
+			"expert": "663",
+			"master": "1108"
+		}
+	},
+	{
+		"title": "居並ぶ穀物と溜息まじりの運送屋",
+		"artist": "hanzo",
+		"genre": 4,
+		"jacket": "dist/jackets/c02537aab0c8a6a2.png",
+		"isDX": false,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "6.8",
+			"expert": "10.7",
+			"master": "13.8"
+		},
+		"noteCounts": {
+			"basic": "197",
+			"advanced": "324",
+			"expert": "604",
+			"master": "915"
+		}
+	}
+]
