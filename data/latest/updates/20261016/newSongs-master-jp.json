@@ -1,0 +1,61 @@
+[
+	{
+		"title": "ChaosBlue",
+		"artist": "GRANRODEO",
+		"genre": 0,
+		"jacket": "dist/jackets/f691ea418d23b8f6.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.0",
+			"expert": "10.0",
+			"master": "13.4"
+		},
+		"noteCounts": {
+			"basic": "162",
+			"advanced": "262",
+			"expert": "416",
+			"master": "708"
+		}
+	},
+	{
+		"title": "GO GO PARADISE!!",
+		"artist": "GRANRODEO",
+		"genre": 0,
+		"jacket": "dist/jackets/e3d0111b0ad45236.png",
+		"isDX": true,
+		"levels": {
+			"basic": "3.0",
+			"advanced": "6.5",
+			"expert": "10.5",
+			"master": "13.3"
+		},
+		"noteCounts": {
+			"basic": "200",
+			"advanced": "332",
+			"expert": "510",
+			"master": "806"
+		}
+	},
+	{
+		"title": "Can Do",
+		"artist": "GRANRODEO",
+		"genre": 0,
+		"jacket": "dist/jackets/7d34a09716db3d75.png",
+		"isDX": false,
+		"levels": {
+			"basic": "4.0",
+			"advanced": "7.7",
+			"expert": "10.8",
+			"master": "13.4",
+			"remaster": "13.7"
+		},
+		"noteCounts": {
+			"basic": "162",
+			"advanced": "233",
+			"expert": "415",
+			"master": "581",
+			"remaster": "614"
+		}
+	}
+]
